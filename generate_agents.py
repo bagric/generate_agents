@@ -21,6 +21,14 @@ def between(r, table):
 #def getKey(item):
 #    return item["actNumberofpeople"]
 
+def get_difference(item1, item2):
+    if item1 == item2:
+        return 0
+    try:
+        return (abs(item1 - item2) / item2) * 100.0
+    except ZeroDivisionError:
+        return 0
+
 def insertion_sort(list, field, number=-1):
     for index in range(len(list)-1, 0, number):
         value = list[index]
@@ -229,7 +237,7 @@ class DataSet:
         '''
         return dista == distb
 
-    def check_distribution(self, family, cell):
+    def check_distribution(self, family, cell, ratio=False):
         '''
         Determines whether a family distribution fits into a cell distribution
 
@@ -237,10 +245,21 @@ class DataSet:
         :param cell: Age distribution of the cell
         :return: True iff for all i in family[i] <= cell[i]
         '''
-        for i in range(len(family)):
-            if family[i] > cell[i]:
-                return False
-        return True
+        if ratio:
+            for i in range(len(family)):
+                if family[i] > cell[i]:
+                    return False
+            fr = [x1/x2 if x2>0 else 0 for (x1, x2) in zip(family, family[1:])]
+            cr = [x1/x2 if x2>0 else 0 for (x1, x2) in zip(cell, cell[1:])]
+            for i in range(len(fr)):
+                if get_difference(cr[i], fr[i]) > 10 :
+                    return False
+            return True
+        else:
+            for i in range(len(family)):
+                if family[i] > cell[i]:
+                    return False
+            return True
 
     def new_person(self, locs, sex, age):
         '''
@@ -383,6 +402,10 @@ class DataSet:
         #self._residents = sorted(self._residents, key=getKey)
         insertion_sort(self._residents, "actNumberofpeople")
         location = -1
+        for i in range(len(self._residents)-1, 0, -1):
+            if self.check_distribution(hdist, self._residents[i]["ageDistribution"], True):
+                location = i
+                break
         for i in range(len(self._residents)-1, 0, -1):
             if self.check_distribution(hdist, self._residents[i]["ageDistribution"]):
                 location = i
