@@ -18,8 +18,20 @@ def between(r, table):
         if ret[i] <= r < ret[i + 1]:
             return i
 
-def getKey(item):
-    return item["actNumberofpeople"]
+#def getKey(item):
+#    return item["actNumberofpeople"]
+
+def insertion_sort(list, field, number=-1):
+    for index in range(len(list)-1, 0, number):
+        value = list[index]
+        i = index-1
+        while i>=0:
+            if value[field]<list[i][field]:
+                list[i+1]=list[i]
+                list[i]=value
+                i=i-1
+            else:
+                break
 
 class DataSet:
     # KSH MAGIC numbers FAMILY
@@ -67,7 +79,7 @@ class DataSet:
         self._counter = 0
         #For statistical check
         self._families = []
-        #intelligensebb sort a kor arány alapján threshold kb 10% eltérés, illetve insertion sort gyorsabb
+        #intelligensebb sort a kor arány alapján threshold kb 10% eltérés
         #árvákat talán lerakni egy már meglévő családhoz, ugyanezt idősekre
 
 
@@ -193,10 +205,10 @@ class DataSet:
             for _ in range(famtype):
                 if hhdist[3] > 0 and hhdist[4] < famtype:
                     hhdist[4] = hhdist[4]+1
-                if hhdist[1] > 0 or hhdist[2] > 0:
+                elif hhdist[1] > 0 or hhdist[2] > 0:
                     index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
                     hhdist[3 + index] = hhdist[3 + index] + 1
-                if hhdist[0] > 0:
+                elif hhdist[0] > 0:
                     index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
                     hhdist[2 + index] = hhdist[2 + index] + 1
                 # ez itt nem stimmel
@@ -368,7 +380,8 @@ class DataSet:
         :param el_n: Number of elderly people
         :return: False iff there is no such cell
         '''
-        self._residents = sorted(self._residents, key=getKey)
+        #self._residents = sorted(self._residents, key=getKey)
+        insertion_sort(self._residents, "actNumberofpeople")
         location = -1
         for i in range(len(self._residents)-1, 0, -1):
             if self.check_distribution(hdist, self._residents[i]["ageDistribution"]):
