@@ -47,7 +47,7 @@ class DataSet:
     # 1: famoneparent,
     # 2: famtwoparent,
     # 3: other
-    _magic1 = [0.433,
+    _magic1 = [0.399,
                0.139,
                0.434,
                0.028]
@@ -64,17 +64,18 @@ class DataSet:
                [0.444, 0.285, 0.206, 0.065],
                [1.000, 0.000, 0.000, 0.000]]
     # Magic: age distribution of children
-    _magic4 = [[0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52],
+    #_magic4 = [[0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52],
     #           [0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52]]
     #_magic4 = [[0.348, 0.652 * 0.21, 0.652 * 0.44, 0.652 * 0.35],
+    _magic4 = [[0.481, 0.519 * 0.10, 0.519 * 0.38, 0.519 * 0.52],
                [0.534, 0.466 * 0.35, 0.466 * 0.63, 0.466 * 0.02]]
     # Magic: younger single - older single
-    _magic5 = [0.20, 0.80]
+    _magic5 = [0.10, 0.90]
     # Magic: younger parent - older parent
-    _magic6 = [[0.33, 0.67],
-               [0.25, 0.75],
-               [0.20, 0.80],
-               [0.20, 0.80]]
+    _magic6 = [[0.15, 0.85],
+               [0.15, 0.85],
+               [0.10, 0.90],
+               [0.10, 0.90]]
     _agegroups = [[0, 14],
                   [15, 18],
                   [19, 30],
@@ -129,7 +130,7 @@ class DataSet:
         #_magic6_c = [[0, 0],[0, 0],[0, 0],[0, 0]]
         for fam in self._families:
             # 0: singlepers,
-            if (sum(fam)-fam[6])<2:
+            if (sum(fam)-fam[6])<2 and (sum(fam)-fam[6])>0:
                 _magic1_c[0] = _magic1_c[0]+1
                 # numbers ELDERLY
                 if fam[4]>0:
