@@ -129,7 +129,7 @@ class DataSet:
         #_magic6_c = [[0, 0],[0, 0],[0, 0],[0, 0]]
         for fam in self._families:
             # 0: singlepers,
-            if sum(fam)<2:
+            if (sum(fam)-fam[6])<2:
                 _magic1_c[0] = _magic1_c[0]+1
                 # numbers ELDERLY
                 if fam[4]>0:
@@ -140,7 +140,7 @@ class DataSet:
                 _magic3_c[0][0] = _magic3_c[0][0]+1
             else:
                 # 3: other / since only elderly are here
-                if fam[0]<1 and fam[1]<1 and fam[2]<1 and fam[3]<1:
+                if fam[0]<1 and fam[1]<1 and fam[2]<1 and fam[3]<1 and fam[4]<1:
                     _magic1_c[3] = _magic1_c[3]+1
                     # numbers ELDERLY
                     if fam[4]>3:
@@ -151,7 +151,8 @@ class DataSet:
                     _magic3_c[3][0] = _magic3_c[3][0]+1
                 else:
                     # 2: famtwoparent,
-                    if (fam[1]>0 and fam[3]>1) or ((fam[2]>0 or fam[3]>0) and (fam[3]>1 or fam[4]>1 or fam[3]+fam[4]>1)) or (fam[0]>0 and (fam[2]>1 or fam[3]>1 or fam[2]+fam[3]>1)):
+                    #if (fam[1]>0 and fam[3]>1) or ((fam[2]>0 or fam[3]>0) and (fam[3]>1 or fam[4]>1 or fam[3]+fam[4]>1)) or (fam[0]>0 and (fam[2]>1 or fam[3]>1 or fam[2]+fam[3]>1)):
+                    if ((sum(fam)-2*fam[5])-fam[6] > 1 and (fam[0]<1 and fam[1]<1)) or (sum(fam)-2*(fam[5]+fam[6]) > 1):
                         _magic1_c[2] = _magic1_c[2]+1
                         # numbers ELDERLY
                         if fam[4]>3:
@@ -159,10 +160,10 @@ class DataSet:
                         else:
                             _magic2_c[2][fam[4]] = _magic2_c[2][fam[4]]+1
                         # numbers CHILDREN
-                        #if (fam[0]+fam[1])>3:
-                        #    _magic3_c[2][3] = _magic3_c[2][3]+1
-                        #else:
-                        #    _magic3_c[2][(fam[0]+fam[1])] = _magic3_c[2][(fam[0]+fam[1])]+1
+                        if fam[5]>3:
+                            _magic3_c[2][3] = _magic3_c[2][3]+1
+                        else:
+                            _magic3_c[2][fam[5]] = _magic3_c[2][fam[5]]+1
                     # 1: famoneparent,
                     else:
                         _magic1_c[1] = _magic1_c[1]+1
@@ -172,16 +173,16 @@ class DataSet:
                         else:
                             _magic2_c[1][fam[4]] = _magic2_c[1][fam[4]]+1
                         # numbers CHILDREN
-                        #if (fam[0]+fam[1])>3:
-                        #    _magic3_c[1][3] = _magic3_c[1][3]+1
-                        #else:
-                        #    _magic3_c[1][(fam[0]+fam[1])] = _magic3_c[1][(fam[0]+fam[1])]+1
+                        if fam[5]>3:
+                            _magic3_c[1][3] = _magic3_c[1][3]+1
+                        else:
+                            _magic3_c[1][fam[5]] = _magic3_c[1][fam[5]]+1
                 
 
         _magic1_c[:] = [x / len(self._families) for x in _magic1_c]
         _magic2_c[:] = [[float(j) / sum(i) if sum(i) else 0 for j in i] for i in _magic2_c]
-        #_magic3_c[:] = [[float(j) / sum(i) if sum(i) else 0 for j in i] for i in _magic3_c]
-        return _magic1_c, _magic2_c#, _magic3_c
+        _magic3_c[:] = [[float(j) / sum(i) if sum(i) else 0 for j in i] for i in _magic3_c]
+        return _magic1_c, _magic2_c, _magic3_c
 
     def generate_family(self):
         '''
@@ -214,7 +215,7 @@ class DataSet:
                 hhdist[2 + index] = 1
         elif famtype < 3:
             for _ in range(famtype):
-                if hhdist[4] > 0 and (hhdist[0] < 1 and hhdist[0] < 1):
+                if hhdist[4] > 0 and (hhdist[0] < 1 and hhdist[1] < 1):
                     if hhdist[4] < famtype or hhdist[4]+hhdist[3] < famtype:
                         index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
                         hhdist[3 + index] = hhdist[3 + index] + 1
@@ -380,7 +381,7 @@ class DataSet:
         for i in range(len(self._agedist)):
             self._agedist[i] = self._agedist[i] - hdist[i]
         #families for statistic check
-        self._families.append(hdist)
+        self._families.append(hdist+[ch_n, el_n])
         del self._residents[location]
         return True
 
@@ -417,7 +418,7 @@ class DataSet:
         self._residents[location]["actNumberofpeople"] = \
             self._residents[location]["actNumberofpeople"] - sum(hdist)
         #families for statistic check
-        self._families.append(hdist)
+        self._families.append(hdist+[ch_n, el_n])
         return True
     
     def savedata(self, f):
@@ -449,14 +450,13 @@ txt = str(iter) + " iteration: SUM" + str(adatok._agedist) + " = " + str(sum(ada
 sys.stdout.write('\r' + txt)
 #for res in adatok._residents:
 #    print(str(res["ageDistribution"]) + " with id: " + str(res["id"]))
-#m1, m2, m3 = adatok.statistic_check()
-m1, m2 = adatok.statistic_check()
+m1, m2, m3 = adatok.statistic_check()
 with open("prob_check.txt", "w") as txt_file:
     txt_file.write(str(m1) + "\n")
     txt_file.write('\n')
     for line in m2:
         txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
     txt_file.write('\n')
-    #for line in m3:
-    #    txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
+    for line in m3:
+        txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
 adatok.savedata("Szeged_adat_agentsB.json")
