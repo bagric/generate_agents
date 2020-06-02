@@ -65,7 +65,9 @@ class DataSet:
                [1.000, 0.000, 0.000, 0.000]]
     # Magic: age distribution of children
     _magic4 = [[0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52],
-               [0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52]]
+    #           [0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52]]
+    #_magic4 = [[0.348, 0.652 * 0.21, 0.652 * 0.44, 0.652 * 0.35],
+               [0.534, 0.466 * 0.35, 0.466 * 0.63, 0.466 * 0.02]]
     # Magic: younger single - older single
     _magic5 = [0.20, 0.80]
     # Magic: younger parent - older parent
@@ -87,7 +89,6 @@ class DataSet:
         self._counter = 0
         #For statistical check
         self._families = []
-        #intelligensebb sort a kor arány alapján threshold kb 10% eltérés
         #árvákat talán lerakni egy már meglévő családhoz, ugyanezt idősekre
 
 
@@ -150,7 +151,7 @@ class DataSet:
                     _magic3_c[3][0] = _magic3_c[3][0]+1
                 else:
                     # 2: famtwoparent,
-                    if (fam[1]>0 and fam[3]>1) or (fam[0]>0 and (fam[2]>1 or fam[3]>1 or fam[2]+fam[3]>1)):
+                    if (fam[1]>0 and fam[3]>1) or ((fam[2]>0 or fam[3]>0) and (fam[3]>1 or fam[4]>1 or fam[3]+fam[4]>1)) or (fam[0]>0 and (fam[2]>1 or fam[3]>1 or fam[2]+fam[3]>1)):
                         _magic1_c[2] = _magic1_c[2]+1
                         # numbers ELDERLY
                         if fam[4]>3:
@@ -158,10 +159,10 @@ class DataSet:
                         else:
                             _magic2_c[2][fam[4]] = _magic2_c[2][fam[4]]+1
                         # numbers CHILDREN
-                        if sum(fam[:1])>3:
-                            _magic3_c[2][3] = _magic3_c[2][3]+1
-                        else:
-                            _magic3_c[2][sum(fam[:1])] = _magic3_c[2][sum(fam[:1])]+1
+                        #if (fam[0]+fam[1])>3:
+                        #    _magic3_c[2][3] = _magic3_c[2][3]+1
+                        #else:
+                        #    _magic3_c[2][(fam[0]+fam[1])] = _magic3_c[2][(fam[0]+fam[1])]+1
                     # 1: famoneparent,
                     else:
                         _magic1_c[1] = _magic1_c[1]+1
@@ -171,16 +172,16 @@ class DataSet:
                         else:
                             _magic2_c[1][fam[4]] = _magic2_c[1][fam[4]]+1
                         # numbers CHILDREN
-                        if sum(fam[:1])>3:
-                            _magic3_c[1][3] = _magic3_c[1][3]+1
-                        else:
-                            _magic3_c[1][sum(fam[:1])] = _magic3_c[1][sum(fam[:1])]+1
+                        #if (fam[0]+fam[1])>3:
+                        #    _magic3_c[1][3] = _magic3_c[1][3]+1
+                        #else:
+                        #    _magic3_c[1][(fam[0]+fam[1])] = _magic3_c[1][(fam[0]+fam[1])]+1
                 
 
         _magic1_c[:] = [x / len(self._families) for x in _magic1_c]
         _magic2_c[:] = [[float(j) / sum(i) if sum(i) else 0 for j in i] for i in _magic2_c]
-        _magic3_c[:] = [[float(j) / sum(i) if sum(i) else 0 for j in i] for i in _magic3_c]
-        return _magic1_c, _magic2_c, _magic3_c
+        #_magic3_c[:] = [[float(j) / sum(i) if sum(i) else 0 for j in i] for i in _magic3_c]
+        return _magic1_c, _magic2_c#, _magic3_c
 
     def generate_family(self):
         '''
@@ -197,13 +198,15 @@ class DataSet:
         # ensure
         if famtype == 0:
             childnum = 0
-        elif (famtype == 1) or (famtype == 2):
-            extrachild = between(random.uniform(0.0, 1.0), [0.93, 0.05, 0.02])
+        #elif famtype < 3:
+        #    extrachild = between(random.uniform(0.0, 1.0), [0.93, 0.05, 0.02])
             #extrachild = between(random.uniform(0.0, 1.0), [0.90, 0.06, 0.02, 0.02])
 
         hhdist = [0, 0, 0, 0, elderlynum]
         for _ in range(0, childnum + extrachild):
             index = between(random.uniform(0.0, 1.0), DataSet._magic4[famtype - 1]) # 0 1 2 3
+            if elderlynum == 0 and index > 2:
+                index = index - 1
             hhdist[index] = hhdist[index] + 1
         if famtype == 0:
             if elderlynum == 0:
@@ -211,20 +214,13 @@ class DataSet:
                 hhdist[2 + index] = 1
         elif famtype < 3:
             for _ in range(famtype):
-                if hhdist[3] > 0 and hhdist[4] < famtype:
-                    hhdist[4] = hhdist[4]+1
-                elif hhdist[1] > 0 or hhdist[2] > 0:
-                    index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
-                    hhdist[3 + index] = hhdist[3 + index] + 1
-                elif hhdist[0] > 0:
+                if hhdist[4] > 0 and (hhdist[0] < 1 and hhdist[0] < 1):
+                    if hhdist[4] < famtype or hhdist[4]+hhdist[3] < famtype:
+                        index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
+                        hhdist[3 + index] = hhdist[3 + index] + 1
+                else:
                     index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
                     hhdist[2 + index] = hhdist[2 + index] + 1
-                # ez itt nem stimmel
-                #if hhdist[1] > 0:
-                #    hhdist[3] = hhdist[3] + 1
-                #else:
-                #    index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum])
-                #    hhdist[2 + index] = hhdist[2 + index] + 1
         return hhdist, famtype, childnum+extrachild, elderlynum
 
     def match_distribution(self, dista, distb):
@@ -453,13 +449,14 @@ txt = str(iter) + " iteration: SUM" + str(adatok._agedist) + " = " + str(sum(ada
 sys.stdout.write('\r' + txt)
 #for res in adatok._residents:
 #    print(str(res["ageDistribution"]) + " with id: " + str(res["id"]))
-m1, m2, m3 = adatok.statistic_check()
+#m1, m2, m3 = adatok.statistic_check()
+m1, m2 = adatok.statistic_check()
 with open("prob_check.txt", "w") as txt_file:
     txt_file.write(str(m1) + "\n")
     txt_file.write('\n')
     for line in m2:
         txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
     txt_file.write('\n')
-    for line in m3:
-        txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
+    #for line in m3:
+    #    txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
 adatok.savedata("Szeged_adat_agentsB.json")
