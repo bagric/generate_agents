@@ -28,7 +28,7 @@ def get_difference(item1, item2):
         return (abs(item1 - item2) / item2) * 100.0
     except ZeroDivisionError:
         return 0
-
+'''
 def insertion_sort(list, field, number=-1):
     for index in range(len(list)-1, 0, number):
         value = list[index]
@@ -40,23 +40,24 @@ def insertion_sort(list, field, number=-1):
                 i=i-1
             else:
                 break
+'''
 
 def checkifonlyonegroup(res):
     gcount = 0
     for num in res:
         if num > 0:
             gcount = gcount + 1
-    if gcount > 1:
-        return False
-    else:
+    if gcount == 1:
         return True
+    else:
+        return False
 
-def whichgroup(res):
-    gcount = 0
+def whichgroups(res):
+    agroups = []
     for i in range(len(res)):
         if res[i] > 0:
-            return i
-    return -1
+            agroups.append(i)
+    return agroups
 
 class DataSet:
     # KSH MAGIC numbers FAMILY
@@ -132,7 +133,7 @@ class DataSet:
             if res["stat"] == "ON":
                 counter = counter + 1
                 agedist = [x + y for x, y in zip(agedist, res["ageDistribution"])]
-                res["actNumberofpeople"] = sum(agedist)
+                res["actNumberofpeople"] = sum(res["ageDistribution"])
                 filtered.append(res)
         self._residents = filtered
         self._agedist = agedist
@@ -432,12 +433,12 @@ class DataSet:
         :return: False iff there is no such cell
         '''
         #self._residents = sorted(self._residents, key=getKey)
-        insertion_sort(self._residents, "actNumberofpeople")
+        #insertion_sort(self._residents, "actNumberofpeople")
         location = -1
-        for i in range(len(self._residents)-1, 0, -1):
-            if self.check_distribution(hdist, self._residents[i]["ageDistribution"], True):
-                location = i
-                break
+        #for i in range(len(self._residents)-1, 0, -1):
+        #    if self.check_distribution(hdist, self._residents[i]["ageDistribution"], True):
+        #        location = i
+        #        break
         for i in range(len(self._residents)-1, 0, -1):
             if self.check_distribution(hdist, self._residents[i]["ageDistribution"]):
                 location = i
@@ -452,27 +453,28 @@ class DataSet:
             self._agedist[i] = self._agedist[i] - hdist[i]
         self._residents[location]["actNumberofpeople"] = \
             self._residents[location]["actNumberofpeople"] - sum(hdist)
+        if self._residents[location]["actNumberofpeople"] < 1:
+            del self._residents[location]
         #families for statistic check
         self._families.append(hdist+[ch_n, el_n])
         return True
 
     def regroup(self):
-        tempest = self._residents
         for i in range(len(self._residents)-1, 0, -1):
-            if self._residents[i]["capacity"] > 30 and checkifonlyonegroup(self._residents[i]["ageDistribution"]):
+            if self._residents[i]["capacity"] > 30:
                 currgroups = []
-                currgroups.append(whichgroup(self._residents[i]["ageDistribution"]))
+                currgroups = currgroups+whichgroups(self._residents[i]["ageDistribution"])
                 for j in range(i-1, 0, -1):
-                    if not self._residents[i] == self._residents[j]:
-                        if self._residents[j]["capacity"] > 30 and checkifonlyonegroup(self._residents[j]["ageDistribution"]):
-                            if not (whichgroup(self._residents[j]["ageDistribution"]) in currgroups):
-                                if self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"] < self._residents[i]["capacity"]:
-                                    self._residents[i]["ageDistribution"] = self._residents[i]["ageDistribution"] + self._residents[j]["ageDistribution"]
-                                    self._residents[i]["actNumberofpeople"] = self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"]
-                                    currgroups.append(whichgroup(self._residents[j]["ageDistribution"]))
-                                    self._residents[j]["capacity"] = 0
-                                elif self._residents[i]["capacity"] - self._residents[i]["actNumberofpeople"] < 5:
-                                    break
+                    if self._residents[j]["capacity"] > 30:
+                        if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))) or len(currgroups) > 2:
+                            if self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"] <= self._residents[i]["capacity"]:
+                                self._residents[i]["ageDistribution"] = self._residents[i]["ageDistribution"] + self._residents[j]["ageDistribution"]
+                                self._residents[i]["actNumberofpeople"] = self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"]
+                                if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))):
+                                    currgroups = currgroups+whichgroups(self._residents[j]["ageDistribution"])
+                                self._residents[j]["capacity"] = 0
+                            elif self._residents[i]["capacity"] - self._residents[i]["actNumberofpeople"] < 5:
+                                break
         self._residents = [v for v in sorted(self._residents, key=lambda item: item["capacity"])]
         self._residents = [x for x in self._residents if x["capacity"] > 0]
     
