@@ -41,6 +41,23 @@ def insertion_sort(list, field, number=-1):
             else:
                 break
 
+def checkifonlyonegroup(res):
+    gcount = 0
+    for num in res:
+        if num > 0:
+            gcount = gcount + 1
+    if gcount > 1:
+        return False
+    else:
+        return True
+
+def whichgroup(res):
+    gcount = 0
+    for i in range(len(res)):
+        if res[i] > 0:
+            return i
+    return -1
+
 class DataSet:
     # KSH MAGIC numbers FAMILY
     # 0: singlepers,
@@ -67,13 +84,13 @@ class DataSet:
     #_magic4 = [[0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52],
     #           [0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52]]
     #_magic4 = [[0.348, 0.652 * 0.21, 0.652 * 0.44, 0.652 * 0.35],
-    _magic4 = [[0.481, 0.519 * 0.10, 0.519 * 0.38, 0.519 * 0.52],
+    _magic4 = [[0.481, 0.519 * 0.10, 0.519 * 0.44, 0.519 * 0.48],
                [0.534, 0.466 * 0.35, 0.466 * 0.63, 0.466 * 0.02]]
     # Magic: younger single - older single
     _magic5 = [0.10, 0.90]
     # Magic: younger parent - older parent
     _magic6 = [[0.15, 0.85],
-               [0.15, 0.85],
+               [0.13, 0.87],
                [0.10, 0.90],
                [0.10, 0.90]]
     _agegroups = [[0, 14],
@@ -122,6 +139,9 @@ class DataSet:
         self._counter = counter
     
     def statistic_check(self):
+        '''
+        Check if the algorithm conforms to the first 3 magic numbers
+        '''
         _magic1_c = [0, 0, 0, 0]
         _magic2_c = [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]]
         _magic3_c = [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]]
@@ -218,8 +238,9 @@ class DataSet:
             for _ in range(famtype):
                 if hhdist[4] > 0 and (hhdist[0] < 1 and hhdist[1] < 1):
                     if hhdist[4] < famtype or hhdist[4]+hhdist[3] < famtype:
-                        index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
-                        hhdist[3 + index] = hhdist[3 + index] + 1
+                        #index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
+                        #hhdist[3 + index] = hhdist[3 + index] + 1
+                        hhdist[3] = hhdist[3] + 1
                 else:
                     index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
                     hhdist[2 + index] = hhdist[2 + index] + 1
@@ -258,6 +279,19 @@ class DataSet:
                 if family[i] > cell[i]:
                     return False
             return True
+    
+    def occupation_switch(self, i):
+        switcher={
+            range(0, 3):1, #Infant
+            range(3, 7):2, #Kindergarden student
+            range(7, 15):3, #Elemntary school student
+            range(15, 19):4, #Highschool student
+            #:5, #University student (just temp now)
+            range(19, 65):6, #Full time worker, standard 9-17 schedule, fixed workplace
+            #:7, #Afternoon shift worker (just temp now)
+            range(65, 200):8, #Stay-at-home schedule
+            }
+        return switcher.get(i, 6)
 
     def new_person(self, locs, sex, age):
         '''
@@ -273,7 +307,7 @@ class DataSet:
         person['sex'] = self._agecode[sex]
         person['preCond'] = 0
         person['SIRD'] = "S"
-        person['typeID'] = 4
+        person['typeID'] = self.occupation_switch(age)
         person['locations'] = []
         person['locations'].append(dict(locs))
         return person
@@ -421,6 +455,26 @@ class DataSet:
         #families for statistic check
         self._families.append(hdist+[ch_n, el_n])
         return True
+
+    def regroup(self):
+        tempest = self._residents
+        for i in range(len(self._residents)-1, 0, -1):
+            if self._residents[i]["capacity"] > 30 and checkifonlyonegroup(self._residents[i]["ageDistribution"]):
+                currgroups = []
+                currgroups.append(whichgroup(self._residents[i]["ageDistribution"]))
+                for j in range(i-1, 0, -1):
+                    if not self._residents[i] == self._residents[j]:
+                        if self._residents[j]["capacity"] > 30 and checkifonlyonegroup(self._residents[j]["ageDistribution"]):
+                            if not (whichgroup(self._residents[j]["ageDistribution"]) in currgroups):
+                                if self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"] < self._residents[i]["capacity"]:
+                                    self._residents[i]["ageDistribution"] = self._residents[i]["ageDistribution"] + self._residents[j]["ageDistribution"]
+                                    self._residents[i]["actNumberofpeople"] = self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"]
+                                    currgroups.append(whichgroup(self._residents[j]["ageDistribution"]))
+                                    self._residents[j]["capacity"] = 0
+                                elif self._residents[i]["capacity"] - self._residents[i]["actNumberofpeople"] < 5:
+                                    break
+        self._residents = [v for v in sorted(self._residents, key=lambda item: item["capacity"])]
+        self._residents = [x for x in self._residents if x["capacity"] > 0]
     
     def savedata(self, f):
         '''
@@ -445,7 +499,10 @@ while True:
     (hdist, ftype, ch_n, el_n) = adatok.generate_family()
     if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
         if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
-            break
+            adatok.regroup()
+            if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
+                if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
+                    break
 
 txt = str(iter) + " iteration: SUM" + str(adatok._agedist) + " = " + str(sum(adatok._agedist))
 sys.stdout.write('\r' + txt)
