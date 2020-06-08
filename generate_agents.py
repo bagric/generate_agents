@@ -18,8 +18,8 @@ def between(r, table):
         if ret[i] <= r < ret[i + 1]:
             return i
 
-#def getKey(item):
-#    return item["actNumberofpeople"]
+def getKey(item):
+    return item["actNumberofpeople"]
 
 def get_difference(item1, item2):
     if item1 == item2:
@@ -85,7 +85,7 @@ class DataSet:
     #_magic4 = [[0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52],
     #           [0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52]]
     #_magic4 = [[0.348, 0.652 * 0.21, 0.652 * 0.44, 0.652 * 0.35],
-    _magic4 = [[0.481, 0.519 * 0.10, 0.519 * 0.44, 0.519 * 0.48],
+    _magic4 = [[0.481, 0.519 * 0.13, 0.519 * 0.70, 0.519 * 0.17],
                [0.534, 0.466 * 0.35, 0.466 * 0.63, 0.466 * 0.02]]
     # Magic: younger single - older single
     _magic5 = [0.10, 0.90]
@@ -460,21 +460,25 @@ class DataSet:
         return True
 
     def regroup(self):
+        self._residents = sorted(self._residents, key=getKey, reverse=True)
         for i in range(len(self._residents)-1, 0, -1):
-            if self._residents[i]["capacity"] > 30:
+            if self._residents[i]["capacity"] > 9:
                 currgroups = []
                 currgroups = currgroups+whichgroups(self._residents[i]["ageDistribution"])
                 for j in range(i-1, 0, -1):
-                    if self._residents[j]["capacity"] > 30:
-                        if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))) or len(currgroups) > 2:
+                    if get_difference(self._residents[i]["capacity"], self._residents[j]["capacity"]) < 16:
+                        if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))):# or len(currgroups) > 2:
                             if self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"] <= self._residents[i]["capacity"]:
-                                self._residents[i]["ageDistribution"] = self._residents[i]["ageDistribution"] + self._residents[j]["ageDistribution"]
+                                for o in range(len(self._residents[i]["ageDistribution"])):
+                                    self._residents[i]["ageDistribution"][o] = \
+                                        self._residents[i]["ageDistribution"][o] + \
+                                            self._residents[j]["ageDistribution"][o]
                                 self._residents[i]["actNumberofpeople"] = self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"]
-                                if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))):
-                                    currgroups = currgroups+whichgroups(self._residents[j]["ageDistribution"])
+                                #if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))):
+                                currgroups = currgroups+whichgroups(self._residents[j]["ageDistribution"])
                                 self._residents[j]["capacity"] = 0
-                            elif self._residents[i]["capacity"] - self._residents[i]["actNumberofpeople"] < 5:
-                                break
+                            #elif self._residents[i]["capacity"] - self._residents[i]["actNumberofpeople"] < 3:
+                            #    break
         self._residents = [v for v in sorted(self._residents, key=lambda item: item["capacity"])]
         self._residents = [x for x in self._residents if x["capacity"] > 0]
     
@@ -491,6 +495,8 @@ adatok = DataSet()
 adatok.load_residentdata("Szeged_adat_new.json")
 adatok.calculate_residentstat()
 
+last_fam = []
+
 iter = 0
 while True:
     iter = iter + 1
@@ -504,12 +510,11 @@ while True:
             adatok.regroup()
             if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
                 if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
+                    last_fam = hdist
                     break
 
 txt = str(iter) + " iteration: SUM" + str(adatok._agedist) + " = " + str(sum(adatok._agedist))
 sys.stdout.write('\r' + txt)
-#for res in adatok._residents:
-#    print(str(res["ageDistribution"]) + " with id: " + str(res["id"]))
 m1, m2, m3 = adatok.statistic_check()
 with open("prob_check.txt", "w") as txt_file:
     txt_file.write(str(m1) + "\n")
@@ -519,4 +524,7 @@ with open("prob_check.txt", "w") as txt_file:
     txt_file.write('\n')
     for line in m3:
         txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
+    txt_file.write('\n'+str(last_fam)+'\n')
+    for res in adatok._residents:
+        txt_file.write(str(res["ageDistribution"])+" id: "+str(res["id"])+" capacity: "+str(res["capacity"])+"\n")
 adatok.savedata("Szeged_adat_agentsB.json")
