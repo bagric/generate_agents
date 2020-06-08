@@ -498,6 +498,8 @@ adatok.calculate_residentstat()
 last_fam = []
 
 iter = 0
+redo_counter = 0
+redo_thrashold = 5000
 while True:
     iter = iter + 1
     if iter % 250 == 0:
@@ -507,11 +509,14 @@ while True:
     (hdist, ftype, ch_n, el_n) = adatok.generate_family()
     if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
         if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
-            adatok.regroup()
-            if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
-                if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
-                    last_fam = hdist
-                    break
+            if redo_counter < redo_thrashold:
+                redo_counter = redo_counter + 1
+            else:
+                adatok.regroup()
+                if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
+                    if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
+                        last_fam = hdist
+                        break
 
 txt = str(iter) + " iteration: SUM" + str(adatok._agedist) + " = " + str(sum(adatok._agedist))
 sys.stdout.write('\r' + txt)
