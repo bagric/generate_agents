@@ -221,9 +221,9 @@ class DataSet:
         # ensure
         if famtype == 0:
             childnum = 0
-        #elif famtype < 3:
+        if childnum > 2:
         #    extrachild = between(random.uniform(0.0, 1.0), [0.93, 0.05, 0.02])
-            #extrachild = between(random.uniform(0.0, 1.0), [0.90, 0.06, 0.02, 0.02])
+            extrachild = between(random.uniform(0.0, 1.0), [0.90, 0.06, 0.02, 0.02])
 
         hhdist = [0, 0, 0, 0, elderlynum]
         for _ in range(0, childnum + extrachild):
