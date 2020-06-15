@@ -1,7 +1,7 @@
 import json
 import random
 import sys
-
+from scipy.spatial import distance
 
 def between(r, table):
     '''
@@ -41,6 +41,12 @@ def insertion_sort(list, field, number=-1):
             else:
                 break
 '''
+class Switch(dict):
+    def __getitem__(self, item):
+        for key in self.keys():                   # iterate over the intervals
+            if item in key:                       # if the argument is part of that interval
+                return super().__getitem__(key)   # return its associated value
+        raise KeyError(item)                      # if not in any interval, raise KeyError
 
 def checkifonlyonegroup(res):
     gcount = 0
@@ -106,9 +112,10 @@ class DataSet:
         self._people = []
         self._agedist = []
         self._counter = 0
+        #School placements
+        self._schools = None
         #For statistical check
         self._families = []
-        #árvákat talán lerakni egy már meglévő családhoz, ugyanezt idősekre
 
 
     def load_residentdata(self, filename):
@@ -138,6 +145,30 @@ class DataSet:
         self._residents = filtered
         self._agedist = agedist
         self._counter = counter
+
+    def load_schooldata(self, filename):
+        '''
+        Load a formatted JSON file with the location of schools
+
+        :param filename: Name of the file
+        '''
+        with open(filename, 'r') as f:
+            _schools = json.load(f)
+            self._schools = _schools["places"]
+        self._schools = [v for v in sorted(self._schools, key=lambda item: item["subtype"])]
+
+    def reduce_schoolinfo(self):
+        '''
+        Remove currently unused data
+        '''
+        filtered = []
+        for sch in self._schools:
+            if sch["stat"] == "ON":
+                sch.pop('area', None)
+                sch.pop('stat', None)
+                sch.pop('ageDistribution', None)
+                filtered.append(sch)
+        self._schools = filtered
     
     def statistic_check(self):
         '''
@@ -282,7 +313,7 @@ class DataSet:
             return True
     
     def occupation_switch(self, i):
-        switcher={
+        switcher=Switch({
             range(0, 3):1, #Infant
             range(3, 7):2, #Kindergarden student
             range(7, 15):3, #Elemntary school student
@@ -290,9 +321,46 @@ class DataSet:
             #:5, #University student (just temp now)
             range(19, 65):6, #Full time worker, standard 9-17 schedule, fixed workplace
             #:7, #Afternoon shift worker (just temp now)
-            range(65, 200):8, #Stay-at-home schedule
+            range(65, 200):8 #Stay-at-home schedule
+            })
+        return switcher[i]
+
+    def school_switch(self, i):
+        switcher={
+            1:"bölcsőde", #Infant
+            2:"óvoda", #Kindergarden student
+            3:"általános iskola", #Elemntary school student
+            4:random.choice(["gimnázium", "szakközépiskola"]) #Highschool student
             }
-        return switcher.get(i, 6)
+        return switcher.get(i, "más")
+
+    def findschool(self, locs, typeID):
+        if typeID > 4:
+            return None
+        snum = self.school_switch(typeID)
+        distan = 10000
+        loc_id = -1
+        i = 0
+        for sch in self._schools:
+            if sch["subtype"] == snum:
+                temp_d = distance.cityblock(sch["coordinates"]+sch["coordinates_alt"], \
+                    locs["coordinates"]+locs["coordinates_alt"])
+                if temp_d < distan:
+                    distan = temp_d
+                    loc_id = i
+            i = i + 1
+        if loc_id == -1:
+            return None
+        else:
+            rloc = {"typeID": self._schools[loc_id]["type"],
+                "locID": self._schools[loc_id]["id"],
+                "coordinates": self._schools[loc_id]["coordinates"],
+                "coordinates_alt": self._schools[loc_id]["coordinates_alt"]
+                }
+            self._schools[loc_id]["capacity"] = self._schools[loc_id]["capacity"] - 1
+            if self._schools[loc_id]["capacity"] < 1:
+                del self._schools[loc_id]
+            return rloc
 
     def new_person(self, locs, sex, age):
         '''
@@ -311,6 +379,9 @@ class DataSet:
         person['typeID'] = self.occupation_switch(age)
         person['locations'] = []
         person['locations'].append(dict(locs))
+        ifschool = self.findschool(locs, person['typeID'])
+        if ifschool != None:
+            person['locations'].append(dict(ifschool))
         return person
 
     def create_family(self, hdist, location, famtype, ch_n, el_n):
@@ -494,6 +565,9 @@ class DataSet:
 adatok = DataSet()
 adatok.load_residentdata("Szeged_adat_new.json")
 adatok.calculate_residentstat()
+
+adatok.load_schooldata("Szeged_adat_school_poi.json")
+adatok.reduce_schoolinfo()
 
 last_fam = []
 
