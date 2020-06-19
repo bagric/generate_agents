@@ -1,7 +1,6 @@
 import json
 import random
 import sys
-from scipy.spatial import distance
 
 def between(r, table):
     '''
@@ -28,19 +27,7 @@ def get_difference(item1, item2):
         return (abs(item1 - item2) / item2) * 100.0
     except ZeroDivisionError:
         return 0
-'''
-def insertion_sort(list, field, number=-1):
-    for index in range(len(list)-1, 0, number):
-        value = list[index]
-        i = index-1
-        while i>=0:
-            if value[field]<list[i][field]:
-                list[i+1]=list[i]
-                list[i]=value
-                i=i-1
-            else:
-                break
-'''
+
 class Switch(dict):
     def __getitem__(self, item):
         for key in self.keys():                   # iterate over the intervals
@@ -66,40 +53,7 @@ def whichgroups(res):
     return agroups
 
 class DataSet:
-    # KSH MAGIC numbers FAMILY
-    # 0: singlepers,
-    # 1: famoneparent,
-    # 2: famtwoparent,
-    # 3: other
-    _magic1 = [0.399,
-               0.139,
-               0.434,
-               0.028]
-    # KSH MAGIC numbers ELDERLY
-    #                None   1      2      3+
-    _magic2 = [[0.475, 0.525, 0.000, 0.000],
-               [0.700, 0.284, 0.015, 0.001],
-               [0.640, 0.121, 0.233, 0.006],
-               [0.584, 0.285, 0.128, 0.003]]
-    # KSH MAGIC numbers CHILDREN
-    #           None   1      2      3+
-    _magic3 = [[1.000, 0.000, 0.000, 0.000],
-               [0.000, 0.668, 0.270, 0.062],
-               [0.444, 0.285, 0.206, 0.065],
-               [1.000, 0.000, 0.000, 0.000]]
-    # Magic: age distribution of children
-    #_magic4 = [[0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52],
-    #           [0.519, 0.481 * 0.28, 0.481 * 0.20, 0.481 * 0.52]]
-    #_magic4 = [[0.348, 0.652 * 0.21, 0.652 * 0.44, 0.652 * 0.35],
-    _magic4 = [[0.481, 0.519 * 0.13, 0.519 * 0.70, 0.519 * 0.17],
-               [0.534, 0.466 * 0.35, 0.466 * 0.63, 0.466 * 0.02]]
-    # Magic: younger single - older single
-    _magic5 = [0.10, 0.90]
-    # Magic: younger parent - older parent
-    _magic6 = [[0.15, 0.85],
-               [0.13, 0.87],
-               [0.10, 0.90],
-               [0.10, 0.90]]
+
     _agegroups = [[0, 14],
                   [15, 18],
                   [19, 30],
@@ -112,11 +66,18 @@ class DataSet:
         self._people = []
         self._agedist = []
         self._counter = 0
-        #School placements
-        self._schools = None
         #For statistical check
         self._families = []
 
+    def load_magicnumber(self, filename):
+        with open(filename, 'r') as f:
+            magics = json.load(f)
+            self._magic1 = magics["magic1"]
+            self._magic2 = magics["magic2"]
+            self._magic3 = magics["magic3"]
+            self._magic4 = magics["magic4"]
+            self._magic5 = magics["magic5"]
+            self._magic6 = magics["magic6"]
 
     def load_residentdata(self, filename):
         '''
@@ -146,30 +107,6 @@ class DataSet:
         self._agedist = agedist
         self._counter = counter
 
-    def load_schooldata(self, filename):
-        '''
-        Load a formatted JSON file with the location of schools
-
-        :param filename: Name of the file
-        '''
-        with open(filename, 'r') as f:
-            _schools = json.load(f)
-            self._schools = _schools["places"]
-        self._schools = [v for v in sorted(self._schools, key=lambda item: item["subtype"])]
-
-    def reduce_schoolinfo(self):
-        '''
-        Remove currently unused data
-        '''
-        filtered = []
-        for sch in self._schools:
-            if sch["stat"] == "ON":
-                sch.pop('area', None)
-                sch.pop('stat', None)
-                sch.pop('ageDistribution', None)
-                filtered.append(sch)
-        self._schools = filtered
-    
     def statistic_check(self):
         '''
         Check if the algorithm conforms to the first 3 magic numbers
@@ -243,10 +180,10 @@ class DataSet:
 
         :return: age ditribution, family type, number of children, number of elderly perople
         '''
-        famtype = between(random.uniform(0.0, 1.0), DataSet._magic1)
+        famtype = between(random.uniform(0.0, 1.0), self._magic1)
         # 0: singlep, 1: famoneparent, 2: famtwoparents, 3: other
-        elderlynum = between(random.uniform(0.0, 1.0), DataSet._magic2[famtype])
-        childnum = between(random.uniform(0.0, 1.0), DataSet._magic3[famtype])
+        elderlynum = between(random.uniform(0.0, 1.0), self._magic2[famtype])
+        childnum = between(random.uniform(0.0, 1.0), self._magic3[famtype])
         extrachild = 0
 
         # ensure
@@ -258,23 +195,23 @@ class DataSet:
 
         hhdist = [0, 0, 0, 0, elderlynum]
         for _ in range(0, childnum + extrachild):
-            index = between(random.uniform(0.0, 1.0), DataSet._magic4[famtype - 1]) # 0 1 2 3
+            index = between(random.uniform(0.0, 1.0), self._magic4[famtype - 1]) # 0 1 2 3
             if elderlynum == 0 and index > 2:
                 index = index - 1
             hhdist[index] = hhdist[index] + 1
         if famtype == 0:
             if elderlynum == 0:
-                index = between(random.uniform(0.0, 1.0), DataSet._magic5)
+                index = between(random.uniform(0.0, 1.0), self._magic5)
                 hhdist[2 + index] = 1
         elif famtype < 3:
             for _ in range(famtype):
                 if hhdist[4] > 0 and (hhdist[0] < 1 and hhdist[1] < 1):
                     if hhdist[4] < famtype or hhdist[4]+hhdist[3] < famtype:
-                        #index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
+                        #index = between(random.uniform(0.0, 1.0), self._magic6[childnum]) # 0 1
                         #hhdist[3 + index] = hhdist[3 + index] + 1
                         hhdist[3] = hhdist[3] + 1
                 else:
-                    index = between(random.uniform(0.0, 1.0), DataSet._magic6[childnum]) # 0 1
+                    index = between(random.uniform(0.0, 1.0), self._magic6[childnum]) # 0 1
                     hhdist[2 + index] = hhdist[2 + index] + 1
         return hhdist, famtype, childnum+extrachild, elderlynum
 
@@ -325,51 +262,14 @@ class DataSet:
             })
         return switcher[i]
 
-    def school_switch(self, i):
-        switcher={
-            1:"bölcsőde", #Infant
-            2:"óvoda", #Kindergarden student
-            3:"általános iskola", #Elemntary school student
-            4:random.choice(["gimnázium", "szakközépiskola"]) #Highschool student
-            }
-        return switcher.get(i, "más")
-
-    def findschool(self, locs, typeID):
-        if typeID > 4:
-            return None
-        snum = self.school_switch(typeID)
-        distan = 10000
-        loc_id = -1
-        i = 0
-        for sch in self._schools:
-            if sch["subtype"] == snum:
-                temp_d = distance.cityblock(sch["coordinates"]+sch["coordinates_alt"], \
-                    locs["coordinates"]+locs["coordinates_alt"])
-                if temp_d < distan:
-                    distan = temp_d
-                    loc_id = i
-            i = i + 1
-        if loc_id == -1:
-            return None
-        else:
-            rloc = {"typeID": self._schools[loc_id]["type"],
-                "locID": self._schools[loc_id]["id"],
-                "coordinates": self._schools[loc_id]["coordinates"],
-                "coordinates_alt": self._schools[loc_id]["coordinates_alt"]
-                }
-            self._schools[loc_id]["capacity"] = self._schools[loc_id]["capacity"] - 1
-            if self._schools[loc_id]["capacity"] < 1:
-                del self._schools[loc_id]
-            return rloc
-
-    def new_person(self, locs, sex, age):
+    def new_person(self, locs, sex, age, ft):
         '''
         Construct a person
 
         :param locs: Residential location
         :param sex: Gender
         :param age: Age
-        :return: The new persion
+        :return: The new person
         '''
         person = {}
         person['age'] = age
@@ -379,9 +279,8 @@ class DataSet:
         person['typeID'] = self.occupation_switch(age)
         person['locations'] = []
         person['locations'].append(dict(locs))
-        ifschool = self.findschool(locs, person['typeID'])
-        if ifschool != None:
-            person['locations'].append(dict(ifschool))
+        person['famtype'] = ft
+        person['famid'] = len(self._families)
         return person
 
     def create_family(self, hdist, location, famtype, ch_n, el_n):
@@ -419,7 +318,7 @@ class DataSet:
                 a_sex.append(round(random.uniform(0, 1)))
                 a_age.append(round(random.uniform(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1])))
 
-            self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1]))
+            self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1], famtype))
             hdist[cur_age_group] = hdist[cur_age_group] - 1
 
         # children
@@ -430,7 +329,7 @@ class DataSet:
                 cur_age_group = cur_age_group + 1
             sex = round(random.uniform(0, 1))
             age = round(random.uniform(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1]))
-            self._people.append(self.new_person(rloc, sex, age))
+            self._people.append(self.new_person(rloc, sex, age, famtype))
             m_child_age = max(m_child_age, age)
             hdist[cur_age_group] = hdist[cur_age_group] - 1
 
@@ -454,7 +353,7 @@ class DataSet:
                     m_mi = max(self._agegroups[cur_age_group][0], mini_par_age)
                     a_age.append(round(random.uniform(m_mi, self._agegroups[cur_age_group][1])))
 
-                self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1]))
+                self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1], famtype))
                 hdist[cur_age_group] = hdist[cur_age_group] - 1
 
         # the rest, if any
@@ -462,7 +361,7 @@ class DataSet:
             for i in range(hdist[cur_age_group]):
                 sex = round(random.uniform(0, 1))
                 age = round(random.uniform(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1]))
-                self._people.append(self.new_person(rloc, sex, age))
+                self._people.append(self.new_person(rloc, sex, age, famtype))
 
     def find_exact_cell(self, hdist, famtype, ch_n, el_n):
         '''
@@ -503,13 +402,8 @@ class DataSet:
         :param el_n: Number of elderly people
         :return: False iff there is no such cell
         '''
-        #self._residents = sorted(self._residents, key=getKey)
-        #insertion_sort(self._residents, "actNumberofpeople")
+
         location = -1
-        #for i in range(len(self._residents)-1, 0, -1):
-        #    if self.check_distribution(hdist, self._residents[i]["ageDistribution"], True):
-        #        location = i
-        #        break
         for i in range(len(self._residents)-1, 0, -1):
             if self.check_distribution(hdist, self._residents[i]["ageDistribution"]):
                 location = i
@@ -562,48 +456,53 @@ class DataSet:
             json.dump(self._people, f)
 
 
-adatok = DataSet()
-adatok.load_residentdata("Szeged_adat_new.json")
-adatok.calculate_residentstat()
+def generate_agents(respoi, magic, tempout, tempstat):
 
-adatok.load_schooldata("Szeged_adat_school_poi.json")
-adatok.reduce_schoolinfo()
+    adatok = DataSet()
+    adatok.load_magicnumber(magic)
+    adatok.load_residentdata(respoi)
+    adatok.calculate_residentstat()
 
-last_fam = []
+    last_fam = []
+    pop = sum(adatok._agedist)
 
-iter = 0
-redo_counter = 0
-redo_thrashold = 5000
-while True:
-    iter = iter + 1
-    if iter % 250 == 0:
-        txt = str(iter) + " iteration: SUM" + str(adatok._agedist) + " = " + str(sum(adatok._agedist))
-        sys.stdout.write('\r' + txt)
+    iter = 0
+    redo_counter = 0
+    redo_thrashold = 5000
+    while True:
+        iter = iter + 1
+        if iter % 250 == 0:
+            txt = "Generating agents - " + '{:6.2f}'.format(100.0*(pop-sum(adatok._agedist))/pop) + "%"
+            sys.stdout.write('\r' + txt)
 
-    (hdist, ftype, ch_n, el_n) = adatok.generate_family()
-    if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
-        if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
-            if redo_counter < redo_thrashold:
-                redo_counter = redo_counter + 1
-            else:
-                adatok.regroup()
-                if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
-                    if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
-                        last_fam = hdist
-                        break
+        (hdist, ftype, ch_n, el_n) = adatok.generate_family()
+        if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
+            if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
+                if redo_counter < redo_thrashold:
+                    redo_counter = redo_counter + 1
+                else:
+                    adatok.regroup()
+                    if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
+                        if not adatok.find_suitable_cell(hdist, ftype, ch_n, el_n):
+                            last_fam = hdist
+                            break
 
-txt = str(iter) + " iteration: SUM" + str(adatok._agedist) + " = " + str(sum(adatok._agedist))
-sys.stdout.write('\r' + txt)
-m1, m2, m3 = adatok.statistic_check()
-with open("prob_check.txt", "w") as txt_file:
-    txt_file.write(str(m1) + "\n")
-    txt_file.write('\n')
-    for line in m2:
-        txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
-    txt_file.write('\n')
-    for line in m3:
-        txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
-    txt_file.write('\n'+str(last_fam)+'\n')
-    for res in adatok._residents:
-        txt_file.write(str(res["ageDistribution"])+" id: "+str(res["id"])+" capacity: "+str(res["capacity"])+"\n")
-adatok.savedata("Szeged_adat_agentsB.json")
+    txt = "Generating agents - " + '{:6.2f}'.format(100.0 * (pop-sum(adatok._agedist)) / pop) + "%"
+    sys.stdout.write('\r' + txt + " - done. Calculating statistics")
+
+    m1, m2, m3 = adatok.statistic_check()
+    with open(tempstat, "w") as txt_file:
+        txt_file.write(str(m1) + "\n")
+        txt_file.write('\n')
+        for line in m2:
+            txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
+        txt_file.write('\n')
+        for line in m3:
+            txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
+        txt_file.write('\n'+str(last_fam)+'\n')
+        for res in adatok._residents:
+            txt_file.write(str(res["ageDistribution"])+" id: "+str(res["id"])+" capacity: "+str(res["capacity"])+"\n")
+
+    sys.stdout.write(" - done. Saving")
+    adatok.savedata(tempout)
+    print(" - done.")

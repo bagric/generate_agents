@@ -1,41 +1,35 @@
 import json
+import sys
 
-data = []
 
-filename = "Szeged_adat_new.json"
-with open(filename, 'r') as f:
-    residents = json.load(f)
-residents = residents["places"]
+def _process_data(filename, data, type):
+    with open(filename, 'r') as f:
+        d = json.load(f)
+    d = d["places"]
 
-for res in residents:
-    convert = {
-        'ID': res['id'],
-        'type': 2,
-        'coordinates': res['coordinates_alt'],
-        'area': res['area'],
-        'state': 'ON',
-        'capacity': res['capacity'],
-        'ageInter': res['ageInter']
-    }
-    data.append(convert)
+    for item in d:
+        convert = {
+            'ID': item['id'],
+            'type': type,
+            'coordinates': item['coordinates_alt'],
+            'area': item['area'],
+            'state': 'ON',
+            'capacity': item['capacity'],
+            'ageInter': item['ageInter']
+        }
+        data.append(convert)
 
-filename = "Szeged_adat_school_poi.json"
-with open(filename, 'r') as f:
-    schools = json.load(f)
-schools = schools["places"]
 
-for res in schools:
-    convert = {
-        'ID': res['id'],
-        'type': 3,
-        'coordinates': res['coordinates_alt'],
-        'area': res['area'],
-        'state': 'ON',
-        'capacity': res['capacity'],
-        'ageInter': res['ageInter']
-    }
-    data.append(convert)
+def convert_data(respoi, schoolpoi, locationout):
+    data = []
+    txt = "Converting location files"
+    sys.stdout.write('\r' + txt)
 
-adat = {"places": data}
-with open("locations.json", 'w') as f:
-    json.dump(adat, f, indent="\t")
+    _process_data(respoi, data, 2)
+    _process_data(schoolpoi, data, 3)
+
+    adat = {"places": data}
+    with open(locationout, 'w') as f:
+        json.dump(adat, f, indent="\t")
+
+    print(" - done")
