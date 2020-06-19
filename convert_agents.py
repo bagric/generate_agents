@@ -11,7 +11,7 @@ for res in people:
         'age': res['age'],
         'sex': res['sex'],
         'preCond': res['preCond'],
-        'SIRD': res['SIRD'],
+        'state': res['SIRD'],
         'typeID': res['typeID'],
         'locations': []
     }
