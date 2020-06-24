@@ -78,6 +78,7 @@ class DataSet:
             self._magic4 = magics["magic4"]
             self._magic5 = magics["magic5"]
             self._magic6 = magics["magic6"]
+            self._magicA = magics["magic_age"]
 
     def load_residentdata(self, filename):
         '''
@@ -105,7 +106,10 @@ class DataSet:
                 filtered.append(res)
         self._residents = filtered
         self._agedist = agedist
+        self._verage = agedist[:]
         self._counter = counter
+        for i in range(len(self._magicA)):
+            self._magicA[i] = round(self._magicA[i] * sum(agedist))
 
     def statistic_check(self):
         '''
@@ -117,6 +121,7 @@ class DataSet:
         #_magic4_c = [[0, 0, 0, 0],[0, 0, 0, 0]]
         #_magic5_c = [0, 0]
         #_magic6_c = [[0, 0],[0, 0],[0, 0],[0, 0]]
+        _magicA = []
         for fam in self._families:
             # 0: singlepers,
             if (sum(fam)-fam[6])<2 and (sum(fam)-fam[6])>0:
@@ -190,8 +195,8 @@ class DataSet:
         if famtype == 0:
             childnum = 0
         if childnum > 2:
-        #    extrachild = between(random.uniform(0.0, 1.0), [0.93, 0.05, 0.02])
-            extrachild = between(random.uniform(0.0, 1.0), [0.90, 0.06, 0.02, 0.02])
+            extrachild = between(random.uniform(0.0, 1.0), [0.93, 0.05, 0.02])
+            # extrachild = between(random.uniform(0.0, 1.0), [0.90, 0.06, 0.02, 0.02])
 
         hhdist = [0, 0, 0, 0, elderlynum]
         for _ in range(0, childnum + extrachild):
@@ -224,6 +229,7 @@ class DataSet:
         :return: True iff A==B
         '''
         return dista == distb
+
 
     def check_distribution(self, family, cell, ratio=False):
         '''
@@ -283,6 +289,29 @@ class DataSet:
         person['famid'] = len(self._families)
         return person
 
+    def create_age(self, agemin, agemax, ageg):
+        counter = 0
+        while True:
+            a = round(random.uniform(agemin, agemax))
+            m = min(int(a/5), len(self._magicA)-1)
+            if self._magicA[m]>0:
+                break
+            else:
+                counter = counter + 1
+                if counter > 50:
+                    break
+
+        g = 0
+        for i in range(0, len(self._agegroups)):
+            if self._agegroups[i][0] <= a <= self._agegroups[i][1]:
+                g = i
+                break
+
+        # if not (ageg == g):
+        #     print("Baj van: requested: ", ageg, " generated: ", g, " min: ", agemin, " max: ", agemax, " age: ", a)
+
+        return a
+
     def create_family(self, hdist, location, famtype, ch_n, el_n):
         '''
         Generates a group of people that humans call family
@@ -297,29 +326,12 @@ class DataSet:
 
         # make a local copy
         hdist = hdist[:]
+        famage = []
         rloc = {"typeID": self._residents[location]["type"],
                 "locID": self._residents[location]["id"],
                 "coordinates": self._residents[location]["coordinates"],
                 "coordinates_alt": self._residents[location]["coordinates_alt"]
                 }
-
-        # elderly
-        a_age = []
-        a_sex = []
-        cur_age_group = 4
-        for elderlies in range(1, el_n+1):
-            # if there are two then let's have different gender
-            if elderlies == 2:
-                a_sex.append(1-a_sex[0])
-                m_mi = max(-7, self._agegroups[cur_age_group][0] - a_age[0])
-                m = round(random.uniform(m_mi, +7))
-                a_age.append(m+a_age[0])
-            else:
-                a_sex.append(round(random.uniform(0, 1)))
-                a_age.append(round(random.uniform(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1])))
-
-            self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1], famtype))
-            hdist[cur_age_group] = hdist[cur_age_group] - 1
 
         # children
         m_child_age = -1
@@ -328,9 +340,10 @@ class DataSet:
             while hdist[cur_age_group] == 0:
                 cur_age_group = cur_age_group + 1
             sex = round(random.uniform(0, 1))
-            age = round(random.uniform(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1]))
+            age = self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group)
             self._people.append(self.new_person(rloc, sex, age, famtype))
             m_child_age = max(m_child_age, age)
+            famage.append(age)
             hdist[cur_age_group] = hdist[cur_age_group] - 1
 
         # if we need parents
@@ -340,28 +353,72 @@ class DataSet:
             mini_par_age = m_child_age + 16
             cur_age_group = 2
             for parents in range(1, famtype + 1):
-                while hdist[cur_age_group] == 0 and cur_age_group + 1 <5:
+                while hdist[cur_age_group] == 0 and cur_age_group < 4:
                     cur_age_group = cur_age_group + 1
                 # if there are two then let's have different gender
                 if parents == 2:
                     a_sex.append(1-a_sex[0])
-                    m_mi = max(-7, self._agegroups[cur_age_group][0] - a_age[0])
-                    m = round(random.uniform(m_mi, +7))
-                    a_age.append(m+a_age[0])
+                    m_mi = max(-10, self._agegroups[cur_age_group][0] - a_age[0])
+                    m_ma = min( 10, self._agegroups[cur_age_group][1] - a_age[0])
+                    if (m_mi + a_age[0]) >= (m_ma + a_age[0]):
+                        a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group))
+                    else:
+                        a_age.append(self.create_age(m_mi + a_age[0], m_ma + a_age[0], cur_age_group))
                 else:
                     a_sex.append(round(random.uniform(0, 1)))
                     m_mi = max(self._agegroups[cur_age_group][0], mini_par_age)
-                    a_age.append(round(random.uniform(m_mi, self._agegroups[cur_age_group][1])))
+                    # ITT NAGY BAJ VAN!
+                    # m_mi = self._agegroups[cur_age_group][0]
+                    a_age.append(self.create_age(m_mi, self._agegroups[cur_age_group][1], cur_age_group))
 
                 self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1], famtype))
+                if cur_age_group == 4:
+                    el_n = el_n - 1
+                famage.append(a_age[-1])
                 hdist[cur_age_group] = hdist[cur_age_group] - 1
+
+        # elderly
+        a_age = []
+        a_sex = []
+        cur_age_group = 4
+        for elderlies in range(1, el_n+1):
+            # if there are two then let's have different gender
+            if elderlies == 2:
+                a_sex.append(1-a_sex[0])
+                m_mi = max(-10, self._agegroups[cur_age_group][0] - a_age[0])
+                m_ma = min( 10, self._agegroups[cur_age_group][1] - a_age[0])
+                if (m_mi + a_age[0]) >=(m_ma + a_age[0]):
+                    a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group))
+                else:
+                    a_age.append(self.create_age(m_mi+a_age[0], m_ma+a_age[0], cur_age_group))
+            else:
+                a_sex.append(round(random.uniform(0, 1)))
+                a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group))
+
+            self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1], famtype))
+            famage.append(a_age[-1])
+            hdist[cur_age_group] = hdist[cur_age_group] - 1
+
 
         # the rest, if any
         for cur_age_group in range(len(hdist)):
-            for i in range(hdist[cur_age_group]):
+            for i in range(0,hdist[cur_age_group]):
                 sex = round(random.uniform(0, 1))
-                age = round(random.uniform(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1]))
+                age = self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group)
                 self._people.append(self.new_person(rloc, sex, age, famtype))
+                famage.append(age)
+
+        return famage
+
+    def remove_from_agestat(self, a):
+        m = min(int(a / 5), len(self._magicA) - 1)
+        g = 0
+        for i in range(0, len(self._agegroups)):
+            if self._agegroups[i][0] <= a <= self._agegroups[i][1]:
+                g = i
+                break
+        self._verage[g] = self._verage[g] - 1
+        self._magicA[m] = self._magicA[m] - 1
 
     def find_exact_cell(self, hdist, famtype, ch_n, el_n):
         '''
@@ -383,12 +440,16 @@ class DataSet:
         else:
             return False
 
-        self.create_family(hdist, location, famtype, ch_n, el_n)
+        f = self.create_family(hdist, location, famtype, ch_n, el_n)
+        for i in f:
+            self.remove_from_agestat(i)
+
         for i in range(len(self._agedist)):
             self._agedist[i] = self._agedist[i] - hdist[i]
         #families for statistic check
         self._families.append(hdist+[ch_n, el_n])
         del self._residents[location]
+
         return True
 
     def find_suitable_cell(self, hdist, famtype, ch_n, el_n):
@@ -411,7 +472,10 @@ class DataSet:
         else:
             return False
 
-        self.create_family(hdist, location, famtype, ch_n, el_n)
+        f = self.create_family(hdist, location, famtype, ch_n, el_n)
+        for i in f:
+            self.remove_from_agestat(i)
+
         for i in range(len(self._agedist)):
             self._residents[location]["ageDistribution"][i] = \
                 self._residents[location]["ageDistribution"][i] - hdist[i]
@@ -462,6 +526,7 @@ def generate_agents(respoi, magic, tempout, tempstat):
     adatok.load_magicnumber(magic)
     adatok.load_residentdata(respoi)
     adatok.calculate_residentstat()
+    print(adatok._agedist, sum(adatok._agedist))
 
     last_fam = []
     pop = sum(adatok._agedist)
@@ -473,7 +538,18 @@ def generate_agents(respoi, magic, tempout, tempstat):
         iter = iter + 1
         if iter % 250 == 0:
             txt = "Generating agents - " + '{:6.2f}'.format(100.0*(pop-sum(adatok._agedist))/pop) + "%"
+            # ll = [adatok._magicA[0] + adatok._magicA[1] + adatok._magicA[2],
+            #       adatok._magicA[3],
+            #       adatok._magicA[4] + adatok._magicA[5],
+            #       adatok._magicA[6] + adatok._magicA[7] + adatok._magicA[8] + adatok._magicA[9] + adatok._magicA[10] + adatok._magicA[11],
+            #       adatok._magicA[12] + adatok._magicA[13] + adatok._magicA[14] + adatok._magicA[15] + adatok._magicA[16] +
+            #       adatok._magicA[17]
+            #       ]
+
+            # txt = str(adatok._agedist) + "/" + str(adatok._verage) + " Der: " + str(ll)
+            # txt = str(adatok._magicA)
             sys.stdout.write('\r' + txt)
+
 
         (hdist, ftype, ch_n, el_n) = adatok.generate_family()
         if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
@@ -506,3 +582,5 @@ def generate_agents(respoi, magic, tempout, tempstat):
     sys.stdout.write(" - done. Saving")
     adatok.savedata(tempout)
     print(" - done.")
+    print(adatok._magicA)
+

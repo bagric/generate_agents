@@ -72,15 +72,15 @@ def generate_schools(filename, agents):
             agent['locations'].append(dict(ifschool))
 
 
-def generate_additional_locations(agentsfile, schools):
+def generate_additional_locations(agentsfilein, agentsfileout, schools):
     sys.stdout.write("Loading agents")
-    with open(agentsfile, 'r') as f:
+    with open(agentsfilein, 'r') as f:
         person = json.load(f)
     sys.stdout.write(" - done. Adding schools")
 
     generate_schools(schools, person)
 
     sys.stdout.write(" - done. Saving")
-    with open(agentsfile, 'w') as f:
+    with open(agentsfileout, 'w') as f:
         json.dump(person, f, indent="\t")
     print(" - done.")

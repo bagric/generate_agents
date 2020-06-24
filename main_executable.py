@@ -10,13 +10,14 @@ file_prefix = "Szeged"
 
 # This file contains the residential locations
 #   100x100 cell data
-shapefile = "100100_2019_" + file_prefix
-respoi    = file_prefix + "_respoi.json"
-schoolcsv = "schoolpoi_" + file_prefix + ".csv"
+shapefile    = "100100_2019_" + file_prefix
+respoi       = file_prefix + "_respoi.json"
+schoolcsv    = "schoolpoi_" + file_prefix + ".csv"
 schoolpoi    = file_prefix + "_schoolpoi.json"
-tempagent = file_prefix + "_agents_temp.json"
-tempstat  = file_prefix + "_stat.txt"
-magic = file_prefix + "_magic_number.json"
+tempagentin  = file_prefix + "_agents_temp.json"
+tempagentout = file_prefix + "_agents_temp_sec.json"
+tempstat     = file_prefix + "_stat.txt"
+magic        = file_prefix + "_magic_number.json"
 
 agentout    = "agents.json"
 locationout = "locations.json"
@@ -24,8 +25,8 @@ locationout = "locations.json"
 # respoi_process.process_input_data(file_prefix, shapefile, respoi)
 # school_poi_process.process_input_data(file_prefix, schoolcsv, schoolpoi)
 
-generate_agents.generate_agents(respoi, magic, tempagent, tempstat)
-generate_secondary_locations.generate_additional_locations(tempagent, schoolpoi)
+generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
+generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi)
 
-convert_agents.convert_data(tempagent, agentout)
-# convert_poi.convert_data(respoi, schoolpoi, locationout)
+convert_agents.convert_data(tempagentout, agentout)
+#convert_poi.convert_data(respoi, schoolpoi, locationout)

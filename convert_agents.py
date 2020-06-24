@@ -8,6 +8,14 @@ def convert_data(genagent, agentsout):
     with open(genagent, 'r') as f:
         people = json.load(f)
 
+    _agegroups = [[0, 14],
+                  [15, 18],
+                  [19, 30],
+                  [31, 62],
+                  [63, 90]]
+
+    pop = [0, 0, 0, 0, 0]
+
     iter = 0
 
     for res in people:
@@ -25,6 +33,12 @@ def convert_data(genagent, agentsout):
             'locations': []
         }
 
+        for i in range(0, len(_agegroups)):
+            if _agegroups[i][0] <= res['age'] <= _agegroups[i][1]:
+                pop[i] = pop[i] + 1
+                break
+
+
         for locs in res['locations']:
             loc = {
                 'typeID': locs['typeID'],
@@ -40,3 +54,4 @@ def convert_data(genagent, agentsout):
         json.dump(adat, f, indent="\t")
 
     print(" - done")
+    print(pop, sum(pop))
