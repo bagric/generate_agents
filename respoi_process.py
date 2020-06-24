@@ -46,6 +46,6 @@ def process_input_data(prefix, shapefile, respoifile):
 
     adat = {"area": prefix, "places": data}
     with open(respoifile, 'w') as f:
-        json.dump(adat, f)
+        json.dump(adat, f, indent="\t")
 
     print(" - file saved")

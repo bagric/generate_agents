@@ -1,5 +1,6 @@
 import respoi_process
 import school_poi_process
+import work_poi_process
 import generate_agents
 import generate_secondary_locations
 import convert_poi
@@ -14,6 +15,8 @@ shapefile    = "100100_2019_" + file_prefix
 respoi       = file_prefix + "_respoi.json"
 schoolcsv    = "schoolpoi_" + file_prefix + ".csv"
 schoolpoi    = file_prefix + "_schoolpoi.json"
+workcsv      = "workpoi_" + file_prefix + ".csv"
+workpoi      = file_prefix + "_workpoi.json"
 tempagentin  = file_prefix + "_agents_temp.json"
 tempagentout = file_prefix + "_agents_temp_sec.json"
 tempstat     = file_prefix + "_stat.txt"
@@ -24,9 +27,10 @@ locationout = "locations.json"
 
 # respoi_process.process_input_data(file_prefix, shapefile, respoi)
 # school_poi_process.process_input_data(file_prefix, schoolcsv, schoolpoi)
+work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
 
-generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
-generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi)
+# generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
+# generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi)
 
-convert_agents.convert_data(tempagentout, agentout)
-#convert_poi.convert_data(respoi, schoolpoi, locationout)
+# convert_agents.convert_data(tempagentout, agentout)
+convert_poi.convert_data(respoi, schoolpoi, workpoi, locationout)

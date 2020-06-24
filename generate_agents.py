@@ -517,7 +517,7 @@ class DataSet:
         :param f: Filename
         '''
         with open(f, 'w') as f:
-            json.dump(self._people, f)
+            json.dump(self._people, f, indent="\t")
 
 
 def generate_agents(respoi, magic, tempout, tempstat):
