@@ -351,10 +351,14 @@ class DataSet:
             a_age = []
             a_sex = []
             mini_par_age = m_child_age + 16
-            cur_age_group = 2
+            cur_age_group = 3
             for parents in range(1, famtype + 1):
-                while hdist[cur_age_group] == 0 and cur_age_group < 4:
-                    cur_age_group = cur_age_group + 1
+                # at family generation we let elderly be parents, so here we should let them be as well
+                while hdist[cur_age_group] == 0 and cur_age_group > 1:
+                    cur_age_group = cur_age_group - 1
+                    # this bit is a little bit risky but it should work
+                    if cur_age_group == 1 and hdist[4] != 0:
+                        cur_age_group = 4
                 # if there are two then let's have different gender
                 if parents == 2:
                     a_sex.append(1-a_sex[0])
@@ -366,9 +370,9 @@ class DataSet:
                         a_age.append(self.create_age(m_mi + a_age[0], m_ma + a_age[0], cur_age_group))
                 else:
                     a_sex.append(round(random.uniform(0, 1)))
-                    m_mi = max(self._agegroups[cur_age_group][0], mini_par_age)
-                    # ITT NAGY BAJ VAN!
-                    # m_mi = self._agegroups[cur_age_group][0]
+                    #m_mi = max(self._agegroups[cur_age_group][0], mini_par_age)
+                    # ITT NAGY BAJ VAN! - meg van oldva
+                    m_mi = self._agegroups[cur_age_group][0]
                     a_age.append(self.create_age(m_mi, self._agegroups[cur_age_group][1], cur_age_group))
 
                 self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1], famtype))

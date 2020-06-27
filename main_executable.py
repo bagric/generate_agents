@@ -5,6 +5,7 @@ import generate_agents
 import generate_secondary_locations
 import convert_poi
 import convert_agents
+import sys
 
 # Only text to modify
 file_prefix = "Szeged"
@@ -25,12 +26,17 @@ magic        = file_prefix + "_magic_number.json"
 agentout    = "agents.json"
 locationout = "locations.json"
 
-# respoi_process.process_input_data(file_prefix, shapefile, respoi)
-# school_poi_process.process_input_data(file_prefix, schoolcsv, schoolpoi)
-work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
+def main(argv):
+    if len(argv)<1:
+        # processsing csv files and creating needed json files (usually run only a few times when needed)
+        respoi_process.process_input_data(file_prefix, shapefile, respoi)
+        school_poi_process.process_input_data(file_prefix, schoolcsv, schoolpoi)
+        work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
+    # default data generating when files are ready to be used
+    generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
+    generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi)
+    convert_agents.convert_data(tempagentout, agentout)
+    convert_poi.convert_data(respoi, schoolpoi, workpoi, locationout)
 
-# generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
-# generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi)
-
-# convert_agents.convert_data(tempagentout, agentout)
-convert_poi.convert_data(respoi, schoolpoi, workpoi, locationout)
+if __name__ == "__main__":
+   main(sys.argv[1:])
