@@ -34,7 +34,7 @@ def main(argv):
         work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
     # default data generating when files are ready to be used
     generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
-    generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi)
+    generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
     convert_agents.convert_data(tempagentout, agentout)
     convert_poi.convert_data(respoi, schoolpoi, workpoi, locationout)
 

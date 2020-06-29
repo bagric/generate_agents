@@ -35,50 +35,71 @@ def school_switch(i):
     return switcher.get(i, "más")
 
 
-def findschool(schools, locs, typeID):
-    if typeID > 4:
-        return None
-    snum = school_switch(typeID)
+def findoccupation(schools, workplaces, locs, typeID):
     distan = 10000
     loc_id = -1
-    i = 0
-    for sch in schools:
-        if sch["subtype"] == snum:
-            temp_d = distance.cityblock(sch["coordinates"] + sch["coordinates_alt"],
-                                        locs["coordinates"] + locs["coordinates_alt"])
-            if temp_d < distan:
-                distan = temp_d
-                loc_id = i
-        i = i + 1
-    if loc_id == -1:
-        return None
+    if typeID > 4:
+        if typeID == 6:
+            i = 0
+            for wp in workplaces:
+                temp_d = distance.cityblock(wp["coordinates"] + wp["coordinates_alt"],
+                                            locs["coordinates"] + locs["coordinates_alt"])
+                if temp_d < distan:
+                    distan = temp_d
+                    loc_id = i
+                    rloc = {"typeID": workplaces[loc_id]["type"],
+                            "locID": workplaces[loc_id]["id"],
+                            "coordinates": workplaces[loc_id]["coordinates"],
+                            "coordinates_alt": workplaces[loc_id]["coordinates_alt"]
+                            }
+                    workplaces[loc_id]["capacity"] = workplaces[loc_id]["capacity"] - 1
+                    if workplaces[loc_id]["capacity"] < 1:
+                        del workplaces[loc_id]
+                    return rloc
+                i = i + 1
+        else:
+            return None
     else:
-        rloc = {"typeID": schools[loc_id]["type"],
-                "locID": schools[loc_id]["id"],
-                "coordinates": schools[loc_id]["coordinates"],
-                "coordinates_alt": schools[loc_id]["coordinates_alt"]
-                }
-        schools[loc_id]["capacity"] = schools[loc_id]["capacity"] - 1
-        if schools[loc_id]["capacity"] < 1:
-            del schools[loc_id]
-        return rloc
+        snum = school_switch(typeID)
+        i = 0
+        for sch in schools:
+            if sch["subtype"] == snum:
+                temp_d = distance.cityblock(sch["coordinates"] + sch["coordinates_alt"],
+                                            locs["coordinates"] + locs["coordinates_alt"])
+                if temp_d < distan:
+                    distan = temp_d
+                    loc_id = i
+            i = i + 1
+        if loc_id == -1:
+            return None
+        else:
+            rloc = {"typeID": schools[loc_id]["type"],
+                    "locID": schools[loc_id]["id"],
+                    "coordinates": schools[loc_id]["coordinates"],
+                    "coordinates_alt": schools[loc_id]["coordinates_alt"]
+                    }
+            schools[loc_id]["capacity"] = schools[loc_id]["capacity"] - 1
+            if schools[loc_id]["capacity"] < 1:
+                del schools[loc_id]
+            return rloc
 
 
-def generate_schools(filename, agents):
-    sc_data = load_schooldata(filename)
+def generate_occupation(sfn, wfn, agents):
+    sc_data = load_schooldata(sfn)
+    wp_data = load_schooldata(wfn)
     for agent in agents:
-        ifschool = findschool(sc_data, agent["locations"][0], agent['typeID'])
-        if ifschool != None:
-            agent['locations'].append(dict(ifschool))
+        ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
+        if ifhasoccupation != None:
+            agent['locations'].append(dict(ifhasoccupation))
 
 
-def generate_additional_locations(agentsfilein, agentsfileout, schools):
+def generate_additional_locations(agentsfilein, agentsfileout, schools, workplaces):
     sys.stdout.write("Loading agents")
     with open(agentsfilein, 'r') as f:
         person = json.load(f)
-    sys.stdout.write(" - done. Adding schools")
+    sys.stdout.write(" - done. Adding schools/workplaces")
 
-    generate_schools(schools, person)
+    generate_occupation(schools, workplaces, person)
 
     sys.stdout.write(" - done. Saving")
     with open(agentsfileout, 'w') as f:
