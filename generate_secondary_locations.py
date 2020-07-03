@@ -90,6 +90,8 @@ def generate_occupation(sfn, wfn, agents):
     for agent in agents:
         ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
         if ifhasoccupation != None:
+            if 4 < ifhasoccupation["typeID"] < 9 or ifhasoccupation["typeID"] == 12 or ifhasoccupation["typeID"] == 13:
+                agent['typeID'] = 7
             agent['locations'].append(dict(ifhasoccupation))
 
 

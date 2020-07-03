@@ -263,7 +263,7 @@ class DataSet:
             range(15, 19):4, #Highschool student
             #:5, #University student (just temp now)
             range(19, 65):6, #Full time worker, standard 9-17 schedule, fixed workplace
-            #:7, #Afternoon shift worker (just temp now)
+            #:7, #Afternoon shift worker
             range(65, 200):8 #Stay-at-home schedule
             })
         return switcher[i]
