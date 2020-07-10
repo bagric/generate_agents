@@ -24,7 +24,7 @@ def _process_data(filename, data, type):
         data.append(convert)
 
 
-def convert_data(respoi, schoolpoi, workpoi, locationout):
+def convert_data(respoi, schoolpoi, workpoi, ipoi, locationout):
     data = []
     txt = "Converting location files"
     sys.stdout.write('\r' + txt)
@@ -32,6 +32,7 @@ def convert_data(respoi, schoolpoi, workpoi, locationout):
     _process_data(respoi, data, 2)
     _process_data(schoolpoi, data, 3)
     _process_data(workpoi, data, -1)
+    _process_data(ipoi, data, -1)
 
     adat = {"places": data}
     with open(locationout, 'w') as f:

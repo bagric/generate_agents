@@ -57,6 +57,8 @@ def findoccupation(schools, workplaces, locs, typeID):
                         del workplaces[loc_id]
                     return rloc
                 i = i + 1
+            if len(workplaces) < 1:
+                return None
         else:
             return None
     else:
@@ -90,9 +92,15 @@ def generate_occupation(sfn, wfn, agents):
     for agent in agents:
         ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
         if ifhasoccupation != None:
-            if 4 < ifhasoccupation["typeID"] < 9 or ifhasoccupation["typeID"] == 12 or ifhasoccupation["typeID"] == 13:
+            #if 4 < ifhasoccupation["typeID"] < 7:
+            #    agent['typeID'] = 7
+            #if 6 < ifhasoccupation["typeID"] < 9 or ifhasoccupation["typeID"] == 12 or ifhasoccupation["typeID"] == 14:
+            #    random.choice([6, 7])
+            if ifhasoccupation["typeID"] == 13:
                 agent['typeID'] = 7
             agent['locations'].append(dict(ifhasoccupation))
+        elif agent['typeID'] > 4:
+            agent['typeID'] = 8
 
 
 def generate_additional_locations(agentsfilein, agentsfileout, schools, workplaces):

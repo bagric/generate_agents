@@ -13,95 +13,85 @@ def load_idata(filename):
     with open(filename, 'r') as f:
         _interestingp = json.load(f)
         _interestingp = _interestingp["places"]
-    base_iplaces = [v for v in sorted(_interestingp, key=lambda item: item["subtype"])]
-    evening_schedule = [v for v in base_iplaces if 4 < v["type"] < 7]
-    activity = [v for v in base_iplaces if 6 < v["type"] < 9]
-    recreational_weekend_schedule = [v for v in base_iplaces if 8 < v["type"] < 11]
-    nicer_places = [v for v in base_iplaces if v["type"] == 13]
-    health_places = [v for v in base_iplaces if v["type"] == 12 or v["type"] == 14]
-    return evening_schedule, activity, recreational_weekend_schedule, nicer_places, health_places
+    temp_iplaces = [v for v in sorted(_interestingp, key=lambda item: item["subtype"])]
+    base_iplaces = [[] for _ in range(15)]
+    for iitem in temp_iplaces:
+        base_iplaces[iitem["type"]].append(iitem)
+    return base_iplaces
 
-def generate_evs(i_data, persontype):
-    if persontype > 4:
-        place = random.choice(i_data)
+def select_random_place(i_data, place_type, how_many):
+    list_of_places = []
+    i = 0
+    while i < how_many:
+        place = random.choice(i_data[place_type])
         rloc = {"typeID": place["type"],
                 "locID": place["id"],
                 "coordinates": place["coordinates"],
                 "coordinates_alt": place["coordinates_alt"]
                 }
-        return rloc
-    else:
-        return None
+        if dict(rloc) not in list_of_places:
+            list_of_places.append(dict(rloc))
+            i = i + 1
+    return list_of_places
 
-def generate_act(i_data, persontype):
-    if persontype > 2:
-        list_of_places = []
-        i = 0
-        while i < 1*persontype:
-            place = random.choice(i_data)
-            rloc = {"typeID": place["type"],
-                    "locID": place["id"],
-                    "coordinates": place["coordinates"],
-                    "coordinates_alt": place["coordinates_alt"]
-                    }
-            if dict(rloc) not in list_of_places:
-                list_of_places.append(dict(rloc))
-                i = i + 1
-        return list_of_places
-    else:
-        return None
-
-def generate_rws(i_data):
-    place = random.choice(i_data)
-    rloc = {"typeID": place["type"],
-            "locID": place["id"],
-            "coordinates": place["coordinates"],
-            "coordinates_alt": place["coordinates_alt"]
-            }
-    return rloc
-
-def generate_nice(i_data, persontype):
-    if persontype > 3:
-        list_of_places = []
-        i = 0
-        while i < 1*persontype:
-            place = random.choice(i_data)
-            rloc = {"typeID": place["type"],
-                    "locID": place["id"],
-                    "coordinates": place["coordinates"],
-                    "coordinates_alt": place["coordinates_alt"]
-                    }
-            if dict(rloc) not in list_of_places:
-                list_of_places.append(dict(rloc))
-                i = i + 1
-        return list_of_places
-    else:
-        return None
-
-def generate_health(i_data):
-    place = random.choice(i_data)
-    rloc = {"typeID": place["type"],
-            "locID": place["id"],
-            "coordinates": place["coordinates"],
-            "coordinates_alt": place["coordinates_alt"]
-            }
-    return rloc
+def select_closer_places(i_data, agent, place_type, how_many):
+    list_of_places = []
+    saving_list = []
+    i = 0
+    for iplace in i_data[place_type]:
+        temp_res = distance.cityblock(iplace["coordinates"] + iplace["coordinates_alt"],
+                                    agent['locations'][0]["coordinates"] + agent['locations'][0]["coordinates_alt"])
+        temp_work = temp_res + 1
+        if agent['typeID'] > 1 and len(agent['locations']) > 1:
+            temp_work = distance.cityblock(iplace["coordinates"] + iplace["coordinates_alt"],
+                                        agent['locations'][1]["coordinates"] + agent['locations'][1]["coordinates_alt"])
+        if len(saving_list) < how_many:
+            saving_list.append([i, temp_res if temp_res < temp_work else temp_work])
+        else:
+            saving_list.sort(key = lambda x: x[1])
+            j = 0
+            for saved_place in saving_list:
+                if temp_res < saved_place[1] or temp_work < saved_place[1]:
+                    saving_list[j] = [i, temp_res if temp_res < temp_work else temp_work]
+                j = j + 1
+        i = i + 1
+    for saved_place in saving_list:
+        rloc = {"typeID": i_data[place_type][saved_place[0]]["type"],
+                "locID": i_data[place_type][saved_place[0]]["id"],
+                "coordinates": i_data[place_type][saved_place[0]]["coordinates"],
+                "coordinates_alt": i_data[place_type][saved_place[0]]["coordinates_alt"]
+                }
+        list_of_places.append(dict(rloc))
+    return list_of_places
 
 def generate_ilocation(ifn, agents):
-    evening_schedule, activity, recreational_weekend_schedule, nicer_places, health_places = load_idata(ifn)
+    i_data = load_idata(ifn)
     for agent in agents:
-        ifeveningschedule = generate_evs(evening_schedule, agent['typeID'])
-        if ifeveningschedule != None:
-            agent['locations'].append(dict(ifeveningschedule))
-        ifactivity = generate_act(activity, agent['typeID'])
-        if ifactivity != None:
-            agent['locations'] = agent['locations'] + ifactivity
-        agent['locations'].append(dict(generate_rws(recreational_weekend_schedule)))
-        ifnice = generate_nice(nicer_places, agent['typeID'])
-        if ifnice != None:
-            agent['locations'] = agent['locations'] + ifnice
-        agent['locations'].append(dict(generate_health(health_places)))
-
+        if agent['typeID'] == 1:
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 10, 3)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
+        elif 1 < agent['typeID'] < 4:
+            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 8, 2)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
+        elif agent['typeID'] == 4:
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 6, 3)
+            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 7, 2)
+            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 8, 2)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 9, 3)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 10, 3)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
+        elif 4 < agent['typeID'] < 9:
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 5, 3)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 6, 3)
+            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 7, 2)
+            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 8, 2)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 9, 3)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 10, 3)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
 
 def generate_additional_locations(agentsfilein, agentsfileout, iplaces):
     sys.stdout.write("Loading agents")

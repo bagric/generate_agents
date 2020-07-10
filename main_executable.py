@@ -37,12 +37,13 @@ def main(argv):
         school_poi_process.process_input_data(file_prefix, schoolcsv, schoolpoi)
         work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
         intersting_poi_process.process_input_data(file_prefix, icsv, ipoi)
-        convert_poi.convert_data(respoi, schoolpoi, workpoi, locationout)
+        #convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, locationout)
     # default data generating when files are ready to be used
     generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
     generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
     generate_interesting_locations.generate_additional_locations(tempagentout, tempagentin, ipoi)
     convert_agents.convert_data(tempagentin, agentout)
+    convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, locationout)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
