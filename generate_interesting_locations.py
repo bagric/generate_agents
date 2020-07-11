@@ -37,6 +37,7 @@ def select_random_place(i_data, place_type, how_many):
 def select_closer_places(i_data, agent, place_type, how_many):
     list_of_places = []
     saving_list = []
+    random_stop = random.randint(int(len(i_data[place_type])/2), len(i_data[place_type]))
     i = 0
     for iplace in i_data[place_type]:
         temp_res = distance.cityblock(iplace["coordinates"] + iplace["coordinates_alt"],
@@ -54,6 +55,8 @@ def select_closer_places(i_data, agent, place_type, how_many):
                 if temp_res < saved_place[1] or temp_work < saved_place[1]:
                     saving_list[j] = [i, temp_res if temp_res < temp_work else temp_work]
                 j = j + 1
+        if i == random_stop:
+            break
         i = i + 1
     for saved_place in saving_list:
         rloc = {"typeID": i_data[place_type][saved_place[0]]["type"],
