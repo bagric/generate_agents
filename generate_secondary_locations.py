@@ -1,9 +1,11 @@
 import json
 import random
 import sys
+import useful_library
 
 from scipy.spatial import distance
 
+unschooled_counter = [0] * 4
 
 class Switch(dict):
     def __getitem__(self, item):
@@ -11,19 +13,6 @@ class Switch(dict):
             if item in key:                       # if the argument is part of that interval
                 return super().__getitem__(key)   # return its associated value
         raise KeyError(item)
-
-
-def load_schooldata(filename):
-    '''
-    Load a formatted JSON file with the location of schools
-
-    :param filename: Name of the file
-    '''
-    with open(filename, 'r') as f:
-        _schools = json.load(f)
-        _schools = _schools["places"]
-    return [v for v in sorted(_schools, key=lambda item: item["subtype"])]
-
 
 def school_switch(i):
     switcher = {
@@ -61,7 +50,8 @@ def findoccupation(schools, workplaces, locs, typeID):
                 return None
         else:
             return None
-    else:
+    # babies left out as requested
+    elif typeID > 1:
         snum = school_switch(typeID)
         i = 0
         for sch in schools:
@@ -87,8 +77,8 @@ def findoccupation(schools, workplaces, locs, typeID):
 
 
 def generate_occupation(sfn, wfn, agents):
-    sc_data = load_schooldata(sfn)
-    wp_data = load_schooldata(wfn)
+    sc_data = useful_library.load_data(sfn)
+    wp_data = useful_library.load_data(wfn)
     for agent in agents:
         ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
         if ifhasoccupation != None:
@@ -101,6 +91,10 @@ def generate_occupation(sfn, wfn, agents):
             agent['locations'].append(dict(ifhasoccupation))
         elif agent['typeID'] > 4:
             agent['typeID'] = 8
+        elif 1 < agent['typeID'] < 5:
+            unschooled_counter[agent['typeID']-1] = unschooled_counter[agent['typeID']-1] + 1
+            agent['typeID'] = 1
+            agent['age'] = random.choice([0, 1])
 
 
 def generate_additional_locations(agentsfilein, agentsfileout, schools, workplaces):
@@ -110,7 +104,7 @@ def generate_additional_locations(agentsfilein, agentsfileout, schools, workplac
     sys.stdout.write(" - done. Adding schools/workplaces")
 
     generate_occupation(schools, workplaces, person)
-
+    print(unschooled_counter)
     sys.stdout.write(" - done. Saving")
     with open(agentsfileout, 'w') as f:
         json.dump(person, f, indent="\t")

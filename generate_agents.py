@@ -1,6 +1,7 @@
 import json
 import random
 import sys
+#import useful_library
 
 def between(r, table):
     '''
@@ -584,6 +585,7 @@ def generate_agents(respoi, magic, tempout, tempstat):
             txt_file.write(str(res["ageDistribution"])+" id: "+str(res["id"])+" capacity: "+str(res["capacity"])+"\n")
 
     sys.stdout.write(" - done. Saving")
+    #adatok._people = useful_library.order_by_place(adatok._people, 0)
     adatok.savedata(tempout)
     print(" - done.")
     print(adatok._magicA)

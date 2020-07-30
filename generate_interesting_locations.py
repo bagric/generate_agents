@@ -1,39 +1,11 @@
 import json
 import random
 import sys
+import useful_library
+from scipy import spatial
+#from scipy.spatial import distance
 
-from scipy.spatial import distance
-
-def load_idata(filename):
-    '''
-    Load a formatted JSON file with the location of interesting places
-
-    :param filename: Name of the file
-    '''
-    with open(filename, 'r') as f:
-        _interestingp = json.load(f)
-        _interestingp = _interestingp["places"]
-    temp_iplaces = [v for v in sorted(_interestingp, key=lambda item: item["subtype"])]
-    base_iplaces = [[] for _ in range(15)]
-    for iitem in temp_iplaces:
-        base_iplaces[iitem["type"]].append(iitem)
-    return base_iplaces
-
-def select_random_place(i_data, place_type, how_many):
-    list_of_places = []
-    i = 0
-    while i < how_many:
-        place = random.choice(i_data[place_type])
-        rloc = {"typeID": place["type"],
-                "locID": place["id"],
-                "coordinates": place["coordinates"],
-                "coordinates_alt": place["coordinates_alt"]
-                }
-        if dict(rloc) not in list_of_places:
-            list_of_places.append(dict(rloc))
-            i = i + 1
-    return list_of_places
-
+'''
 def select_closer_places(i_data, agent, place_type, how_many):
     list_of_places = []
     saving_list = []
@@ -66,35 +38,55 @@ def select_closer_places(i_data, agent, place_type, how_many):
                 }
         list_of_places.append(dict(rloc))
     return list_of_places
+'''
 
 def generate_ilocation(ifn, agents):
-    i_data = load_idata(ifn)
+    i_data = useful_library.load_data(ifn, True)
+    i_distance_data = [[] for _ in range(len(i_data))]
+    i = 0
+    while i < len(i_data):
+        i_data[i] = useful_library.order_places(i_data[i])
+        if len(i_data[i]) > 1:
+            i_distance_data[i] = spatial.KDTree(useful_library.create_distance_data(i_data[i]))
+        else:
+            i_distance_data[i] = useful_library.create_distance_data(i_data[i])
+        i = i + 1
     for agent in agents:
         if agent['typeID'] == 1:
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 10, 3)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 10, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 14, 1)
         elif 1 < agent['typeID'] < 4:
-            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 8, 2)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[8], i_distance_data[8], agent['locations'][0], 2)
+            if len(agent['locations']) > 2:
+                agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[8], i_distance_data[8], agent['locations'][1], 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 14, 1)
         elif agent['typeID'] == 4:
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 6, 3)
-            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 7, 2)
-            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 8, 2)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 9, 3)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 10, 3)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 6, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[7], i_distance_data[7], agent['locations'][0], 2)
+            if len(agent['locations']) > 2:
+                agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[7], i_distance_data[7], agent['locations'][1], 1)
+            agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[8], i_distance_data[8], agent['locations'][0], 2)
+            if len(agent['locations']) > 2:
+                agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[8], i_distance_data[8], agent['locations'][1], 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 9, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 10, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 14, 1)
         elif 4 < agent['typeID'] < 9:
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 5, 3)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 6, 3)
-            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 7, 2)
-            agent['locations'] = agent['locations'] + select_closer_places(i_data, agent, 8, 2)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 9, 3)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 10, 3)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 12, 1)
-            agent['locations'] = agent['locations'] + select_random_place(i_data, 14, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 5, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 6, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[7], i_distance_data[7], agent['locations'][0], 2)
+            if len(agent['locations']) > 2:
+                agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[7], i_distance_data[7], agent['locations'][1], 1)
+            agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[8], i_distance_data[8], agent['locations'][0], 2)
+            if len(agent['locations']) > 2:
+                agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[8], i_distance_data[8], agent['locations'][1], 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 9, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 10, 3)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 12, 1)
+            agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 14, 1)
 
 def generate_additional_locations(agentsfilein, agentsfileout, iplaces):
     sys.stdout.write("Loading agents")

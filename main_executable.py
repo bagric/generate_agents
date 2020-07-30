@@ -5,6 +5,7 @@ import intersting_poi_process
 import generate_agents
 import generate_secondary_locations
 import generate_interesting_locations
+import generate_public_locations
 import convert_poi
 import convert_agents
 import sys
@@ -22,6 +23,8 @@ workcsv      = "workpoi_" + file_prefix + ".csv"
 workpoi      = file_prefix + "_workpoi.json"
 icsv         = "interestingpoi" + file_prefix + ".csv"
 ipoi         = file_prefix + "_interestingpoi.json"
+publiccsv    = "publicpoi" + file_prefix + ".csv"
+publicpoi    = file_prefix + "_publicpoi.json"
 tempagentin  = file_prefix + "_agents_temp.json"
 tempagentout = file_prefix + "_agents_temp_sec.json"
 tempstat     = file_prefix + "_stat.txt"
@@ -41,9 +44,10 @@ def main(argv):
     # default data generating when files are ready to be used
     generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
     generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
-    generate_interesting_locations.generate_additional_locations(tempagentout, tempagentin, ipoi)
-    convert_agents.convert_data(tempagentin, agentout)
-    convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, locationout)
+    generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
+    generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
+    convert_agents.convert_data(tempagentout, agentout)
+    convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, locationout)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
