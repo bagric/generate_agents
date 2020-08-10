@@ -19,7 +19,7 @@ def process_input_data(prefix, icsv, ipoifile):
             row[5] = float(row[5].replace(",", "."))
             places = {'id': row[7],
                       'type': int(row[0]),
-                      'subtype': row[1],
+                      'subtype': "int_" + row[1],
                       'coordinates': [row[5], row[4]],
                       'coordinates_alt': [int(row[3]), int(row[2])],
                       'area': 0,
