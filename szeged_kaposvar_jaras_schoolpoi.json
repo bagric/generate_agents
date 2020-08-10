@@ -1,0 +1,11237 @@
+{
+	"area": "szeged_kaposvar_jaras",
+	"places": [
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.200553,
+				46.33019
+			],
+			"area": 0,
+			"id": "3738789110175",
+			"coordinates_alt": [
+				110175,
+				738789
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.268067,
+				46.30724
+			],
+			"area": 0,
+			"id": "3744027107703",
+			"coordinates_alt": [
+				107703,
+				744027
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.681947,
+				46.333278
+			],
+			"area": 0,
+			"id": "3544861110784",
+			"coordinates_alt": [
+				110784,
+				544861
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.651587,
+				46.495003
+			],
+			"area": 0,
+			"id": "3542845128800",
+			"coordinates_alt": [
+				128800,
+				542845
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.554061,
+				46.300075
+			],
+			"area": 0,
+			"id": "3534945107274",
+			"coordinates_alt": [
+				107274,
+				534945
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.243053,
+				46.221497
+			],
+			"area": 0,
+			"id": "374224698143",
+			"coordinates_alt": [
+				98143,
+				742246
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.243749,
+				46.219528
+			],
+			"area": 0,
+			"id": "374230397925",
+			"coordinates_alt": [
+				97925,
+				742303
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.247688,
+				46.218875
+			],
+			"area": 0,
+			"id": "374260897857",
+			"coordinates_alt": [
+				97857,
+				742608
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.136312,
+				46.437243
+			],
+			"area": 0,
+			"id": "3733677122003",
+			"coordinates_alt": [
+				122003,
+				733677
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.002363,
+				46.244666
+			],
+			"area": 0,
+			"id": "3723645100463",
+			"coordinates_alt": [
+				100463,
+				723645
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				18.012831,
+				46.436538
+			],
+			"area": 0,
+			"id": "3570488121870",
+			"coordinates_alt": [
+				121870,
+				570488
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.690981,
+				46.422101
+			],
+			"area": 0,
+			"id": "3545728120644",
+			"coordinates_alt": [
+				120644,
+				545728
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.938382,
+				46.53415
+			],
+			"area": 0,
+			"id": "3564921132798",
+			"coordinates_alt": [
+				132798,
+				564921
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.937386,
+				46.539448
+			],
+			"area": 0,
+			"id": "3564853133388",
+			"coordinates_alt": [
+				133388,
+				564853
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.939468,
+				46.529509
+			],
+			"area": 0,
+			"id": "3564997132281",
+			"coordinates_alt": [
+				132281,
+				564997
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.55216,
+				46.332702
+			],
+			"area": 0,
+			"id": "3534868110903",
+			"coordinates_alt": [
+				110903,
+				534868
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.735915,
+				46.405114
+			],
+			"area": 0,
+			"id": "3549150118697",
+			"coordinates_alt": [
+				118697,
+				549150
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.615518,
+				46.230792
+			],
+			"area": 0,
+			"id": "353953899485",
+			"coordinates_alt": [
+				99485,
+				539538
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.61925,
+				46.232351
+			],
+			"area": 0,
+			"id": "353982999653",
+			"coordinates_alt": [
+				99653,
+				539829
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.66285,
+				46.360775
+			],
+			"area": 0,
+			"id": "3543445113866",
+			"coordinates_alt": [
+				113866,
+				543445
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.703776,
+				46.360685
+			],
+			"area": 0,
+			"id": "3546594113801",
+			"coordinates_alt": [
+				113801,
+				546594
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.788432,
+				46.356623
+			],
+			"area": 0,
+			"id": "3553101113241",
+			"coordinates_alt": [
+				113241,
+				553101
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.796894,
+				46.356511
+			],
+			"area": 0,
+			"id": "3553752113218",
+			"coordinates_alt": [
+				113218,
+				553752
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.779599,
+				46.374771
+			],
+			"area": 0,
+			"id": "3552454115269",
+			"coordinates_alt": [
+				115269,
+				552454
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.766115,
+				46.353007
+			],
+			"area": 0,
+			"id": "3551377112867",
+			"coordinates_alt": [
+				112867,
+				551377
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.833331,
+				46.392942
+			],
+			"area": 0,
+			"id": "3556619117223",
+			"coordinates_alt": [
+				117223,
+				556619
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.780493,
+				46.367124
+			],
+			"area": 0,
+			"id": "3552509114418",
+			"coordinates_alt": [
+				114418,
+				552509
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.778128,
+				46.413622
+			],
+			"area": 0,
+			"id": "3552411119589",
+			"coordinates_alt": [
+				119589,
+				552411
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.793902,
+				46.363378
+			],
+			"area": 0,
+			"id": "3553534113985",
+			"coordinates_alt": [
+				113985,
+				553534
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.817973,
+				46.356392
+			],
+			"area": 0,
+			"id": "3555374113179",
+			"coordinates_alt": [
+				113179,
+				555374
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.777548,
+				46.365256
+			],
+			"area": 0,
+			"id": "3552279114214",
+			"coordinates_alt": [
+				114214,
+				552279
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.772847,
+				46.345805
+			],
+			"area": 0,
+			"id": "3551882112058",
+			"coordinates_alt": [
+				112058,
+				551882
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.800282,
+				46.362855
+			],
+			"area": 0,
+			"id": "3554024113919",
+			"coordinates_alt": [
+				113919,
+				554024
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.774957,
+				46.364345
+			],
+			"area": 0,
+			"id": "3552078114116",
+			"coordinates_alt": [
+				114116,
+				552078
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.788967,
+				46.360444
+			],
+			"area": 0,
+			"id": "3553149113665",
+			"coordinates_alt": [
+				113665,
+				553149
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.788111,
+				46.369846
+			],
+			"area": 0,
+			"id": "3553100114711",
+			"coordinates_alt": [
+				114711,
+				553100
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.800547,
+				46.363209
+			],
+			"area": 0,
+			"id": "3554045113958",
+			"coordinates_alt": [
+				113958,
+				554045
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.793614,
+				46.362889
+			],
+			"area": 0,
+			"id": "3553511113931",
+			"coordinates_alt": [
+				113931,
+				553511
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.786767,
+				46.363371
+			],
+			"area": 0,
+			"id": "3552985113993",
+			"coordinates_alt": [
+				113993,
+				552985
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.788642,
+				46.356554
+			],
+			"area": 0,
+			"id": "3553117113233",
+			"coordinates_alt": [
+				113233,
+				553117
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.792274,
+				46.360724
+			],
+			"area": 0,
+			"id": "3553404113692",
+			"coordinates_alt": [
+				113692,
+				553404
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.817973,
+				46.356392
+			],
+			"area": 0,
+			"id": "3555374113179",
+			"coordinates_alt": [
+				113179,
+				555374
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.275299,
+				46.14913
+			],
+			"area": 0,
+			"id": "374486090138",
+			"coordinates_alt": [
+				90138,
+				744860
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.817084,
+				46.507407
+			],
+			"area": 0,
+			"id": "3555570129965",
+			"coordinates_alt": [
+				129965,
+				555570
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.639834,
+				46.431183
+			],
+			"area": 0,
+			"id": "3541815121723",
+			"coordinates_alt": [
+				121723,
+				541815
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.533087,
+				46.241941
+			],
+			"area": 0,
+			"id": "3533204100844",
+			"coordinates_alt": [
+				100844,
+				533204
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.992215,
+				46.35552
+			],
+			"area": 0,
+			"id": "3568782112886",
+			"coordinates_alt": [
+				112886,
+				568782
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.510169,
+				46.393835
+			],
+			"area": 0,
+			"id": "3531769117760",
+			"coordinates_alt": [
+				117760,
+				531769
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.511805,
+				46.392111
+			],
+			"area": 0,
+			"id": "3531891117566",
+			"coordinates_alt": [
+				117566,
+				531891
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				18.001243,
+				46.359653
+			],
+			"area": 0,
+			"id": "3569483113336",
+			"coordinates_alt": [
+				113336,
+				569483
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.668682,
+				46.522457
+			],
+			"area": 0,
+			"id": "3544211131828",
+			"coordinates_alt": [
+				131828,
+				544211
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.037632,
+				46.187782
+			],
+			"area": 0,
+			"id": "372644594174",
+			"coordinates_alt": [
+				94174,
+				726445
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.095047,
+				46.360719
+			],
+			"area": 0,
+			"id": "3730620113454",
+			"coordinates_alt": [
+				113454,
+				730620
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.56859,
+				46.501947
+			],
+			"area": 0,
+			"id": "3536489129689",
+			"coordinates_alt": [
+				129689,
+				536489
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.77497,
+				46.526672
+			],
+			"area": 0,
+			"id": "3552373132158",
+			"coordinates_alt": [
+				132158,
+				552373
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.717167,
+				46.491988
+			],
+			"area": 0,
+			"id": "3547873128377",
+			"coordinates_alt": [
+				128377,
+				547873
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.598339,
+				46.411682
+			],
+			"area": 0,
+			"id": "3538586119614",
+			"coordinates_alt": [
+				119614,
+				538586
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.042344,
+				46.344668
+			],
+			"area": 0,
+			"id": "3726587111617",
+			"coordinates_alt": [
+				111617,
+				726587
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.04331,
+				46.345622
+			],
+			"area": 0,
+			"id": "3726660111724",
+			"coordinates_alt": [
+				111724,
+				726660
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.138596,
+				46.242188
+			],
+			"area": 0,
+			"id": "3734155100325",
+			"coordinates_alt": [
+				100325,
+				734155
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.160236,
+				46.268058
+			],
+			"area": 0,
+			"id": "3735783103224",
+			"coordinates_alt": [
+				103224,
+				735783
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.166986,
+				46.261343
+			],
+			"area": 0,
+			"id": "3736314102485",
+			"coordinates_alt": [
+				102485,
+				736314
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.156954,
+				46.26935
+			],
+			"area": 0,
+			"id": "3735528103364",
+			"coordinates_alt": [
+				103364,
+				735528
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.142094,
+				46.259419
+			],
+			"area": 0,
+			"id": "3734398102244",
+			"coordinates_alt": [
+				102244,
+				734398
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.160964,
+				46.269382
+			],
+			"area": 0,
+			"id": "3735837103372",
+			"coordinates_alt": [
+				103372,
+				735837
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.145916,
+				46.245716
+			],
+			"area": 0,
+			"id": "3734714100725",
+			"coordinates_alt": [
+				100725,
+				734714
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.145714,
+				46.258826
+			],
+			"area": 0,
+			"id": "3734678102182",
+			"coordinates_alt": [
+				102182,
+				734678
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.071233,
+				46.269594
+			],
+			"area": 0,
+			"id": "3728920103301",
+			"coordinates_alt": [
+				103301,
+				728920
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.175024,
+				46.244277
+			],
+			"area": 0,
+			"id": "3736961100597",
+			"coordinates_alt": [
+				100597,
+				736961
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.138389,
+				46.270575
+			],
+			"area": 0,
+			"id": "3734095103480",
+			"coordinates_alt": [
+				103480,
+				734095
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.146058,
+				46.247631
+			],
+			"area": 0,
+			"id": "3734722100938",
+			"coordinates_alt": [
+				100938,
+				734722
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.133292,
+				46.247322
+			],
+			"area": 0,
+			"id": "3733738100890",
+			"coordinates_alt": [
+				100890,
+				733738
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.135258,
+				46.239323
+			],
+			"area": 0,
+			"id": "3733902100003",
+			"coordinates_alt": [
+				100003,
+				733902
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.171622,
+				46.263492
+			],
+			"area": 0,
+			"id": "3736668102729",
+			"coordinates_alt": [
+				102729,
+				736668
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.151789,
+				46.274322
+			],
+			"area": 0,
+			"id": "3735122103911",
+			"coordinates_alt": [
+				103911,
+				735122
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.14675,
+				46.255532
+			],
+			"area": 0,
+			"id": "3734763101817",
+			"coordinates_alt": [
+				101817,
+				734763
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.112364,
+				46.236204
+			],
+			"area": 0,
+			"id": "373214199632",
+			"coordinates_alt": [
+				99632,
+				732141
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.161972,
+				46.27298
+			],
+			"area": 0,
+			"id": "3735909103773",
+			"coordinates_alt": [
+				103773,
+				735909
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.166017,
+				46.272229
+			],
+			"area": 0,
+			"id": "3736222103694",
+			"coordinates_alt": [
+				103694,
+				736222
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.061735,
+				46.275015
+			],
+			"area": 0,
+			"id": "3728180103894",
+			"coordinates_alt": [
+				103894,
+				728180
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.158212,
+				46.243976
+			],
+			"area": 0,
+			"id": "3735665100545",
+			"coordinates_alt": [
+				100545,
+				735665
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.19715,
+				46.218151
+			],
+			"area": 0,
+			"id": "373871097718",
+			"coordinates_alt": [
+				97718,
+				738710
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.193664,
+				46.259923
+			],
+			"area": 0,
+			"id": "3738373102357",
+			"coordinates_alt": [
+				102357,
+				738373
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.135721,
+				46.267605
+			],
+			"area": 0,
+			"id": "3733894103147",
+			"coordinates_alt": [
+				103147,
+				733894
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.157129,
+				46.24745
+			],
+			"area": 0,
+			"id": "3735576100930",
+			"coordinates_alt": [
+				100930,
+				735576
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.156815,
+				46.259356
+			],
+			"area": 0,
+			"id": "3735533102253",
+			"coordinates_alt": [
+				102253,
+				735533
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.138639,
+				46.246254
+			],
+			"area": 0,
+			"id": "3734152100777",
+			"coordinates_alt": [
+				100777,
+				734152
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.180954,
+				46.263749
+			],
+			"area": 0,
+			"id": "3737387102768",
+			"coordinates_alt": [
+				102768,
+				737387
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.140706,
+				46.250373
+			],
+			"area": 0,
+			"id": "3734305101237",
+			"coordinates_alt": [
+				101237,
+				734305
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.126916,
+				46.259304
+			],
+			"area": 0,
+			"id": "3733228102215",
+			"coordinates_alt": [
+				102215,
+				733228
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.137121,
+				46.257209
+			],
+			"area": 0,
+			"id": "3734018101993",
+			"coordinates_alt": [
+				101993,
+				734018
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.155801,
+				46.259249
+			],
+			"area": 0,
+			"id": "3735455102240",
+			"coordinates_alt": [
+				102240,
+				735455
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.729535,
+				46.308355
+			],
+			"area": 0,
+			"id": "3548478107951",
+			"coordinates_alt": [
+				107951,
+				548478
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.895963,
+				46.320444
+			],
+			"area": 0,
+			"id": "3561317109092",
+			"coordinates_alt": [
+				109092,
+				561317
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				17.902571,
+				46.372082
+			],
+			"area": 0,
+			"id": "3561910114824",
+			"coordinates_alt": [
+				114824,
+				561910
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 400,
+			"coordinates": [
+				20.162321,
+				46.17574
+			],
+			"area": 0,
+			"id": "373609092965",
+			"coordinates_alt": [
+				92965,
+				736090
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00e1ltal\u00e1nos iskola"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.211978,
+				46.336623
+			],
+			"area": 0,
+			"id": "3739658110903",
+			"coordinates_alt": [
+				110903,
+				739658
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.251897,
+				46.219901
+			],
+			"area": 0,
+			"id": "374293197976",
+			"coordinates_alt": [
+				97976,
+				742931
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.231852,
+				46.223757
+			],
+			"area": 0,
+			"id": "374137898381",
+			"coordinates_alt": [
+				98381,
+				741378
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				19.998417,
+				46.246696
+			],
+			"area": 0,
+			"id": "3723338100685",
+			"coordinates_alt": [
+				100685,
+				723338
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.692115,
+				46.418902
+			],
+			"area": 0,
+			"id": "3545809120287",
+			"coordinates_alt": [
+				120287,
+				545809
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.788989,
+				46.36452
+			],
+			"area": 0,
+			"id": "3553158114118",
+			"coordinates_alt": [
+				114118,
+				553158
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.789538,
+				46.360469
+			],
+			"area": 0,
+			"id": "3553193113667",
+			"coordinates_alt": [
+				113667,
+				553193
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.780234,
+				46.373761
+			],
+			"area": 0,
+			"id": "3552501115156",
+			"coordinates_alt": [
+				115156,
+				552501
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.786605,
+				46.361399
+			],
+			"area": 0,
+			"id": "3552969113774",
+			"coordinates_alt": [
+				113774,
+				552969
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.794101,
+				46.349192
+			],
+			"area": 0,
+			"id": "3553524112408",
+			"coordinates_alt": [
+				112408,
+				553524
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.796478,
+				46.362129
+			],
+			"area": 0,
+			"id": "3553730113843",
+			"coordinates_alt": [
+				113843,
+				553730
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.807108,
+				46.342885
+			],
+			"area": 0,
+			"id": "3554514111691",
+			"coordinates_alt": [
+				111691,
+				554514
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.818844,
+				46.357553
+			],
+			"area": 0,
+			"id": "3555443113307",
+			"coordinates_alt": [
+				113307,
+				555443
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.793678,
+				46.365211
+			],
+			"area": 0,
+			"id": "3553520114189",
+			"coordinates_alt": [
+				114189,
+				553520
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.779356,
+				46.366293
+			],
+			"area": 0,
+			"id": "3552420114327",
+			"coordinates_alt": [
+				114327,
+				552420
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.758239,
+				46.322021
+			],
+			"area": 0,
+			"id": "3550714109433",
+			"coordinates_alt": [
+				109433,
+				550714
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.32353162,
+				46.21793121
+			],
+			"area": 0,
+			"id": "374845697840",
+			"coordinates_alt": [
+				97840,
+				748456
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.508709,
+				46.391673
+			],
+			"area": 0,
+			"id": "3531652117522",
+			"coordinates_alt": [
+				117522,
+				531652
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.039,
+				46.19037
+			],
+			"area": 0,
+			"id": "372654794463",
+			"coordinates_alt": [
+				94463,
+				726547
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.09643,
+				46.359662
+			],
+			"area": 0,
+			"id": "3730728113338",
+			"coordinates_alt": [
+				113338,
+				730728
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.11385977,
+				46.36234884
+			],
+			"area": 0,
+			"id": "3732060113650",
+			"coordinates_alt": [
+				113650,
+				732060
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.715621,
+				46.489703
+			],
+			"area": 0,
+			"id": "3547750128125",
+			"coordinates_alt": [
+				128125,
+				547750
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.04890647,
+				46.34460791
+			],
+			"area": 0,
+			"id": "3727087111612",
+			"coordinates_alt": [
+				111612,
+				727087
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.064769,
+				46.274906
+			],
+			"area": 0,
+			"id": "3728414103885",
+			"coordinates_alt": [
+				103885,
+				728414
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.149145,
+				46.266817
+			],
+			"area": 0,
+			"id": "3734930103074",
+			"coordinates_alt": [
+				103074,
+				734930
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.134551,
+				46.239609
+			],
+			"area": 0,
+			"id": "3733847100034",
+			"coordinates_alt": [
+				100034,
+				733847
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.171377,
+				46.266076
+			],
+			"area": 0,
+			"id": "3736645103016",
+			"coordinates_alt": [
+				103016,
+				736645
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.161161,
+				46.271405
+			],
+			"area": 0,
+			"id": "3735849103597",
+			"coordinates_alt": [
+				103597,
+				735849
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.152962,
+				46.275894
+			],
+			"area": 0,
+			"id": "3735210104087",
+			"coordinates_alt": [
+				104087,
+				735210
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.166142,
+				46.267613
+			],
+			"area": 0,
+			"id": "3736239103181",
+			"coordinates_alt": [
+				103181,
+				736239
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.136769,
+				46.246776
+			],
+			"area": 0,
+			"id": "3734007100833",
+			"coordinates_alt": [
+				100833,
+				734007
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.130786,
+				46.265376
+			],
+			"area": 0,
+			"id": "3733517102894",
+			"coordinates_alt": [
+				102894,
+				733517
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.133512,
+				46.266744
+			],
+			"area": 0,
+			"id": "3733725103049",
+			"coordinates_alt": [
+				103049,
+				733725
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.082679,
+				46.223535
+			],
+			"area": 0,
+			"id": "372987098193",
+			"coordinates_alt": [
+				98193,
+				729870
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.169027,
+				46.242762
+			],
+			"area": 0,
+			"id": "3736501100422",
+			"coordinates_alt": [
+				100422,
+				736501
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.156522,
+				46.243758
+			],
+			"area": 0,
+			"id": "3735535100519",
+			"coordinates_alt": [
+				100519,
+				735535
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.144725,
+				46.246474
+			],
+			"area": 0,
+			"id": "3734621100808",
+			"coordinates_alt": [
+				100808,
+				734621
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.197058,
+				46.217495
+			],
+			"area": 0,
+			"id": "373870497645",
+			"coordinates_alt": [
+				97645,
+				738704
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.08301594,
+				46.22134277
+			],
+			"area": 0,
+			"id": "372989497945",
+			"coordinates_alt": [
+				97945,
+				729894
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.18132234,
+				46.24458898
+			],
+			"area": 0,
+			"id": "3737441100634",
+			"coordinates_alt": [
+				100634,
+				737441
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.19097204,
+				46.22991667
+			],
+			"area": 0,
+			"id": "373820999014",
+			"coordinates_alt": [
+				99014,
+				738209
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.144255,
+				46.243752
+			],
+			"area": 0,
+			"id": "3734589100505",
+			"coordinates_alt": [
+				100505,
+				734589
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.14485043,
+				46.24867452
+			],
+			"area": 0,
+			"id": "3734622101048",
+			"coordinates_alt": [
+				101048,
+				734622
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.13693585,
+				46.25234997
+			],
+			"area": 0,
+			"id": "3734006101448",
+			"coordinates_alt": [
+				101448,
+				734006
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.167373,
+				46.280718
+			],
+			"area": 0,
+			"id": "3736313104639",
+			"coordinates_alt": [
+				104639,
+				736313
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.18642299,
+				46.24604003
+			],
+			"area": 0,
+			"id": "3737832100801",
+			"coordinates_alt": [
+				100801,
+				737832
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.15400983,
+				46.27621411
+			],
+			"area": 0,
+			"id": "3735285104119",
+			"coordinates_alt": [
+				104119,
+				735285
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.205152,
+				46.260948
+			],
+			"area": 0,
+			"id": "3739257102484",
+			"coordinates_alt": [
+				102484,
+				739257
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.171195,
+				46.277324
+			],
+			"area": 0,
+			"id": "3736613104266",
+			"coordinates_alt": [
+				104266,
+				736613
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.13369312,
+				46.25815716
+			],
+			"area": 0,
+			"id": "3733747102090",
+			"coordinates_alt": [
+				102090,
+				733747
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.16150308,
+				46.25885752
+			],
+			"area": 0,
+			"id": "3735890102198",
+			"coordinates_alt": [
+				102198,
+				735890
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.171195,
+				46.277324
+			],
+			"area": 0,
+			"id": "3736613104266",
+			"coordinates_alt": [
+				104266,
+				736613
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.18138208,
+				46.24248312
+			],
+			"area": 0,
+			"id": "3737449100400",
+			"coordinates_alt": [
+				100400,
+				737449
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.186622,
+				46.229729
+			],
+			"area": 0,
+			"id": "373787998993",
+			"coordinates_alt": [
+				98993,
+				737879
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.18141074,
+				46.2612322
+			],
+			"area": 0,
+			"id": "3737421102484",
+			"coordinates_alt": [
+				102484,
+				737421
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				20.119988,
+				46.240189
+			],
+			"area": 0,
+			"id": "3732723100083",
+			"coordinates_alt": [
+				100083,
+				732723
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 40,
+			"coordinates": [
+				17.902161,
+				46.376117
+			],
+			"area": 0,
+			"id": "3561885115273",
+			"coordinates_alt": [
+				115273,
+				561885
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "b\u00f6lcs\u0151de"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.268067,
+				46.30724
+			],
+			"area": 0,
+			"id": "3744027107703",
+			"coordinates_alt": [
+				107703,
+				744027
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				17.788432,
+				46.356623
+			],
+			"area": 0,
+			"id": "3553101113241",
+			"coordinates_alt": [
+				113241,
+				553101
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				17.777548,
+				46.365256
+			],
+			"area": 0,
+			"id": "3552279114214",
+			"coordinates_alt": [
+				114214,
+				552279
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				17.793752,
+				46.358635
+			],
+			"area": 0,
+			"id": "3553514113458",
+			"coordinates_alt": [
+				113458,
+				553514
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				17.794434,
+				46.355017
+			],
+			"area": 0,
+			"id": "3553560113055",
+			"coordinates_alt": [
+				113055,
+				553560
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				17.791054,
+				46.362321
+			],
+			"area": 0,
+			"id": "3553313113871",
+			"coordinates_alt": [
+				113871,
+				553313
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				17.792632,
+				46.354817
+			],
+			"area": 0,
+			"id": "3553421113035",
+			"coordinates_alt": [
+				113035,
+				553421
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				17.792274,
+				46.360724
+			],
+			"area": 0,
+			"id": "3553404113692",
+			"coordinates_alt": [
+				113692,
+				553404
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.095047,
+				46.360719
+			],
+			"area": 0,
+			"id": "3730620113454",
+			"coordinates_alt": [
+				113454,
+				730620
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.138596,
+				46.242188
+			],
+			"area": 0,
+			"id": "3734155100325",
+			"coordinates_alt": [
+				100325,
+				734155
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.160236,
+				46.268058
+			],
+			"area": 0,
+			"id": "3735783103224",
+			"coordinates_alt": [
+				103224,
+				735783
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.157058,
+				46.26997
+			],
+			"area": 0,
+			"id": "3735535103433",
+			"coordinates_alt": [
+				103433,
+				735535
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.15151,
+				46.249817
+			],
+			"area": 0,
+			"id": "3735139101187",
+			"coordinates_alt": [
+				101187,
+				735139
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.164723,
+				46.267996
+			],
+			"area": 0,
+			"id": "3736129103222",
+			"coordinates_alt": [
+				103222,
+				736129
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.146058,
+				46.247631
+			],
+			"area": 0,
+			"id": "3734722100938",
+			"coordinates_alt": [
+				100938,
+				734722
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.133292,
+				46.247322
+			],
+			"area": 0,
+			"id": "3733738100890",
+			"coordinates_alt": [
+				100890,
+				733738
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.140131,
+				46.268201
+			],
+			"area": 0,
+			"id": "3734233103218",
+			"coordinates_alt": [
+				103218,
+				734233
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.138925,
+				46.255977
+			],
+			"area": 0,
+			"id": "3734159101858",
+			"coordinates_alt": [
+				101858,
+				734159
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.156939,
+				46.259733
+			],
+			"area": 0,
+			"id": "3735542102295",
+			"coordinates_alt": [
+				102295,
+				735542
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.127133,
+				46.253265
+			],
+			"area": 0,
+			"id": "3733254101544",
+			"coordinates_alt": [
+				101544,
+				733254
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.155695,
+				46.255957
+			],
+			"area": 0,
+			"id": "3735452101874",
+			"coordinates_alt": [
+				101874,
+				735452
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.140131,
+				46.268201
+			],
+			"area": 0,
+			"id": "3734233103218",
+			"coordinates_alt": [
+				103218,
+				734233
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.154045,
+				46.255847
+			],
+			"area": 0,
+			"id": "3735325101860",
+			"coordinates_alt": [
+				101860,
+				735325
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.141036,
+				46.247445
+			],
+			"area": 0,
+			"id": "3734335100912",
+			"coordinates_alt": [
+				100912,
+				734335
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.137121,
+				46.257209
+			],
+			"area": 0,
+			"id": "3734018101993",
+			"coordinates_alt": [
+				101993,
+				734018
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.155801,
+				46.259249
+			],
+			"area": 0,
+			"id": "3735455102240",
+			"coordinates_alt": [
+				102240,
+				735455
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 350,
+			"coordinates": [
+				20.155322,
+				46.259281
+			],
+			"area": 0,
+			"id": "3735418102243",
+			"coordinates_alt": [
+				102243,
+				735418
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "gimn\u00e1zium"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.212387,
+				46.336313
+			],
+			"area": 0,
+			"id": "3739690110869",
+			"coordinates_alt": [
+				110869,
+				739690
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.686905,
+				46.325142
+			],
+			"area": 0,
+			"id": "3545227109873",
+			"coordinates_alt": [
+				109873,
+				545227
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.966423,
+				46.357408
+			],
+			"area": 0,
+			"id": "3566800113123",
+			"coordinates_alt": [
+				113123,
+				566800
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.651587,
+				46.495003
+			],
+			"area": 0,
+			"id": "3542845128800",
+			"coordinates_alt": [
+				128800,
+				542845
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.96436,
+				46.464289
+			],
+			"area": 0,
+			"id": "3566806125005",
+			"coordinates_alt": [
+				125005,
+				566806
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.557949,
+				46.300307
+			],
+			"area": 0,
+			"id": "3535245107294",
+			"coordinates_alt": [
+				107294,
+				535245
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.231852,
+				46.223757
+			],
+			"area": 0,
+			"id": "374137898381",
+			"coordinates_alt": [
+				98381,
+				741378
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.243053,
+				46.221497
+			],
+			"area": 0,
+			"id": "374224698143",
+			"coordinates_alt": [
+				98143,
+				742246
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.247688,
+				46.218875
+			],
+			"area": 0,
+			"id": "374260897857",
+			"coordinates_alt": [
+				97857,
+				742608
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.13626,
+				46.434688
+			],
+			"area": 0,
+			"id": "3733677121719",
+			"coordinates_alt": [
+				121719,
+				733677
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				19.998417,
+				46.246696
+			],
+			"area": 0,
+			"id": "3723338100685",
+			"coordinates_alt": [
+				100685,
+				723338
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.352196,
+				46.215653
+			],
+			"area": 0,
+			"id": "375067797628",
+			"coordinates_alt": [
+				97628,
+				750677
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.883429,
+				46.259038
+			],
+			"area": 0,
+			"id": "3560250102281",
+			"coordinates_alt": [
+				102281,
+				560250
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				18.012831,
+				46.436538
+			],
+			"area": 0,
+			"id": "3570488121870",
+			"coordinates_alt": [
+				121870,
+				570488
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.6513,
+				46.19609
+			],
+			"area": 0,
+			"id": "354222995578",
+			"coordinates_alt": [
+				95578,
+				542229
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.690981,
+				46.422101
+			],
+			"area": 0,
+			"id": "3545728120644",
+			"coordinates_alt": [
+				120644,
+				545728
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.9376,
+				46.536652
+			],
+			"area": 0,
+			"id": "3564865133077",
+			"coordinates_alt": [
+				133077,
+				564865
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.552579,
+				46.331655
+			],
+			"area": 0,
+			"id": "3534898110786",
+			"coordinates_alt": [
+				110786,
+				534898
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.729716,
+				46.408101
+			],
+			"area": 0,
+			"id": "3548679119037",
+			"coordinates_alt": [
+				119037,
+				548679
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.615718,
+				46.229103
+			],
+			"area": 0,
+			"id": "353955099297",
+			"coordinates_alt": [
+				99297,
+				539550
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.660736,
+				46.363655
+			],
+			"area": 0,
+			"id": "3543288114189",
+			"coordinates_alt": [
+				114189,
+				543288
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.705631,
+				46.359754
+			],
+			"area": 0,
+			"id": "3546735113695",
+			"coordinates_alt": [
+				113695,
+				546735
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.780234,
+				46.373761
+			],
+			"area": 0,
+			"id": "3552501115156",
+			"coordinates_alt": [
+				115156,
+				552501
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.785018,
+				46.363144
+			],
+			"area": 0,
+			"id": "3552850113970",
+			"coordinates_alt": [
+				113970,
+				552850
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.791731,
+				46.358352
+			],
+			"area": 0,
+			"id": "3553358113429",
+			"coordinates_alt": [
+				113429,
+				553358
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.809583,
+				46.357937
+			],
+			"area": 0,
+			"id": "3554731113361",
+			"coordinates_alt": [
+				113361,
+				554731
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.778402,
+				46.364851
+			],
+			"area": 0,
+			"id": "3552344114168",
+			"coordinates_alt": [
+				114168,
+				552344
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.791945,
+				46.36539
+			],
+			"area": 0,
+			"id": "3553387114211",
+			"coordinates_alt": [
+				114211,
+				553387
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.766115,
+				46.353007
+			],
+			"area": 0,
+			"id": "3551377112867",
+			"coordinates_alt": [
+				112867,
+				551377
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.794631,
+				46.362217
+			],
+			"area": 0,
+			"id": "3553588113855",
+			"coordinates_alt": [
+				113855,
+				553588
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.785773,
+				46.35142
+			],
+			"area": 0,
+			"id": "3552887112666",
+			"coordinates_alt": [
+				112666,
+				552887
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.775574,
+				46.345863
+			],
+			"area": 0,
+			"id": "3552092112061",
+			"coordinates_alt": [
+				112061,
+				552092
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.837009,
+				46.354699
+			],
+			"area": 0,
+			"id": "3556836112968",
+			"coordinates_alt": [
+				112968,
+				556836
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.782772,
+				46.368616
+			],
+			"area": 0,
+			"id": "3552687114581",
+			"coordinates_alt": [
+				114581,
+				552687
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.780178,
+				46.365609
+			],
+			"area": 0,
+			"id": "3552482114250",
+			"coordinates_alt": [
+				114250,
+				552482
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.788967,
+				46.360444
+			],
+			"area": 0,
+			"id": "3553149113665",
+			"coordinates_alt": [
+				113665,
+				553149
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.779499,
+				46.373483
+			],
+			"area": 0,
+			"id": "3552444115126",
+			"coordinates_alt": [
+				115126,
+				552444
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.831501,
+				46.393345
+			],
+			"area": 0,
+			"id": "3556479117270",
+			"coordinates_alt": [
+				117270,
+				556479
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.785516,
+				46.366857
+			],
+			"area": 0,
+			"id": "3552895114382",
+			"coordinates_alt": [
+				114382,
+				552895
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.789171,
+				46.364504
+			],
+			"area": 0,
+			"id": "3553172114116",
+			"coordinates_alt": [
+				114116,
+				553172
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.794191,
+				46.349211
+			],
+			"area": 0,
+			"id": "3553531112410",
+			"coordinates_alt": [
+				112410,
+				553531
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.777045,
+				46.415409
+			],
+			"area": 0,
+			"id": "3552331119789",
+			"coordinates_alt": [
+				119789,
+				552331
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.800871,
+				46.355934
+			],
+			"area": 0,
+			"id": "3554057113149",
+			"coordinates_alt": [
+				113149,
+				554057
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.767819,
+				46.371597
+			],
+			"area": 0,
+			"id": "3551542114931",
+			"coordinates_alt": [
+				114931,
+				551542
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.798456,
+				46.362016
+			],
+			"area": 0,
+			"id": "3553882113828",
+			"coordinates_alt": [
+				113828,
+				553882
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.797096,
+				46.367993
+			],
+			"area": 0,
+			"id": "3553788114494",
+			"coordinates_alt": [
+				114494,
+				553788
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.792274,
+				46.360724
+			],
+			"area": 0,
+			"id": "3553404113692",
+			"coordinates_alt": [
+				113692,
+				553404
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.779356,
+				46.366293
+			],
+			"area": 0,
+			"id": "3552420114327",
+			"coordinates_alt": [
+				114327,
+				552420
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.758239,
+				46.322021
+			],
+			"area": 0,
+			"id": "3550714109433",
+			"coordinates_alt": [
+				109433,
+				550714
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.609852,
+				46.360346
+			],
+			"area": 0,
+			"id": "3539366113892",
+			"coordinates_alt": [
+				113892,
+				539366
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.275154,
+				46.149582
+			],
+			"area": 0,
+			"id": "374484890188",
+			"coordinates_alt": [
+				90188,
+				744848
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.899209,
+				46.467298
+			],
+			"area": 0,
+			"id": "3561807125411",
+			"coordinates_alt": [
+				125411,
+				561807
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.817084,
+				46.507407
+			],
+			"area": 0,
+			"id": "3555570129965",
+			"coordinates_alt": [
+				129965,
+				555570
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.641818,
+				46.431963
+			],
+			"area": 0,
+			"id": "3541969121807",
+			"coordinates_alt": [
+				121807,
+				541969
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.533528,
+				46.241929
+			],
+			"area": 0,
+			"id": "3533238100842",
+			"coordinates_alt": [
+				100842,
+				533238
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.99057,
+				46.354578
+			],
+			"area": 0,
+			"id": "3568654112783",
+			"coordinates_alt": [
+				112783,
+				568654
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.508709,
+				46.391673
+			],
+			"area": 0,
+			"id": "3531652117522",
+			"coordinates_alt": [
+				117522,
+				531652
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				18.008782,
+				46.362953
+			],
+			"area": 0,
+			"id": "3570068113695",
+			"coordinates_alt": [
+				113695,
+				570068
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.668682,
+				46.522457
+			],
+			"area": 0,
+			"id": "3544211131828",
+			"coordinates_alt": [
+				131828,
+				544211
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.564365,
+				46.38881
+			],
+			"area": 0,
+			"id": "3535926117121",
+			"coordinates_alt": [
+				117121,
+				535926
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.039,
+				46.19037
+			],
+			"area": 0,
+			"id": "372654794463",
+			"coordinates_alt": [
+				94463,
+				726547
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				19.994584,
+				46.197221
+			],
+			"area": 0,
+			"id": "372310995182",
+			"coordinates_alt": [
+				95182,
+				723109
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.095181,
+				46.361563
+			],
+			"area": 0,
+			"id": "3730629113548",
+			"coordinates_alt": [
+				113548,
+				730629
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.112572,
+				46.356497
+			],
+			"area": 0,
+			"id": "3731975113003",
+			"coordinates_alt": [
+				113003,
+				731975
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.102915,
+				46.365036
+			],
+			"area": 0,
+			"id": "3731219113942",
+			"coordinates_alt": [
+				113942,
+				731219
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.108791,
+				46.35782
+			],
+			"area": 0,
+			"id": "3731682113146",
+			"coordinates_alt": [
+				113146,
+				731682
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.826244,
+				46.284208
+			],
+			"area": 0,
+			"id": "3555885105146",
+			"coordinates_alt": [
+				105146,
+				555885
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.841702,
+				46.475202
+			],
+			"area": 0,
+			"id": "3557404126356",
+			"coordinates_alt": [
+				126356,
+				557404
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.56859,
+				46.501947
+			],
+			"area": 0,
+			"id": "3536489129689",
+			"coordinates_alt": [
+				129689,
+				536489
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.77497,
+				46.526672
+			],
+			"area": 0,
+			"id": "3552373132158",
+			"coordinates_alt": [
+				132158,
+				552373
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.713731,
+				46.490274
+			],
+			"area": 0,
+			"id": "3547606128191",
+			"coordinates_alt": [
+				128191,
+				547606
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.59685,
+				46.412878
+			],
+			"area": 0,
+			"id": "3538474119749",
+			"coordinates_alt": [
+				119749,
+				538474
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				18.002602,
+				46.511216
+			],
+			"area": 0,
+			"id": "3569813130181",
+			"coordinates_alt": [
+				130181,
+				569813
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.048774,
+				46.34391
+			],
+			"area": 0,
+			"id": "3727083111539",
+			"coordinates_alt": [
+				111539,
+				727083
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.138596,
+				46.242188
+			],
+			"area": 0,
+			"id": "3734155100325",
+			"coordinates_alt": [
+				100325,
+				734155
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.160236,
+				46.268058
+			],
+			"area": 0,
+			"id": "3735783103224",
+			"coordinates_alt": [
+				103224,
+				735783
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.153071,
+				46.257683
+			],
+			"area": 0,
+			"id": "3735247102063",
+			"coordinates_alt": [
+				102063,
+				735247
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.166017,
+				46.272229
+			],
+			"area": 0,
+			"id": "3736222103694",
+			"coordinates_alt": [
+				103694,
+				736222
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.152245,
+				46.265501
+			],
+			"area": 0,
+			"id": "3735171102931",
+			"coordinates_alt": [
+				102931,
+				735171
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.144127,
+				46.245103
+			],
+			"area": 0,
+			"id": "3734577100655",
+			"coordinates_alt": [
+				100655,
+				734577
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.122428,
+				46.271691
+			],
+			"area": 0,
+			"id": "3732863103587",
+			"coordinates_alt": [
+				103587,
+				732863
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.148724,
+				46.256286
+			],
+			"area": 0,
+			"id": "3734914101903",
+			"coordinates_alt": [
+				101903,
+				734914
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.140838,
+				46.244703
+			],
+			"area": 0,
+			"id": "3734324100607",
+			"coordinates_alt": [
+				100607,
+				734324
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.119988,
+				46.240189
+			],
+			"area": 0,
+			"id": "3732723100083",
+			"coordinates_alt": [
+				100083,
+				732723
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.138639,
+				46.246254
+			],
+			"area": 0,
+			"id": "3734152100777",
+			"coordinates_alt": [
+				100777,
+				734152
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.186655,
+				46.265293
+			],
+			"area": 0,
+			"id": "3737824102946",
+			"coordinates_alt": [
+				102946,
+				737824
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.18141074,
+				46.2612322
+			],
+			"area": 0,
+			"id": "3737421102484",
+			"coordinates_alt": [
+				102484,
+				737421
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.159536,
+				46.264898
+			],
+			"area": 0,
+			"id": "3735734102872",
+			"coordinates_alt": [
+				102872,
+				735734
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.139263,
+				46.243126
+			],
+			"area": 0,
+			"id": "3734205100430",
+			"coordinates_alt": [
+				100430,
+				734205
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.134833,
+				46.239489
+			],
+			"area": 0,
+			"id": "3733869100021",
+			"coordinates_alt": [
+				100021,
+				733869
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.134947,
+				46.253595
+			],
+			"area": 0,
+			"id": "3733856101589",
+			"coordinates_alt": [
+				101589,
+				733856
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.194611,
+				46.204133
+			],
+			"area": 0,
+			"id": "373853796157",
+			"coordinates_alt": [
+				96157,
+				738537
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.192071,
+				46.216386
+			],
+			"area": 0,
+			"id": "373832197516",
+			"coordinates_alt": [
+				97516,
+				738321
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.110923,
+				46.236128
+			],
+			"area": 0,
+			"id": "373203099622",
+			"coordinates_alt": [
+				99622,
+				732030
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.140732,
+				46.249104
+			],
+			"area": 0,
+			"id": "3734309101096",
+			"coordinates_alt": [
+				101096,
+				734309
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.146956,
+				46.2497
+			],
+			"area": 0,
+			"id": "3734788101169",
+			"coordinates_alt": [
+				101169,
+				734788
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.142098,
+				46.257017
+			],
+			"area": 0,
+			"id": "3734402101977",
+			"coordinates_alt": [
+				101977,
+				734402
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.173383,
+				46.267721
+			],
+			"area": 0,
+			"id": "3736797103201",
+			"coordinates_alt": [
+				103201,
+				736797
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.141649,
+				46.254718
+			],
+			"area": 0,
+			"id": "3734371101721",
+			"coordinates_alt": [
+				101721,
+				734371
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.148828,
+				46.250563
+			],
+			"area": 0,
+			"id": "3734931101267",
+			"coordinates_alt": [
+				101267,
+				734931
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.179862,
+				46.262995
+			],
+			"area": 0,
+			"id": "3737304102683",
+			"coordinates_alt": [
+				102683,
+				737304
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.165639,
+				46.262688
+			],
+			"area": 0,
+			"id": "3736208102633",
+			"coordinates_alt": [
+				102633,
+				736208
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.115315,
+				46.228709
+			],
+			"area": 0,
+			"id": "373238098802",
+			"coordinates_alt": [
+				98802,
+				732380
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.082895,
+				46.216524
+			],
+			"area": 0,
+			"id": "372989797414",
+			"coordinates_alt": [
+				97414,
+				729897
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.109213,
+				46.205015
+			],
+			"area": 0,
+			"id": "373194596162",
+			"coordinates_alt": [
+				96162,
+				731945
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.187785,
+				46.244364
+			],
+			"area": 0,
+			"id": "3737945100621",
+			"coordinates_alt": [
+				100621,
+				737945
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.175024,
+				46.244277
+			],
+			"area": 0,
+			"id": "3736961100597",
+			"coordinates_alt": [
+				100597,
+				736961
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.156737,
+				46.24857
+			],
+			"area": 0,
+			"id": "3735544101054",
+			"coordinates_alt": [
+				101054,
+				735544
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.156522,
+				46.243758
+			],
+			"area": 0,
+			"id": "3735535100519",
+			"coordinates_alt": [
+				100519,
+				735535
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.159571,
+				46.242595
+			],
+			"area": 0,
+			"id": "3735772100393",
+			"coordinates_alt": [
+				100393,
+				735772
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.141072,
+				46.240257
+			],
+			"area": 0,
+			"id": "3734349100113",
+			"coordinates_alt": [
+				100113,
+				734349
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.131483,
+				46.247007
+			],
+			"area": 0,
+			"id": "3733599100853",
+			"coordinates_alt": [
+				100853,
+				733599
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.130659,
+				46.25056
+			],
+			"area": 0,
+			"id": "3733530101247",
+			"coordinates_alt": [
+				101247,
+				733530
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.059619,
+				46.275663
+			],
+			"area": 0,
+			"id": "3728016103964",
+			"coordinates_alt": [
+				103964,
+				728016
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.071733,
+				46.272666
+			],
+			"area": 0,
+			"id": "3728954103643",
+			"coordinates_alt": [
+				103643,
+				728954
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.063817,
+				46.280214
+			],
+			"area": 0,
+			"id": "3728333104474",
+			"coordinates_alt": [
+				104474,
+				728333
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.067132,
+				46.275713
+			],
+			"area": 0,
+			"id": "3728595103977",
+			"coordinates_alt": [
+				103977,
+				728595
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.132904,
+				46.268145
+			],
+			"area": 0,
+			"id": "3733676103204",
+			"coordinates_alt": [
+				103204,
+				733676
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.153198,
+				46.270278
+			],
+			"area": 0,
+			"id": "3735237103463",
+			"coordinates_alt": [
+				103463,
+				735237
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.148746,
+				46.267631
+			],
+			"area": 0,
+			"id": "3734898103164",
+			"coordinates_alt": [
+				103164,
+				734898
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.14009,
+				46.262929
+			],
+			"area": 0,
+			"id": "3734238102632",
+			"coordinates_alt": [
+				102632,
+				734238
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.16349,
+				46.27364
+			],
+			"area": 0,
+			"id": "3736025103848",
+			"coordinates_alt": [
+				103848,
+				736025
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.164042,
+				46.265133
+			],
+			"area": 0,
+			"id": "3736081102903",
+			"coordinates_alt": [
+				102903,
+				736081
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.170152,
+				46.280195
+			],
+			"area": 0,
+			"id": "3736528104584",
+			"coordinates_alt": [
+				104584,
+				736528
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.165853,
+				46.2674
+			],
+			"area": 0,
+			"id": "3736217103157",
+			"coordinates_alt": [
+				103157,
+				736217
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.169499,
+				46.268056
+			],
+			"area": 0,
+			"id": "3736497103234",
+			"coordinates_alt": [
+				103234,
+				736497
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.160087,
+				46.269652
+			],
+			"area": 0,
+			"id": "3735769103401",
+			"coordinates_alt": [
+				103401,
+				735769
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.152944,
+				46.275624
+			],
+			"area": 0,
+			"id": "3735209104057",
+			"coordinates_alt": [
+				104057,
+				735209
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.143021,
+				46.276378
+			],
+			"area": 0,
+			"id": "3734443104130",
+			"coordinates_alt": [
+				104130,
+				734443
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.121034,
+				46.265523
+			],
+			"area": 0,
+			"id": "3732765102900",
+			"coordinates_alt": [
+				102900,
+				732765
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.192979,
+				46.260659
+			],
+			"area": 0,
+			"id": "3738319102438",
+			"coordinates_alt": [
+				102438,
+				738319
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.202103,
+				46.259072
+			],
+			"area": 0,
+			"id": "3739025102272",
+			"coordinates_alt": [
+				102272,
+				739025
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.143487,
+				46.260314
+			],
+			"area": 0,
+			"id": "3734504102345",
+			"coordinates_alt": [
+				102345,
+				734504
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.172895,
+				46.264199
+			],
+			"area": 0,
+			"id": "3736765102809",
+			"coordinates_alt": [
+				102809,
+				736765
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.186622,
+				46.229729
+			],
+			"area": 0,
+			"id": "373787998993",
+			"coordinates_alt": [
+				98993,
+				737879
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.155801,
+				46.259249
+			],
+			"area": 0,
+			"id": "3735455102240",
+			"coordinates_alt": [
+				102240,
+				735455
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.735607,
+				46.308003
+			],
+			"area": 0,
+			"id": "3548945107904",
+			"coordinates_alt": [
+				107904,
+				548945
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.895963,
+				46.320444
+			],
+			"area": 0,
+			"id": "3561317109092",
+			"coordinates_alt": [
+				109092,
+				561317
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.882018,
+				46.50428
+			],
+			"area": 0,
+			"id": "3560548129541",
+			"coordinates_alt": [
+				129541,
+				560548
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				17.902161,
+				46.376117
+			],
+			"area": 0,
+			"id": "3561885115273",
+			"coordinates_alt": [
+				115273,
+				561885
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.162972,
+				46.174015
+			],
+			"area": 0,
+			"id": "373614392774",
+			"coordinates_alt": [
+				92774,
+				736143
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 120,
+			"coordinates": [
+				20.184204,
+				46.189178
+			],
+			"area": 0,
+			"id": "373775894483",
+			"coordinates_alt": [
+				94483,
+				737758
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "\u00f3voda"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.268067,
+				46.30724
+			],
+			"area": 0,
+			"id": "3744027107703",
+			"coordinates_alt": [
+				107703,
+				744027
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.615518,
+				46.230792
+			],
+			"area": 0,
+			"id": "353953899485",
+			"coordinates_alt": [
+				99485,
+				539538
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.616127,
+				46.231304
+			],
+			"area": 0,
+			"id": "353958699541",
+			"coordinates_alt": [
+				99541,
+				539586
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.61925,
+				46.232351
+			],
+			"area": 0,
+			"id": "353982999653",
+			"coordinates_alt": [
+				99653,
+				539829
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.827629,
+				46.383982
+			],
+			"area": 0,
+			"id": "3556165116234",
+			"coordinates_alt": [
+				116234,
+				556165
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.80008,
+				46.35301
+			],
+			"area": 0,
+			"id": "3553991112825",
+			"coordinates_alt": [
+				112825,
+				553991
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.766115,
+				46.353007
+			],
+			"area": 0,
+			"id": "3551377112867",
+			"coordinates_alt": [
+				112867,
+				551377
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.803718,
+				46.360365
+			],
+			"area": 0,
+			"id": "3554284113638",
+			"coordinates_alt": [
+				113638,
+				554284
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.793902,
+				46.363378
+			],
+			"area": 0,
+			"id": "3553534113985",
+			"coordinates_alt": [
+				113985,
+				553534
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.786017,
+				46.358774
+			],
+			"area": 0,
+			"id": "3552919113483",
+			"coordinates_alt": [
+				113483,
+				552919
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.778258,
+				46.353819
+			],
+			"area": 0,
+			"id": "3552313112942",
+			"coordinates_alt": [
+				112942,
+				552313
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.794434,
+				46.355017
+			],
+			"area": 0,
+			"id": "3553560113055",
+			"coordinates_alt": [
+				113055,
+				553560
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.789407,
+				46.362186
+			],
+			"area": 0,
+			"id": "3553186113858",
+			"coordinates_alt": [
+				113858,
+				553186
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.789514,
+				46.355907
+			],
+			"area": 0,
+			"id": "3553183113160",
+			"coordinates_alt": [
+				113160,
+				553183
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.803718,
+				46.360365
+			],
+			"area": 0,
+			"id": "3554284113638",
+			"coordinates_alt": [
+				113638,
+				554284
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.797294,
+				46.358333
+			],
+			"area": 0,
+			"id": "3553786113420",
+			"coordinates_alt": [
+				113420,
+				553786
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.610398,
+				46.363259
+			],
+			"area": 0,
+			"id": "3539414114215",
+			"coordinates_alt": [
+				114215,
+				539414
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.508019,
+				46.400365
+			],
+			"area": 0,
+			"id": "3531618118489",
+			"coordinates_alt": [
+				118489,
+				531618
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.508882,
+				46.397488
+			],
+			"area": 0,
+			"id": "3531678118168",
+			"coordinates_alt": [
+				118168,
+				531678
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.511805,
+				46.392111
+			],
+			"area": 0,
+			"id": "3531891117566",
+			"coordinates_alt": [
+				117566,
+				531891
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.510376,
+				46.396177
+			],
+			"area": 0,
+			"id": "3531790118020",
+			"coordinates_alt": [
+				118020,
+				531790
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				17.50879,
+				46.398423
+			],
+			"area": 0,
+			"id": "3531673118272",
+			"coordinates_alt": [
+				118272,
+				531673
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.160236,
+				46.268058
+			],
+			"area": 0,
+			"id": "3735783103224",
+			"coordinates_alt": [
+				103224,
+				735783
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.147422,
+				46.268202
+			],
+			"area": 0,
+			"id": "3734795103226",
+			"coordinates_alt": [
+				103226,
+				734795
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.143217,
+				46.253371
+			],
+			"area": 0,
+			"id": "3734494101573",
+			"coordinates_alt": [
+				101573,
+				734494
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.123765,
+				46.241692
+			],
+			"area": 0,
+			"id": "3733012100254",
+			"coordinates_alt": [
+				100254,
+				733012
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.171622,
+				46.263492
+			],
+			"area": 0,
+			"id": "3736668102729",
+			"coordinates_alt": [
+				102729,
+				736668
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.138925,
+				46.255977
+			],
+			"area": 0,
+			"id": "3734159101858",
+			"coordinates_alt": [
+				101858,
+				734159
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.157237,
+				46.270481
+			],
+			"area": 0,
+			"id": "3735548103490",
+			"coordinates_alt": [
+				103490,
+				735548
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.1276,
+				46.253252
+			],
+			"area": 0,
+			"id": "3733290101543",
+			"coordinates_alt": [
+				101543,
+				733290
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.133534,
+				46.253591
+			],
+			"area": 0,
+			"id": "3733747101587",
+			"coordinates_alt": [
+				101587,
+				733747
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.118839,
+				46.25751
+			],
+			"area": 0,
+			"id": "3732608102007",
+			"coordinates_alt": [
+				102007,
+				732608
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.16682,
+				46.249514
+			],
+			"area": 0,
+			"id": "3736320101170",
+			"coordinates_alt": [
+				101170,
+				736320
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.138639,
+				46.246254
+			],
+			"area": 0,
+			"id": "3734152100777",
+			"coordinates_alt": [
+				100777,
+				734152
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.184626,
+				46.258827
+			],
+			"area": 0,
+			"id": "3737678102225",
+			"coordinates_alt": [
+				102225,
+				737678
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.162005,
+				46.258171
+			],
+			"area": 0,
+			"id": "3735935102127",
+			"coordinates_alt": [
+				102127,
+				735935
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.172099,
+				46.281481
+			],
+			"area": 0,
+			"id": "3736676104729",
+			"coordinates_alt": [
+				104729,
+				736676
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.168449,
+				46.248013
+			],
+			"area": 0,
+			"id": "3736448101005",
+			"coordinates_alt": [
+				101005,
+				736448
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.126916,
+				46.259304
+			],
+			"area": 0,
+			"id": "3733228102215",
+			"coordinates_alt": [
+				102215,
+				733228
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.136704,
+				46.258418
+			],
+			"area": 0,
+			"id": "3733984102127",
+			"coordinates_alt": [
+				102127,
+				733984
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.137121,
+				46.257209
+			],
+			"area": 0,
+			"id": "3734018101993",
+			"coordinates_alt": [
+				101993,
+				734018
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.137121,
+				46.257209
+			],
+			"area": 0,
+			"id": "3734018101993",
+			"coordinates_alt": [
+				101993,
+				734018
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 500,
+			"coordinates": [
+				20.155322,
+				46.259281
+			],
+			"area": 0,
+			"id": "3735418102243",
+			"coordinates_alt": [
+				102243,
+				735418
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakiskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.615518,
+				46.230792
+			],
+			"area": 0,
+			"id": "353953899485",
+			"coordinates_alt": [
+				99485,
+				539538
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.827629,
+				46.383982
+			],
+			"area": 0,
+			"id": "3556165116234",
+			"coordinates_alt": [
+				116234,
+				556165
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.800158,
+				46.355845
+			],
+			"area": 0,
+			"id": "3554002113140",
+			"coordinates_alt": [
+				113140,
+				554002
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.79407,
+				46.360069
+			],
+			"area": 0,
+			"id": "3553541113617",
+			"coordinates_alt": [
+				113617,
+				553541
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.80008,
+				46.35301
+			],
+			"area": 0,
+			"id": "3553991112825",
+			"coordinates_alt": [
+				112825,
+				553991
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.793902,
+				46.363378
+			],
+			"area": 0,
+			"id": "3553534113985",
+			"coordinates_alt": [
+				113985,
+				553534
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.786017,
+				46.358774
+			],
+			"area": 0,
+			"id": "3552919113483",
+			"coordinates_alt": [
+				113483,
+				552919
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.778258,
+				46.353819
+			],
+			"area": 0,
+			"id": "3552313112942",
+			"coordinates_alt": [
+				112942,
+				552313
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.800282,
+				46.362855
+			],
+			"area": 0,
+			"id": "3554024113919",
+			"coordinates_alt": [
+				113919,
+				554024
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.794434,
+				46.355017
+			],
+			"area": 0,
+			"id": "3553560113055",
+			"coordinates_alt": [
+				113055,
+				553560
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.795671,
+				46.360492
+			],
+			"area": 0,
+			"id": "3553665113662",
+			"coordinates_alt": [
+				113662,
+				553665
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.789407,
+				46.362186
+			],
+			"area": 0,
+			"id": "3553186113858",
+			"coordinates_alt": [
+				113858,
+				553186
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.789514,
+				46.355907
+			],
+			"area": 0,
+			"id": "3553183113160",
+			"coordinates_alt": [
+				113160,
+				553183
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.803718,
+				46.360365
+			],
+			"area": 0,
+			"id": "3554284113638",
+			"coordinates_alt": [
+				113638,
+				554284
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.797473,
+				46.354502
+			],
+			"area": 0,
+			"id": "3553793112994",
+			"coordinates_alt": [
+				112994,
+				553793
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.797294,
+				46.358333
+			],
+			"area": 0,
+			"id": "3553786113420",
+			"coordinates_alt": [
+				113420,
+				553786
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				17.508882,
+				46.397488
+			],
+			"area": 0,
+			"id": "3531678118168",
+			"coordinates_alt": [
+				118168,
+				531678
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.144381,
+				46.249977
+			],
+			"area": 0,
+			"id": "3734589101197",
+			"coordinates_alt": [
+				101197,
+				734589
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.15151,
+				46.249817
+			],
+			"area": 0,
+			"id": "3735139101187",
+			"coordinates_alt": [
+				101187,
+				735139
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.147422,
+				46.268202
+			],
+			"area": 0,
+			"id": "3734795103226",
+			"coordinates_alt": [
+				103226,
+				734795
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.143217,
+				46.253371
+			],
+			"area": 0,
+			"id": "3734494101573",
+			"coordinates_alt": [
+				101573,
+				734494
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.152123,
+				46.255057
+			],
+			"area": 0,
+			"id": "3735178101770",
+			"coordinates_alt": [
+				101770,
+				735178
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.123765,
+				46.241692
+			],
+			"area": 0,
+			"id": "3733012100254",
+			"coordinates_alt": [
+				100254,
+				733012
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.155099,
+				46.25536
+			],
+			"area": 0,
+			"id": "3735407101807",
+			"coordinates_alt": [
+				101807,
+				735407
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.098708,
+				46.252095
+			],
+			"area": 0,
+			"id": "3731064101384",
+			"coordinates_alt": [
+				101384,
+				731064
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.138925,
+				46.255977
+			],
+			"area": 0,
+			"id": "3734159101858",
+			"coordinates_alt": [
+				101858,
+				734159
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.141593,
+				46.251273
+			],
+			"area": 0,
+			"id": "3734372101338",
+			"coordinates_alt": [
+				101338,
+				734372
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.127133,
+				46.253265
+			],
+			"area": 0,
+			"id": "3733254101544",
+			"coordinates_alt": [
+				101544,
+				733254
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.156939,
+				46.259733
+			],
+			"area": 0,
+			"id": "3735542102295",
+			"coordinates_alt": [
+				102295,
+				735542
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.157237,
+				46.270481
+			],
+			"area": 0,
+			"id": "3735548103490",
+			"coordinates_alt": [
+				103490,
+				735548
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.157058,
+				46.26997
+			],
+			"area": 0,
+			"id": "3735535103433",
+			"coordinates_alt": [
+				103433,
+				735535
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.1276,
+				46.253252
+			],
+			"area": 0,
+			"id": "3733290101543",
+			"coordinates_alt": [
+				101543,
+				733290
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.133534,
+				46.253591
+			],
+			"area": 0,
+			"id": "3733747101587",
+			"coordinates_alt": [
+				101587,
+				733747
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.146096,
+				46.257203
+			],
+			"area": 0,
+			"id": "3734710102002",
+			"coordinates_alt": [
+				102002,
+				734710
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.118839,
+				46.25751
+			],
+			"area": 0,
+			"id": "3732608102007",
+			"coordinates_alt": [
+				102007,
+				732608
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.16682,
+				46.249514
+			],
+			"area": 0,
+			"id": "3736320101170",
+			"coordinates_alt": [
+				101170,
+				736320
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.154792,
+				46.25683
+			],
+			"area": 0,
+			"id": "3735381101970",
+			"coordinates_alt": [
+				101970,
+				735381
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.140131,
+				46.268201
+			],
+			"area": 0,
+			"id": "3734233103218",
+			"coordinates_alt": [
+				103218,
+				734233
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.184626,
+				46.258827
+			],
+			"area": 0,
+			"id": "3737678102225",
+			"coordinates_alt": [
+				102225,
+				737678
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.162005,
+				46.258171
+			],
+			"area": 0,
+			"id": "3735935102127",
+			"coordinates_alt": [
+				102127,
+				735935
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.168449,
+				46.248013
+			],
+			"area": 0,
+			"id": "3736448101005",
+			"coordinates_alt": [
+				101005,
+				736448
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.159183,
+				46.258469
+			],
+			"area": 0,
+			"id": "3735717102157",
+			"coordinates_alt": [
+				102157,
+				735717
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.156815,
+				46.259356
+			],
+			"area": 0,
+			"id": "3735533102253",
+			"coordinates_alt": [
+				102253,
+				735533
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.17286,
+				46.271891
+			],
+			"area": 0,
+			"id": "3736750103664",
+			"coordinates_alt": [
+				103664,
+				736750
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.143317,
+				46.242268
+			],
+			"area": 0,
+			"id": "3734519100339",
+			"coordinates_alt": [
+				100339,
+				734519
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.137121,
+				46.257209
+			],
+			"area": 0,
+			"id": "3734018101993",
+			"coordinates_alt": [
+				101993,
+				734018
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.138154,
+				46.250523
+			],
+			"area": 0,
+			"id": "3734108101251",
+			"coordinates_alt": [
+				101251,
+				734108
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.155322,
+				46.259281
+			],
+			"area": 0,
+			"id": "3735418102243",
+			"coordinates_alt": [
+				102243,
+				735418
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.147239,
+				46.260466
+			],
+			"area": 0,
+			"id": "3734793102366",
+			"coordinates_alt": [
+				102366,
+				734793
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.123765,
+				46.241692
+			],
+			"area": 0,
+			"id": "3733012100254",
+			"coordinates_alt": [
+				100254,
+				733012
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		},
+		{
+			"capacity": 450,
+			"coordinates": [
+				20.146058,
+				46.247631
+			],
+			"area": 0,
+			"id": "3734722100938",
+			"coordinates_alt": [
+				100938,
+				734722
+			],
+			"ageInter": [
+				0,
+				18
+			],
+			"type": 3,
+			"stat": "ON",
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"subtype": "szakk\u00f6z\u00e9piskola"
+		}
+	]
+}

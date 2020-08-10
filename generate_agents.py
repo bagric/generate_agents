@@ -53,6 +53,13 @@ def whichgroups(res):
             agroups.append(i)
     return agroups
 
+def choose_percentage(percent):
+    num = random.choice(range(1, 101))
+    if num <= percent and num != 0:
+        return True
+    else:
+        return False
+
 class DataSet:
 
     _agegroups = [[0, 14],
@@ -80,6 +87,14 @@ class DataSet:
             self._magic5 = magics["magic5"]
             self._magic6 = magics["magic6"]
             self._magicA = magics["magic_age"]
+    
+    def load_illnessnumber(self, filename):
+        with open(filename, 'r') as f:
+            magics = json.load(f)
+            self._age_separation = magics["age_separation"]
+            self._age_percentage = magics["age_percentage"]
+            self._illness_number = magics["illness_number"]
+            self._illness = ["a70", "CV", "CK", "COPD", "DM"]
 
     def load_residentdata(self, filename):
         '''
@@ -268,6 +283,29 @@ class DataSet:
             range(65, 200):8 #Stay-at-home schedule
             })
         return switcher[i]
+    
+    def gen_illness(self, age):
+        illness = ''
+        if age > 70:
+            illness = self._illness[0]
+            self._illness_number[0] = self._illness_number[0] - 1
+        else:
+            i = 0
+            for a_sep in self._age_separation:
+                if age <= a_sep:
+                    ill = choose_percentage(self._age_percentage[i])
+                    if ill and len(self._illness[1:])>0:
+                        illness = random.choice(self._illness[1:])
+                        self._illness_number[self._illness.index(illness)] = \
+                            self._illness_number[self._illness.index(illness)] - 1
+                        if self._illness_number[self._illness.index(illness)] == 0:
+                            self._illness_number.remove(0)
+                            self._illness.remove(illness)
+                    break
+                i = i + 1
+        if illness == '':
+            illness = 0
+        return illness
 
     def new_person(self, locs, sex, age, ft):
         '''
@@ -281,7 +319,7 @@ class DataSet:
         person = {}
         person['age'] = age
         person['sex'] = self._agecode[sex]
-        person['preCond'] = 0
+        person['preCond'] = self.gen_illness(age)
         person['SIRD'] = "S"
         person['typeID'] = self.occupation_switch(age)
         person['locations'] = []
@@ -525,10 +563,11 @@ class DataSet:
             json.dump(self._people, f, indent="\t")
 
 
-def generate_agents(respoi, magic, tempout, tempstat):
+def generate_agents(respoi, magic, illness, tempout, tempstat):
 
     adatok = DataSet()
     adatok.load_magicnumber(magic)
+    adatok.load_illnessnumber(illness)
     adatok.load_residentdata(respoi)
     adatok.calculate_residentstat()
     print(adatok._agedist, sum(adatok._agedist))

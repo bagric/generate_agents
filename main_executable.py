@@ -11,7 +11,8 @@ import convert_agents
 import sys
 
 # Only text to modify
-file_prefix = "Szeged"
+#file_prefix = "Szeged"
+file_prefix = "szeged_kaposvar_jaras"
 
 # This file contains the residential locations
 #   100x100 cell data
@@ -21,14 +22,18 @@ schoolcsv    = "schoolpoi_" + file_prefix + ".csv"
 schoolpoi    = file_prefix + "_schoolpoi.json"
 workcsv      = "workpoi_" + file_prefix + ".csv"
 workpoi      = file_prefix + "_workpoi.json"
-icsv         = "interestingpoi" + file_prefix + ".csv"
+icsv         = "interestingpoi_" + file_prefix + ".csv"
 ipoi         = file_prefix + "_interestingpoi.json"
 publiccsv    = "publicpoi" + file_prefix + ".csv"
-publicpoi    = file_prefix + "_publicpoi.json"
+#publicpoi    = file_prefix + "_publicpoi.json"
+publicpoi    = "Szeged_publicpoi.json"
 tempagentin  = file_prefix + "_agents_temp.json"
 tempagentout = file_prefix + "_agents_temp_sec.json"
 tempstat     = file_prefix + "_stat.txt"
-magic        = file_prefix + "_magic_number.json"
+#magic        = file_prefix + "_magic_number.json"
+magic        = "Szeged_magic_number.json"
+#illness      = file_prefix + "_illness_number.json"
+illness      = "Szeged_illness_number.json"
 
 agentout    = "agents.json"
 locationout = "locations.json"
@@ -40,9 +45,8 @@ def main(argv):
         school_poi_process.process_input_data(file_prefix, schoolcsv, schoolpoi)
         work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
         intersting_poi_process.process_input_data(file_prefix, icsv, ipoi)
-        #convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, locationout)
     # default data generating when files are ready to be used
-    generate_agents.generate_agents(respoi, magic, tempagentin, tempstat)
+    generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat)
     generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
     generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
     generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
