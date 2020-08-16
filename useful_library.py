@@ -79,3 +79,17 @@ def select_closer_places(odata, odata_distance, ref_place, how_many):
                 }
         list_of_places.append(dict(rloc))
     return list_of_places
+
+class Switch(dict):
+    def __getitem__(self, item):
+        for key in self.keys():                   # iterate over the intervals
+            if item in key:                       # if the argument is part of that interval
+                return super().__getitem__(key)   # return its associated value
+        raise KeyError(item)                      # if not in any interval, raise KeyError
+
+def choose_percentage(percent):
+    num = random.choice(range(1, 101))
+    if num <= percent and num != 0:
+        return True
+    else:
+        return False

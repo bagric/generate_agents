@@ -25,7 +25,7 @@ def school_switch(i):
 
 
 def findoccupation(schools, workplaces, locs, typeID):
-    distan = 10000
+    distan = 1000000
     loc_id = -1
     if typeID > 4:
         if typeID == 6:
@@ -71,8 +71,12 @@ def findoccupation(schools, workplaces, locs, typeID):
                     "coordinates_alt": schools[loc_id]["coordinates_alt"]
                     }
             schools[loc_id]["capacity"] = schools[loc_id]["capacity"] - 1
-            if schools[loc_id]["capacity"] < 1:
-                del schools[loc_id]
+            if schools[loc_id]["capacity"] == 0:
+                # changed to go over capacity as requested
+                for i in range(len(schools)):
+                    if schools[i]["subtype"] == snum and schools[i]["id"] != schools[loc_id]["id"]:
+                        del schools[loc_id]
+                        break
             return rloc
 
 

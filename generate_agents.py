@@ -1,7 +1,8 @@
 import json
 import random
 import sys
-#import useful_library
+import generate_commuters
+import useful_library
 
 def between(r, table):
     '''
@@ -29,36 +30,12 @@ def get_difference(item1, item2):
     except ZeroDivisionError:
         return 0
 
-class Switch(dict):
-    def __getitem__(self, item):
-        for key in self.keys():                   # iterate over the intervals
-            if item in key:                       # if the argument is part of that interval
-                return super().__getitem__(key)   # return its associated value
-        raise KeyError(item)                      # if not in any interval, raise KeyError
-
-def checkifonlyonegroup(res):
-    gcount = 0
-    for num in res:
-        if num > 0:
-            gcount = gcount + 1
-    if gcount == 1:
-        return True
-    else:
-        return False
-
 def whichgroups(res):
     agroups = []
     for i in range(len(res)):
         if res[i] > 0:
             agroups.append(i)
     return agroups
-
-def choose_percentage(percent):
-    num = random.choice(range(1, 101))
-    if num <= percent and num != 0:
-        return True
-    else:
-        return False
 
 class DataSet:
 
@@ -272,7 +249,7 @@ class DataSet:
             return True
     
     def occupation_switch(self, i):
-        switcher=Switch({
+        switcher=useful_library.Switch({
             range(0, 3):1, #Infant
             range(3, 7):2, #Kindergarden student
             range(7, 15):3, #Elemntary school student
@@ -293,7 +270,7 @@ class DataSet:
             i = 0
             for a_sep in self._age_separation:
                 if age <= a_sep:
-                    ill = choose_percentage(self._age_percentage[i])
+                    ill = useful_library.choose_percentage(self._age_percentage[i])
                     if ill and len(self._illness[1:])>0:
                         illness = random.choice(self._illness[1:])
                         self._illness_number[self._illness.index(illness)] = \
@@ -554,6 +531,9 @@ class DataSet:
         self._residents = [v for v in sorted(self._residents, key=lambda item: item["capacity"])]
         self._residents = [x for x in self._residents if x["capacity"] > 0]
     
+    def add_commuters(self, comcsv, comscsv, illness):
+        self._people = self._people + generate_commuters.generate_agents(comcsv, comscsv, self._magicA, illness)
+    
     def savedata(self, f):
         '''
         Creates a JSON file with the agents
@@ -563,7 +543,7 @@ class DataSet:
             json.dump(self._people, f, indent="\t")
 
 
-def generate_agents(respoi, magic, illness, tempout, tempstat):
+def generate_agents(respoi, magic, illness, tempout, tempstat, comcsv=None, comscsv=None):
 
     adatok = DataSet()
     adatok.load_magicnumber(magic)
@@ -625,6 +605,8 @@ def generate_agents(respoi, magic, illness, tempout, tempstat):
 
     sys.stdout.write(" - done. Saving")
     #adatok._people = useful_library.order_by_place(adatok._people, 0)
+    if comcsv != None and comscsv != None:
+        adatok.add_commuters(comcsv, comscsv, illness)
     adatok.savedata(tempout)
     print(" - done.")
     print(adatok._magicA)
