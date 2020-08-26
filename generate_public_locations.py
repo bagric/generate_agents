@@ -9,8 +9,9 @@ def generate_plocation(pfn, agents):
     p_data = useful_library.order_places(p_data[1])
     p_distance_data = spatial.KDTree(useful_library.create_distance_data(p_data))
     for agent in agents:
-        agent['locations'] = agent['locations'] + \
-            useful_library.select_closer_places(p_data, p_distance_data, agent['locations'][0], 1)
+        if len(agent['locations']) > 0:
+            agent['locations'] = agent['locations'] + \
+                useful_library.select_closer_places(p_data, p_distance_data, agent['locations'][0], 1)
 
 def generate_additional_locations(agentsfilein, agentsfileout, pplaces):
     sys.stdout.write("Loading agents")

@@ -2,6 +2,7 @@ import json
 import random
 import sys
 import generate_commuters
+import generate_tourists
 import useful_library
 
 def between(r, table):
@@ -53,6 +54,7 @@ class DataSet:
         self._counter = 0
         #For statistical check
         self._families = []
+        self._subrespoi = {}
 
     def load_magicnumber(self, filename):
         with open(filename, 'r') as f:
@@ -281,7 +283,7 @@ class DataSet:
                     break
                 i = i + 1
         if illness == '':
-            illness = 0
+            illness = ""
         return illness
 
     def new_person(self, locs, sex, age, ft):
@@ -340,11 +342,16 @@ class DataSet:
         :param el_n: Number of elderly people
         '''
 
+        # put the fam id here to create residential sub-locations
+        famcode = "f" + str(len(self._families)) + "_"
+        if self._residents[location]["id"] not in self._subrespoi:
+            self._subrespoi[self._residents[location]["id"]] = []
+        self._subrespoi[self._residents[location]["id"]].append(famcode)
         # make a local copy
         hdist = hdist[:]
         famage = []
         rloc = {"typeID": self._residents[location]["type"],
-                "locID": self._residents[location]["id"],
+                "locID": famcode + self._residents[location]["id"],
                 "coordinates": self._residents[location]["coordinates"],
                 "coordinates_alt": self._residents[location]["coordinates_alt"]
                 }
@@ -533,17 +540,22 @@ class DataSet:
     
     def add_commuters(self, comcsv, comscsv, illness):
         self._people = self._people + generate_commuters.generate_agents(comcsv, comscsv, self._magicA, illness)
-    
-    def savedata(self, f):
+
+    def add_tourists(self, illness):
+        self._people = self._people + generate_tourists.generate_agents(self._magicA, illness)
+
+    def savedata(self, f, g):
         '''
         Creates a JSON file with the agents
         :param f: Filename
         '''
         with open(f, 'w') as f:
             json.dump(self._people, f, indent="\t")
+        with open(g, 'w') as f:
+            json.dump(self._subrespoi, f, indent="\t")
 
 
-def generate_agents(respoi, magic, illness, tempout, tempstat, comcsv=None, comscsv=None):
+def generate_agents(respoi, magic, illness, tempout, tempstat, comcsv=None, comscsv=None, tempfamlocation=None):
 
     adatok = DataSet()
     adatok.load_magicnumber(magic)
@@ -607,7 +619,10 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, comcsv=None, coms
     #adatok._people = useful_library.order_by_place(adatok._people, 0)
     if comcsv != None and comscsv != None:
         adatok.add_commuters(comcsv, comscsv, illness)
-    adatok.savedata(tempout)
+    adatok.add_tourists(illness)
+
+    adatok.savedata(tempout, tempfamlocation)
+
     print(" - done.")
     print(adatok._magicA)
 

@@ -25,13 +25,51 @@ def _process_data(filename, data, type):
         }
         data.append(convert)
 
+def _process_res_data(filename, tempfamlocation, data):
+    with open(filename, 'r') as f:
+        d = json.load(f)
+    d = d["places"]
+    cnt = 0
 
-def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, locationout):
+    with open(tempfamlocation, 'r') as f:
+        tfl = json.load(f)
+
+    for item in d:
+        t = 2
+        infectious = 1
+        if item['id'] in tfl:
+            for multip in tfl[item['id']]:
+                convert = {
+                    'ID': multip + item['id'],
+                    'type': t,
+                    'coordinates': item['coordinates_alt'],
+                    'area': item['area'],
+                    'infectious': infectious,
+                    'state': 'ON',
+                    'capacity': item['capacity'],
+                    'ageInter': item['ageInter']
+                }
+                data.append(convert)
+        else:
+            cnt = cnt + 1
+            convert = {
+                'ID': item['id'],
+                'type': t,
+                'coordinates': item['coordinates_alt'],
+                'area': item['area'],
+                'infectious': infectious,
+                'state': 'ON',
+                'capacity': item['capacity'],
+                'ageInter': item['ageInter']
+            }
+            data.append(convert)
+
+def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, locationout):
     data = []
     txt = "Converting location files"
     sys.stdout.write('\r' + txt)
 
-    _process_data(respoi, data, 2)
+    _process_res_data(respoi, tempfamlocation, data)
     _process_data(schoolpoi, data, 3)
     _process_data(workpoi, data, -1)
     _process_data(ipoi, data, -1)

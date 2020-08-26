@@ -74,7 +74,7 @@ def generate_ilocation(ifn, agents):
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 10, 3)
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 12, 1)
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 14, 1)
-        elif 4 < agent['typeID'] < 9:
+        elif 4 < agent['typeID'] <= 9:  # Add tourists as well
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 5, 3)
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 6, 3)
             agent['locations'] = agent['locations'] + useful_library.select_closer_places(i_data[7], i_distance_data[7], agent['locations'][0], 2)

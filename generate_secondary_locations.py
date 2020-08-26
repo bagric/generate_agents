@@ -27,7 +27,7 @@ def school_switch(i):
 def findoccupation(schools, workplaces, locs, typeID):
     distan = 1000000
     loc_id = -1
-    if typeID > 4:
+    if 9 > typeID > 4:
         if typeID == 6:
             i = 0
             for wp in workplaces:
@@ -51,7 +51,7 @@ def findoccupation(schools, workplaces, locs, typeID):
         else:
             return None
     # babies left out as requested
-    elif typeID > 1:
+    elif 4 >= typeID > 1:
         snum = school_switch(typeID)
         i = 0
         for sch in schools:
@@ -78,13 +78,17 @@ def findoccupation(schools, workplaces, locs, typeID):
                         del schools[loc_id]
                         break
             return rloc
-
+    else:
+         return None
 
 def generate_occupation(sfn, wfn, agents):
     sc_data = useful_library.load_data(sfn)
     wp_data = useful_library.load_data(wfn)
     for agent in agents:
-        ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
+        if len(agent["locations"]) > 0:
+            ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
+        else:
+            ifhasoccupation = None
         if ifhasoccupation != None:
             #if 4 < ifhasoccupation["typeID"] < 7:
             #    agent['typeID'] = 7
@@ -108,7 +112,7 @@ def generate_additional_locations(agentsfilein, agentsfileout, schools, workplac
     sys.stdout.write(" - done. Adding schools/workplaces")
 
     generate_occupation(schools, workplaces, person)
-    print(unschooled_counter)
+    # print(unschooled_counter)
     sys.stdout.write(" - done. Saving")
     with open(agentsfileout, 'w') as f:
         json.dump(person, f, indent="\t")

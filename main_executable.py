@@ -38,8 +38,10 @@ illness      = file_prefix + "_illness_number.json"
 comcsv       = file_prefix + "_commuters.csv"
 comscsv      = file_prefix + "_commuter_students.csv"
 
+tempfamlocation = file_prefix + "_famlocation_helper.json"
+
 #agentout    = "agents.json"
-locationout = "locations.json"
+#locationout = "locations.json"
 
 def main(argv):
     if len(argv) > 1:
@@ -49,14 +51,14 @@ def main(argv):
         work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
         intersting_poi_process.process_input_data(file_prefix, icsv, ipoi)
     # default data generating when files are ready to be used
-    #generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat)
-    convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, locationout)
     for i in range(int(argv[0])):
         agentout = "agents"+str(i)+".json"
-        generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat, comcsv, comscsv)
+        locationout = "locations"+str(i)+".json"
+        generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat, comcsv, comscsv, tempfamlocation)
         generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
         generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
         generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
+        convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, locationout)
         convert_agents.convert_data(tempagentout, agentout)
 
 if __name__ == "__main__":
