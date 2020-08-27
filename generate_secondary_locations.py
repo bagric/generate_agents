@@ -27,7 +27,7 @@ def school_switch(i):
 def findoccupation(schools, workplaces, locs, typeID):
     distan = 1000000
     loc_id = -1
-    if 9 > typeID > 4:
+    if 4 < typeID < 9:
         if typeID == 6:
             i = 0
             for wp in workplaces:
@@ -51,7 +51,7 @@ def findoccupation(schools, workplaces, locs, typeID):
         else:
             return None
     # babies left out as requested
-    elif 4 >= typeID > 1:
+    elif 1 < typeID <= 4:
         snum = school_switch(typeID)
         i = 0
         for sch in schools:
@@ -78,8 +78,6 @@ def findoccupation(schools, workplaces, locs, typeID):
                         del schools[loc_id]
                         break
             return rloc
-    else:
-         return None
 
 def generate_occupation(sfn, wfn, agents):
     sc_data = useful_library.load_data(sfn)
@@ -87,22 +85,21 @@ def generate_occupation(sfn, wfn, agents):
     for agent in agents:
         if len(agent["locations"]) > 0:
             ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
-        else:
-            ifhasoccupation = None
-        if ifhasoccupation != None:
-            #if 4 < ifhasoccupation["typeID"] < 7:
-            #    agent['typeID'] = 7
-            #if 6 < ifhasoccupation["typeID"] < 9 or ifhasoccupation["typeID"] == 12 or ifhasoccupation["typeID"] == 14:
-            #    random.choice([6, 7])
-            if ifhasoccupation["typeID"] == 13:
-                agent['typeID'] = 7
-            agent['locations'].append(dict(ifhasoccupation))
-        elif agent['typeID'] > 4:
-            agent['typeID'] = 8
-        elif 1 < agent['typeID'] < 5:
-            unschooled_counter[agent['typeID']-1] = unschooled_counter[agent['typeID']-1] + 1
-            agent['typeID'] = 1
-            agent['age'] = random.choice([0, 1])
+            if ifhasoccupation != None:
+                # if 4 < ifhasoccupation["typeID"] < 7:
+                #    agent['typeID'] = 7
+                # if 6 < ifhasoccupation["typeID"] < 9 or ifhasoccupation["typeID"] == 12 or ifhasoccupation["typeID"] == 14:
+                #    random.choice([6, 7])
+                if ifhasoccupation["typeID"] == 13:
+                    agent['typeID'] = 7
+                agent['locations'].append(dict(ifhasoccupation))
+            elif 4 < agent['typeID'] < 9:
+                agent['typeID'] = 8
+            elif 1 < agent['typeID'] < 5:
+                unschooled_counter[agent['typeID'] - 1] = unschooled_counter[agent['typeID'] - 1] + 1
+                agent['typeID'] = 1
+                agent['age'] = random.choice([0, 1])
+
 
 
 def generate_additional_locations(agentsfilein, agentsfileout, schools, workplaces):
