@@ -30,6 +30,15 @@ def load_data(filename, index_divide=False):
     else:
         return temp_places
 
+def filter_data_subtype(odata, filterlist):
+    list_of_places = []
+    for dat in odata:
+        for fi in filterlist:
+            if dat['subtype'] == fi:
+                list_of_places.append(dat)
+    return list_of_places
+
+
 def select_random_place(odata, place_type, how_many):
     list_of_places = []
     i = 0
@@ -45,11 +54,13 @@ def select_random_place(odata, place_type, how_many):
             i = i + 1
     return list_of_places
 
+
 def create_distance_data(odata):
     ndata = []
     for item in odata:
         ndata.append(item["coordinates"] + item["coordinates_alt"])
     return ndata
+
 
 def select_closer_places(odata, odata_distance, ref_place, how_many):
     list_of_places = []

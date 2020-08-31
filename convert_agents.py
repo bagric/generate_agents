@@ -38,20 +38,26 @@ def convert_data(genagent, agentsout):
                 pop[i] = pop[i] + 1
                 break
 
+        t = res['typeID']
+        f = False
 
         for locs in res['locations']:
             loc = {
                 'typeID': locs['typeID'],
                 'locID': locs['locID']
             }
+            if (locs['typeID'] == 4) or (locs['typeID'] == 13):
+                f = True
+
             convert['locations'].append(loc)
 
         data.append(convert)
 
     sys.stdout.write(" - done. Saving")
     adat = {"people": data}
-    with open(agentsout, 'w') as f:
-        json.dump(adat, f, indent="\t")
+    # with open(agentsout, 'w') as f:
+    #     json.dump(adat, f, indent="\t")
 
     print(" - done")
     print(pop, sum(pop))
+

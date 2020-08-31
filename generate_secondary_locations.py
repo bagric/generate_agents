@@ -36,16 +36,15 @@ def findoccupation(schools, workplaces, locs, typeID):
                 if temp_d < distan:
                     distan = temp_d
                     loc_id = i
-                    rloc = {"typeID": workplaces[loc_id]["type"],
-                            "locID": workplaces[loc_id]["id"],
-                            "coordinates": workplaces[loc_id]["coordinates"],
-                            "coordinates_alt": workplaces[loc_id]["coordinates_alt"]
+                    rloc = {"typeID": wp["type"],
+                            "locID": wp["id"],
+                            "coordinates": wp["coordinates"],
+                            "coordinates_alt": wp["coordinates_alt"]
                             }
-                    workplaces[loc_id]["capacity"] = workplaces[loc_id]["capacity"] - 1
-                    if workplaces[loc_id]["capacity"] < 1:
-                        del workplaces[loc_id]
+                    wp["capacity"] = wp["capacity"] - 1
+                    if wp["capacity"] < 1:
+                        workplaces.remove(wp)
                     return rloc
-                i = i + 1
             if len(workplaces) < 1:
                 return None
         else:
@@ -82,10 +81,17 @@ def findoccupation(schools, workplaces, locs, typeID):
 def generate_occupation(sfn, wfn, agents):
     sc_data = useful_library.load_data(sfn)
     wp_data = useful_library.load_data(wfn)
+
+    iter = 0
     for agent in agents:
-        if len(agent["locations"]) > 0:
+        iter = iter+1
+        if iter % 250 == 0:
+            txt = "Loading agents - done. Adding schools/workplaces " + '{:6.2f}'.format(100.0*(iter/len(agents))) + "%"
+            sys.stdout.write('\r' + txt)
+
+        if agent['age'] < 70:
             ifhasoccupation = findoccupation(sc_data, wp_data, agent["locations"][0], agent['typeID'])
-            if ifhasoccupation != None:
+            if ifhasoccupation is not None and len(ifhasoccupation) > 0:
                 # if 4 < ifhasoccupation["typeID"] < 7:
                 #    agent['typeID'] = 7
                 # if 6 < ifhasoccupation["typeID"] < 9 or ifhasoccupation["typeID"] == 12 or ifhasoccupation["typeID"] == 14:
@@ -93,24 +99,25 @@ def generate_occupation(sfn, wfn, agents):
                 if ifhasoccupation["typeID"] == 13:
                     agent['typeID'] = 7
                 agent['locations'].append(dict(ifhasoccupation))
-            elif 4 < agent['typeID'] < 9:
-                agent['typeID'] = 8
-            elif 1 < agent['typeID'] < 5:
-                unschooled_counter[agent['typeID'] - 1] = unschooled_counter[agent['typeID'] - 1] + 1
-                agent['typeID'] = 1
-                agent['age'] = random.choice([0, 1])
-
+            else:
+                if 5 <= agent['typeID'] < 9:
+                    agent['typeID'] = 8
+                elif 1 < agent['typeID'] <= 4:
+                    unschooled_counter[agent['typeID'] - 1] = unschooled_counter[agent['typeID'] - 1] + 1
+                    agent['typeID'] = 1
+                    agent['age'] = random.choice([0, 1])
+        else:
+            agent['typeID'] = 8
 
 
 def generate_additional_locations(agentsfilein, agentsfileout, schools, workplaces):
     sys.stdout.write("Loading agents")
     with open(agentsfilein, 'r') as f:
         person = json.load(f)
-    sys.stdout.write(" - done. Adding schools/workplaces")
 
     generate_occupation(schools, workplaces, person)
     # print(unschooled_counter)
-    sys.stdout.write(" - done. Saving")
+    sys.stdout.write("\rLoading agents - done. Adding schools/workplaces 100% - done. Saving")
     with open(agentsfileout, 'w') as f:
         json.dump(person, f, indent="\t")
     print(" - done.")

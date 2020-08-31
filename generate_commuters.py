@@ -37,25 +37,31 @@ class DataSet:
                 if skip:
                     skip = False
                     continue
-                places = {'id': row[0],
-                        'type': 2,
-                        'subtype': 0,
-                        'coordinates': [21.1, 47.1],
-                        'coordinates_alt': [120000, 740000],
-                        'area': 0,
-                        'stat': 'ON',
-                        'capacity': int(row[1])
-                        }
-                data.append(places)
+                # places = {'id': row[0],
+                #         'type': 2,
+                #         'subtype': 0,
+                #         'coordinates': [21.1, 47.1],
+                #         'coordinates_alt': [120000, 740000],
+                #         'area': 0,
+                #         'stat': 'ON',
+                #         'capacity': int(row[1])
+                #         }
+                # data.append(places)
                 rloc = {"typeID": 2,
-                        "locID": row[0],
+                        #"locID": row[0],
+                        "locID": 'work_commuter_box',
                         "coordinates": [21.1, 47.1],
                         "coordinates_alt": [120000, 740000]
                         }
                 for i in range(int(row[1])):
                     self._people.append(self.new_person(rloc, -1))
         self._residents = data
-        dummy_loc_for_students = data[0]['id']
+        dummy_loc_for_students = {"typeID": 2,
+                "locID": 'school_commuter_box',
+                "coordinates": [21.1, 47.1],
+                "coordinates_alt": [120000, 740000]
+                }
+
         schools = []
         with open(comscsv, encoding="UTF-8") as csvfile:
             cfile = csv.reader(csvfile, dialect='excel', delimiter=";")
@@ -69,14 +75,9 @@ class DataSet:
                 schools.append(int(row[3]))
                 schools.append(int(row[4]))
                 schools.append(int(row[5]))
-                rloc = {"typeID": 2,
-                        "locID": dummy_loc_for_students,
-                        "coordinates": [21.1, 47.1],
-                        "coordinates_alt": [120000, 740000]
-                        }
                 for j in range(len(schools)):
                     for i in range(schools[j]):
-                        self._people.append(self.new_person(rloc, j))
+                        self._people.append(self.new_person(dummy_loc_for_students, j))
         
     
     def occupation_switch(self, i):

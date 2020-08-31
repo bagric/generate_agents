@@ -42,6 +42,8 @@ def select_closer_places(i_data, agent, place_type, how_many):
 
 def generate_ilocation(ifn, agents):
     i_data = useful_library.load_data(ifn, True)
+    hotels = useful_library.filter_data_subtype(useful_library.load_data(ifn), ['int_szálloda (hotel)', 'int_vendégház, apartman'])
+
     i_distance_data = [[] for _ in range(len(i_data))]
     i = 0
     while i < len(i_data):
@@ -51,7 +53,19 @@ def generate_ilocation(ifn, agents):
         else:
             i_distance_data[i] = useful_library.create_distance_data(i_data[i])
         i = i + 1
+
+    iter = 0
     for agent in agents:
+        iter = iter + 1
+        if iter % 250 == 0:
+            txt = "Loading agents - done. Adding interesting places " + '{:6.2f}'.format(100.0*(iter/len(agents))) + "%"
+            sys.stdout.write('\r' + txt)
+
+        if agent['typeID'] == 9:  # Add tourists as well
+            hotel = useful_library.select_random_place(i_data, 4, 1)
+            hotel[0]['typeID'] = 2
+            agent['locations'] + hotel
+
         if agent['typeID'] == 1:
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 10, 3)
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 12, 1)
@@ -88,15 +102,15 @@ def generate_ilocation(ifn, agents):
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 12, 1)
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 14, 1)
 
+
 def generate_additional_locations(agentsfilein, agentsfileout, iplaces):
     sys.stdout.write("Loading agents")
     with open(agentsfilein, 'r') as f:
         person = json.load(f)
-    sys.stdout.write(" - done. Adding interesting places")
 
     generate_ilocation(iplaces, person)
 
-    sys.stdout.write(" - done. Saving")
+    sys.stdout.write("\rLoading agents - done. Adding interesting places 100% - done. Saving")
     with open(agentsfileout, 'w') as f:
         json.dump(person, f, indent="\t")
     print(" - done.")

@@ -54,12 +54,12 @@ def main(argv):
     for i in range(int(argv[0])):
         agentout = "agents"+str(i)+".json"
         locationout = "locations"+str(i)+".json"
-        generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat, comcsv, comscsv, tempfamlocation)
-        generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
-        generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
-        generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
+        #generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat, comcsv, comscsv, tempfamlocation)
+        #generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
+        #generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
+        #generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
         convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, locationout)
-        convert_agents.convert_data(tempagentout, agentout)
+        #convert_agents.convert_data(tempagentout, agentout)
 
 if __name__ == "__main__":
    main(sys.argv[1:])

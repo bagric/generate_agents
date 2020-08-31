@@ -4890,7 +4890,7 @@
 		},
 		{
 			"id": "735038102475",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.150436,
@@ -4917,7 +4917,7 @@
 		},
 		{
 			"id": "734683101456",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.145647,
@@ -4944,7 +4944,7 @@
 		},
 		{
 			"id": "735577102836",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.157493,
@@ -4971,7 +4971,7 @@
 		},
 		{
 			"id": "733720100542",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.132996,
@@ -4998,7 +4998,7 @@
 		},
 		{
 			"id": "732707100465",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.119849,
@@ -5025,7 +5025,7 @@
 		},
 		{
 			"id": "736462104676",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.169313,
@@ -5052,7 +5052,7 @@
 		},
 		{
 			"id": "73779799735",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.185699,
@@ -5079,7 +5079,7 @@
 		},
 		{
 			"id": "734695101075",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.145733,
@@ -5106,7 +5106,7 @@
 		},
 		{
 			"id": "738918102208",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.200703,
@@ -5133,7 +5133,7 @@
 		},
 		{
 			"id": "73867298030",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.196717,
@@ -5160,7 +5160,7 @@
 		},
 		{
 			"id": "735072103758",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.151112,
@@ -5187,7 +5187,7 @@
 		},
 		{
 			"id": "728284103831",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.063073,
@@ -5214,7 +5214,7 @@
 		},
 		{
 			"id": "736375101285",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.167554,
@@ -5241,7 +5241,7 @@
 		},
 		{
 			"id": "733319102203",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.128101,
@@ -5268,7 +5268,7 @@
 		},
 		{
 			"id": "735630101913",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.15801,
@@ -5295,7 +5295,7 @@
 		},
 		{
 			"id": "736034102058",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.163282,
@@ -5322,7 +5322,7 @@
 		},
 		{
 			"id": "731908102531",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.109854,
@@ -5349,7 +5349,7 @@
 		},
 		{
 			"id": "731838102475",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.108936,
@@ -5376,7 +5376,7 @@
 		},
 		{
 			"id": "734177101655",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.139122,
@@ -5403,7 +5403,7 @@
 		},
 		{
 			"id": "734119103231",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.138655,
@@ -5430,7 +5430,7 @@
 		},
 		{
 			"id": "731353103621",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.102847,
@@ -5457,7 +5457,7 @@
 		},
 		{
 			"id": "733285102722",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.127746,
@@ -5484,7 +5484,7 @@
 		},
 		{
 			"id": "734150100867",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.138629,
@@ -5511,7 +5511,7 @@
 		},
 		{
 			"id": "736462104676",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.169313,
@@ -5538,7 +5538,7 @@
 		},
 		{
 			"id": "732312102931",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.115164,
@@ -5565,7 +5565,7 @@
 		},
 		{
 			"id": "734695101075",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.145733,
@@ -5592,7 +5592,7 @@
 		},
 		{
 			"id": "735072103758",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.151112,
@@ -5619,7 +5619,7 @@
 		},
 		{
 			"id": "736218104039",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.166029,
@@ -5646,7 +5646,7 @@
 		},
 		{
 			"id": "735643103074",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.158393,
@@ -5673,7 +5673,7 @@
 		},
 		{
 			"id": "735014102055",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.150048,
@@ -5700,7 +5700,7 @@
 		},
 		{
 			"id": "736375101285",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.167554,
@@ -5727,7 +5727,7 @@
 		},
 		{
 			"id": "733232102127",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.126953,
@@ -5754,7 +5754,7 @@
 		},
 		{
 			"id": "728284103831",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.063073,
@@ -5781,7 +5781,7 @@
 		},
 		{
 			"id": "73867298030",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.196717,
@@ -5808,7 +5808,7 @@
 		},
 		{
 			"id": "738918102208",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.200703,
@@ -5835,7 +5835,7 @@
 		},
 		{
 			"id": "732548102888",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.118218,
@@ -5862,7 +5862,7 @@
 		},
 		{
 			"id": "734256101363",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.140093,
@@ -5889,7 +5889,7 @@
 		},
 		{
 			"id": "734514100078",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.143205,
@@ -5916,7 +5916,7 @@
 		},
 		{
 			"id": "733359103025",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.12876,
@@ -5943,7 +5943,7 @@
 		},
 		{
 			"id": "734177101655",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.139122,
@@ -5970,7 +5970,7 @@
 		},
 		{
 			"id": "734177101655",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.139122,
@@ -5997,7 +5997,7 @@
 		},
 		{
 			"id": "735527103778",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.157018,
@@ -6024,7 +6024,7 @@
 		},
 		{
 			"id": "734119103231",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.138655,
@@ -6051,7 +6051,7 @@
 		},
 		{
 			"id": "734119103231",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.138655,
@@ -6078,7 +6078,7 @@
 		},
 		{
 			"id": "731446103956",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.104112,
@@ -6105,7 +6105,7 @@
 		},
 		{
 			"id": "735546102000",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.156937,
@@ -6132,7 +6132,7 @@
 		},
 		{
 			"id": "731750103028",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.107892,
@@ -6159,7 +6159,7 @@
 		},
 		{
 			"id": "732650101580",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.119308,
@@ -6186,7 +6186,7 @@
 		},
 		{
 			"id": "734177101655",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.139122,
@@ -6213,7 +6213,7 @@
 		},
 		{
 			"id": "73803798531",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.188582,
@@ -6240,7 +6240,7 @@
 		},
 		{
 			"id": "734140102024",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.138709,
@@ -6267,7 +6267,7 @@
 		},
 		{
 			"id": "734717101802",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagpont",
 			"coordinates": [
 				20.146151,
@@ -6294,7 +6294,7 @@
 		},
 		{
 			"id": "734119103231",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagautomata",
 			"coordinates": [
 				20.138655,
@@ -6321,7 +6321,7 @@
 		},
 		{
 			"id": "734177101655",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagautomata",
 			"coordinates": [
 				20.139122,
@@ -6348,7 +6348,7 @@
 		},
 		{
 			"id": "734119103231",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagautomata",
 			"coordinates": [
 				20.138655,
@@ -6375,7 +6375,7 @@
 		},
 		{
 			"id": "73677599668",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagautomata",
 			"coordinates": [
 				20.172439,
@@ -6402,7 +6402,7 @@
 		},
 		{
 			"id": "732707100465",
-			"type": 0,
+			"type": 4,
 			"subtype": "csomagautomata",
 			"coordinates": [
 				20.119849,
@@ -6429,7 +6429,7 @@
 		},
 		{
 			"id": "734997104220",
-			"type": 8,
+			"type": 4,
 			"subtype": "k\u00f6z\u00f6ss\u00e9gi kert",
 			"coordinates": [
 				20.15023,
@@ -6456,7 +6456,7 @@
 		},
 		{
 			"id": "736072103613",
-			"type": 8,
+			"type": 4,
 			"subtype": "k\u00f6z\u00f6ss\u00e9gi kert",
 			"coordinates": [
 				20.164056,
@@ -7860,7 +7860,7 @@
 		},
 		{
 			"id": "735023102143",
-			"type": 10,
+			"type": 4,
 			"subtype": "kil\u00e1t\u00f3, kil\u00e1t\u00f3hely",
 			"coordinates": [
 				20.150181,
@@ -7887,7 +7887,7 @@
 		},
 		{
 			"id": "728702104387",
-			"type": 0,
+			"type": 4,
 			"subtype": "malom",
 			"coordinates": [
 				20.06859,
@@ -7914,7 +7914,7 @@
 		},
 		{
 			"id": "735649101072",
-			"type": 0,
+			"type": 4,
 			"subtype": "parkol\u00f3",
 			"coordinates": [
 				20.158102,
@@ -7941,7 +7941,7 @@
 		},
 		{
 			"id": "733342102952",
-			"type": 0,
+			"type": 4,
 			"subtype": "parkol\u00f3",
 			"coordinates": [
 				20.128527,
@@ -10290,7 +10290,7 @@
 		},
 		{
 			"id": "73411799638",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.137979,
@@ -10317,7 +10317,7 @@
 		},
 		{
 			"id": "737533107732",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.183783,
@@ -10344,7 +10344,7 @@
 		},
 		{
 			"id": "728953107044",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.072298,
@@ -10371,7 +10371,7 @@
 		},
 		{
 			"id": "734503101433",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.143309,
@@ -10398,7 +10398,7 @@
 		},
 		{
 			"id": "73235296188",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.11449,
@@ -10425,7 +10425,7 @@
 		},
 		{
 			"id": "735972102109",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.162481,
@@ -10452,7 +10452,7 @@
 		},
 		{
 			"id": "734450100247",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.142406,
@@ -10479,7 +10479,7 @@
 		},
 		{
 			"id": "734139100364",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.138396,
@@ -10506,7 +10506,7 @@
 		},
 		{
 			"id": "734686102497",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.145875,
@@ -10533,7 +10533,7 @@
 		},
 		{
 			"id": "73746299628",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.181337,
@@ -10560,7 +10560,7 @@
 		},
 		{
 			"id": "735819101338",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.160355,
@@ -10587,7 +10587,7 @@
 		},
 		{
 			"id": "733831100068",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.134349,
@@ -10614,7 +10614,7 @@
 		},
 		{
 			"id": "734220103037",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.13993,
@@ -10641,7 +10641,7 @@
 		},
 		{
 			"id": "734359100609",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.141292,
@@ -10668,7 +10668,7 @@
 		},
 		{
 			"id": "734767100179",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.146503,
@@ -10695,7 +10695,7 @@
 		},
 		{
 			"id": "733430100924",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.129304,
@@ -10722,7 +10722,7 @@
 		},
 		{
 			"id": "733873100454",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.134963,
@@ -10749,7 +10749,7 @@
 		},
 		{
 			"id": "735739102028",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.159445,
@@ -10776,7 +10776,7 @@
 		},
 		{
 			"id": "734054100835",
-			"type": 2,
+			"type": 4,
 			"subtype": "panzi\u00f3, fogad\u00f3",
 			"coordinates": [
 				20.137379,
@@ -10803,7 +10803,7 @@
 		},
 		{
 			"id": "732653102786",
-			"type": 2,
+			"type": 4,
 			"subtype": "motel",
 			"coordinates": [
 				20.119561,
@@ -10830,7 +10830,7 @@
 		},
 		{
 			"id": "72902998842",
-			"type": 2,
+			"type": 4,
 			"subtype": "motel",
 			"coordinates": [
 				20.07189,
@@ -10857,7 +10857,7 @@
 		},
 		{
 			"id": "736189100612",
-			"type": 2,
+			"type": 4,
 			"subtype": "motel",
 			"coordinates": [
 				20.165018,
@@ -10884,7 +10884,7 @@
 		},
 		{
 			"id": "734519100339",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.143317,
@@ -10911,7 +10911,7 @@
 		},
 		{
 			"id": "734149101462",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.138724,
@@ -10938,7 +10938,7 @@
 		},
 		{
 			"id": "733767102642",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.133983,
@@ -10965,7 +10965,7 @@
 		},
 		{
 			"id": "736081102903",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.164042,
@@ -10992,7 +10992,7 @@
 		},
 		{
 			"id": "734863101091",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.147914,
@@ -11019,7 +11019,7 @@
 		},
 		{
 			"id": "731013104284",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.098552,
@@ -11046,7 +11046,7 @@
 		},
 		{
 			"id": "736412100924",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.167967,
@@ -11073,7 +11073,7 @@
 		},
 		{
 			"id": "734757102223",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.146746,
@@ -11100,7 +11100,7 @@
 		},
 		{
 			"id": "734839100730",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.147537,
@@ -11127,7 +11127,7 @@
 		},
 		{
 			"id": "734707100506",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.145785,
@@ -11154,7 +11154,7 @@
 		},
 		{
 			"id": "734800100873",
-			"type": 2,
+			"type": 4,
 			"subtype": "di\u00e1ksz\u00e1ll\u00f3",
 			"coordinates": [
 				20.147058,
@@ -11181,7 +11181,7 @@
 		},
 		{
 			"id": "73361599835",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.131507,
@@ -11208,7 +11208,7 @@
 		},
 		{
 			"id": "735735101494",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.159294,
@@ -11235,7 +11235,7 @@
 		},
 		{
 			"id": "73235296188",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.11449,
@@ -11262,7 +11262,7 @@
 		},
 		{
 			"id": "737168101066",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.177795,
@@ -11289,7 +11289,7 @@
 		},
 		{
 			"id": "735207101739",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.152493,
@@ -11316,7 +11316,7 @@
 		},
 		{
 			"id": "735796102152",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.160207,
@@ -11343,7 +11343,7 @@
 		},
 		{
 			"id": "733999100585",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.13662,
@@ -11370,7 +11370,7 @@
 		},
 		{
 			"id": "735628100692",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.157759,
@@ -11397,7 +11397,7 @@
 		},
 		{
 			"id": "736661102171",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.171427,
@@ -11424,7 +11424,7 @@
 		},
 		{
 			"id": "736238102199",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.165947,
@@ -11451,7 +11451,7 @@
 		},
 		{
 			"id": "73418299987",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.138885,
@@ -11478,7 +11478,7 @@
 		},
 		{
 			"id": "734398100122",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.141709,
@@ -11505,7 +11505,7 @@
 		},
 		{
 			"id": "734236100214",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.139626,
@@ -11532,7 +11532,7 @@
 		},
 		{
 			"id": "735095104019",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.151458,
@@ -11559,7 +11559,7 @@
 		},
 		{
 			"id": "736468101347",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.168771,
@@ -11586,7 +11586,7 @@
 		},
 		{
 			"id": "734025100992",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.137031,
@@ -11613,7 +11613,7 @@
 		},
 		{
 			"id": "735518102083",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.156589,
@@ -11640,7 +11640,7 @@
 		},
 		{
 			"id": "736242103358",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.166214,
@@ -11667,7 +11667,7 @@
 		},
 		{
 			"id": "734430100685",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.142226,
@@ -11694,7 +11694,7 @@
 		},
 		{
 			"id": "72877398392",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.068496,
@@ -11721,7 +11721,7 @@
 		},
 		{
 			"id": "735923101299",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.161696,
@@ -11748,7 +11748,7 @@
 		},
 		{
 			"id": "736175102412",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.16517,
@@ -11775,7 +11775,7 @@
 		},
 		{
 			"id": "724672103513",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.016167,
@@ -11802,7 +11802,7 @@
 		},
 		{
 			"id": "736576102591",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.170403,
@@ -11829,7 +11829,7 @@
 		},
 		{
 			"id": "735025101323",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.150057,
@@ -11856,7 +11856,7 @@
 		},
 		{
 			"id": "735942102916",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.162241,
@@ -11883,7 +11883,7 @@
 		},
 		{
 			"id": "73227199785",
-			"type": 2,
+			"type": 4,
 			"subtype": "vend\u00e9gh\u00e1z, apartman",
 			"coordinates": [
 				20.1140823,
@@ -11910,7 +11910,7 @@
 		},
 		{
 			"id": "724552103024",
-			"type": 2,
+			"type": 4,
 			"subtype": "kemping",
 			"coordinates": [
 				20.014532,
@@ -11937,7 +11937,7 @@
 		},
 		{
 			"id": "725079103365",
-			"type": 2,
+			"type": 4,
 			"subtype": "kemping",
 			"coordinates": [
 				20.021423,
@@ -11964,7 +11964,7 @@
 		},
 		{
 			"id": "735735101494",
-			"type": 2,
+			"type": 4,
 			"subtype": "kemping",
 			"coordinates": [
 				20.159294,
@@ -11991,7 +11991,7 @@
 		},
 		{
 			"id": "732653102786",
-			"type": 2,
+			"type": 4,
 			"subtype": "kemping",
 			"coordinates": [
 				20.119561,
@@ -12018,7 +12018,7 @@
 		},
 		{
 			"id": "737475101364",
-			"type": 2,
+			"type": 4,
 			"subtype": "ifj\u00fas\u00e1gi sz\u00e1ll\u00f3",
 			"coordinates": [
 				20.181832,
@@ -12045,7 +12045,7 @@
 		},
 		{
 			"id": "734767100179",
-			"type": 2,
+			"type": 4,
 			"subtype": "ifj\u00fas\u00e1gi sz\u00e1ll\u00f3",
 			"coordinates": [
 				20.146503,
@@ -12072,7 +12072,7 @@
 		},
 		{
 			"id": "724552103024",
-			"type": 2,
+			"type": 4,
 			"subtype": "\u00fcd\u00fcl\u0151h\u00e1z",
 			"coordinates": [
 				20.014532,
@@ -12099,7 +12099,7 @@
 		},
 		{
 			"id": "725079103365",
-			"type": 2,
+			"type": 4,
 			"subtype": "\u00fcd\u00fcl\u0151h\u00e1z",
 			"coordinates": [
 				20.021423,
@@ -12126,7 +12126,7 @@
 		},
 		{
 			"id": "735735101494",
-			"type": 2,
+			"type": 4,
 			"subtype": "\u00fcd\u00fcl\u0151h\u00e1z",
 			"coordinates": [
 				20.159294,
@@ -12153,7 +12153,7 @@
 		},
 		{
 			"id": "732653102786",
-			"type": 2,
+			"type": 4,
 			"subtype": "\u00fcd\u00fcl\u0151h\u00e1z",
 			"coordinates": [
 				20.119561,
@@ -12801,7 +12801,7 @@
 		},
 		{
 			"id": "734907101387",
-			"type": 5,
+			"type": 13,
 			"subtype": "b\u00e1r",
 			"coordinates": [
 				20.148539,
@@ -12828,7 +12828,7 @@
 		},
 		{
 			"id": "734655101575",
-			"type": 5,
+			"type": 13,
 			"subtype": "b\u00e1r",
 			"coordinates": [
 				20.145305,
@@ -12855,7 +12855,7 @@
 		},
 		{
 			"id": "733872102435",
-			"type": 5,
+			"type": 13,
 			"subtype": "b\u00e1r",
 			"coordinates": [
 				20.135308,
@@ -12990,7 +12990,7 @@
 		},
 		{
 			"id": "735083101558",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.150852,
@@ -13017,7 +13017,7 @@
 		},
 		{
 			"id": "734925101357",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.148767,
@@ -13044,7 +13044,7 @@
 		},
 		{
 			"id": "735207101739",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.152493,
@@ -13071,7 +13071,7 @@
 		},
 		{
 			"id": "734861101298",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.147926,
@@ -13098,7 +13098,7 @@
 		},
 		{
 			"id": "734987103264",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.149919,
@@ -13125,7 +13125,7 @@
 		},
 		{
 			"id": "735060101455",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.150535,
@@ -13152,7 +13152,7 @@
 		},
 		{
 			"id": "734423100981",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.142189,
@@ -13179,7 +13179,7 @@
 		},
 		{
 			"id": "735074102202",
-			"type": 5,
+			"type": 13,
 			"subtype": "s\u00f6r\u00f6z\u0151",
 			"coordinates": [
 				20.150853,
@@ -13341,7 +13341,7 @@
 		},
 		{
 			"id": "735684102086",
-			"type": 5,
+			"type": 13,
 			"subtype": "kocsma, boroz\u00f3",
 			"coordinates": [
 				20.158742,
@@ -19227,7 +19227,7 @@
 		},
 		{
 			"id": "732832103294",
-			"type": 10,
+			"type": 4,
 			"subtype": "horg\u00e1szhely, horg\u00e1szt\u00f3",
 			"coordinates": [
 				20.121973,
@@ -19254,7 +19254,7 @@
 		},
 		{
 			"id": "73235296188",
-			"type": 10,
+			"type": 4,
 			"subtype": "horg\u00e1szhely, horg\u00e1szt\u00f3",
 			"coordinates": [
 				20.11449,
@@ -19524,7 +19524,7 @@
 		},
 		{
 			"id": "734142100903",
-			"type": 8,
+			"type": 4,
 			"subtype": "j\u00f3gast\u00fadi\u00f3",
 			"coordinates": [
 				20.138532,
@@ -19821,7 +19821,7 @@
 		},
 		{
 			"id": "734360102000",
-			"type": 0,
+			"type": 4,
 			"subtype": "busz p\u00e1lyaudvar",
 			"coordinates": [
 				20.141557,
@@ -19848,7 +19848,7 @@
 		},
 		{
 			"id": "736052103483",
-			"type": 0,
+			"type": 4,
 			"subtype": "busz p\u00e1lyaudvar",
 			"coordinates": [
 				20.163773,
@@ -28542,7 +28542,7 @@
 		},
 		{
 			"id": "734508100198",
-			"type": 2,
+			"type": 4,
 			"subtype": "munk\u00e1ssz\u00e1ll\u00f3",
 			"coordinates": [
 				20.143149,
@@ -28569,7 +28569,7 @@
 		},
 		{
 			"id": "734838100315",
-			"type": 2,
+			"type": 4,
 			"subtype": "munk\u00e1ssz\u00e1ll\u00f3",
 			"coordinates": [
 				20.147448,
@@ -28596,7 +28596,7 @@
 		},
 		{
 			"id": "733122101767",
-			"type": 2,
+			"type": 4,
 			"subtype": "munk\u00e1ssz\u00e1ll\u00f3",
 			"coordinates": [
 				20.125462,
@@ -28623,7 +28623,7 @@
 		},
 		{
 			"id": "734155100325",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.138596,
@@ -28650,7 +28650,7 @@
 		},
 		{
 			"id": "734233103218",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.140131,
@@ -28677,7 +28677,7 @@
 		},
 		{
 			"id": "734519100339",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.143317,
@@ -28704,7 +28704,7 @@
 		},
 		{
 			"id": "734624100550",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.144717,
@@ -28731,7 +28731,7 @@
 		},
 		{
 			"id": "734152100777",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.138639,
@@ -28758,7 +28758,7 @@
 		},
 		{
 			"id": "736492101139",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.169044,
@@ -28785,7 +28785,7 @@
 		},
 		{
 			"id": "734149101462",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.138724,
@@ -28812,7 +28812,7 @@
 		},
 		{
 			"id": "735129101133",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.151371,
@@ -28839,7 +28839,7 @@
 		},
 		{
 			"id": "732549101612",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.118004,
@@ -28866,7 +28866,7 @@
 		},
 		{
 			"id": "733767102642",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.133983,
@@ -28893,7 +28893,7 @@
 		},
 		{
 			"id": "734863101091",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.147914,
@@ -28920,7 +28920,7 @@
 		},
 		{
 			"id": "736647100869",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.171003,
@@ -28947,7 +28947,7 @@
 		},
 		{
 			"id": "734238101243",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.139838,
@@ -28974,7 +28974,7 @@
 		},
 		{
 			"id": "731013104284",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.098552,
@@ -29001,7 +29001,7 @@
 		},
 		{
 			"id": "736962101337",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.175175,
@@ -29028,7 +29028,7 @@
 		},
 		{
 			"id": "734508100198",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.143149,
@@ -29055,7 +29055,7 @@
 		},
 		{
 			"id": "734285101327",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.140463,
@@ -29082,7 +29082,7 @@
 		},
 		{
 			"id": "731329102690",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.102373,
@@ -29109,7 +29109,7 @@
 		},
 		{
 			"id": "736412100924",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.167967,
@@ -29136,7 +29136,7 @@
 		},
 		{
 			"id": "734877102168",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.148292,
@@ -29163,7 +29163,7 @@
 		},
 		{
 			"id": "734757102223",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.146746,
@@ -29190,7 +29190,7 @@
 		},
 		{
 			"id": "734159101858",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.138925,
@@ -29217,7 +29217,7 @@
 		},
 		{
 			"id": "734839100730",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.147537,
@@ -29244,7 +29244,7 @@
 		},
 		{
 			"id": "734751100589",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.146371,
@@ -29271,7 +29271,7 @@
 		},
 		{
 			"id": "734707100506",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.145785,
@@ -29298,7 +29298,7 @@
 		},
 		{
 			"id": "733012100254",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.123765,
@@ -29325,7 +29325,7 @@
 		},
 		{
 			"id": "734155100325",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.138596,
@@ -29352,7 +29352,7 @@
 		},
 		{
 			"id": "736234100959",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.165665,
@@ -29379,7 +29379,7 @@
 		},
 		{
 			"id": "734800100873",
-			"type": 2,
+			"type": 4,
 			"subtype": "koll\u00e9gium",
 			"coordinates": [
 				20.147058,
@@ -29406,7 +29406,7 @@
 		},
 		{
 			"id": "734822101588",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.147473,
@@ -29433,7 +29433,7 @@
 		},
 		{
 			"id": "736754101373",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.172485,
@@ -29460,7 +29460,7 @@
 		},
 		{
 			"id": "734800100873",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.147058,
@@ -29487,7 +29487,7 @@
 		},
 		{
 			"id": "734985101269",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.149528,
@@ -29514,7 +29514,7 @@
 		},
 		{
 			"id": "733360100563",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.128332,
@@ -29541,7 +29541,7 @@
 		},
 		{
 			"id": "732832103294",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.121973,
@@ -29568,7 +29568,7 @@
 		},
 		{
 			"id": "736198104074",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.165776,
@@ -29595,7 +29595,7 @@
 		},
 		{
 			"id": "735455103320",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.155999,
@@ -29622,7 +29622,7 @@
 		},
 		{
 			"id": "737352101935",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.180344,
@@ -29649,7 +29649,7 @@
 		},
 		{
 			"id": "734925101357",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.148767,
@@ -29676,7 +29676,7 @@
 		},
 		{
 			"id": "737519101892",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.182501,
@@ -29703,7 +29703,7 @@
 		},
 		{
 			"id": "735125101268",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.151344,
@@ -29730,7 +29730,7 @@
 		},
 		{
 			"id": "737379100005",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.180332,
@@ -29757,7 +29757,7 @@
 		},
 		{
 			"id": "734919101754",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.148761,
@@ -29784,7 +29784,7 @@
 		},
 		{
 			"id": "733742102229",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.133585,
@@ -29811,7 +29811,7 @@
 		},
 		{
 			"id": "728105103356",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.060671,
@@ -29838,7 +29838,7 @@
 		},
 		{
 			"id": "735207101739",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.152493,
@@ -29865,7 +29865,7 @@
 		},
 		{
 			"id": "734674100765",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.145404,
@@ -29892,7 +29892,7 @@
 		},
 		{
 			"id": "736449100848",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.168432,
@@ -29919,7 +29919,7 @@
 		},
 		{
 			"id": "736020102429",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.163163,
@@ -29946,7 +29946,7 @@
 		},
 		{
 			"id": "733782100618",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.133813,
@@ -29973,7 +29973,7 @@
 		},
 		{
 			"id": "735089101722",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.15096,
@@ -30000,7 +30000,7 @@
 		},
 		{
 			"id": "734984101443",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.149547,
@@ -30027,7 +30027,7 @@
 		},
 		{
 			"id": "734308100822",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.140669,
@@ -30054,7 +30054,7 @@
 		},
 		{
 			"id": "734978101257",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.149436,
@@ -30081,7 +30081,7 @@
 		},
 		{
 			"id": "735828101419",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.160486,
@@ -30108,7 +30108,7 @@
 		},
 		{
 			"id": "734834101289",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.147574,
@@ -30135,7 +30135,7 @@
 		},
 		{
 			"id": "735972102109",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.162481,
@@ -30162,7 +30162,7 @@
 		},
 		{
 			"id": "733430100924",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.129304,
@@ -30189,7 +30189,7 @@
 		},
 		{
 			"id": "735037102234",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.150379,
@@ -30216,7 +30216,7 @@
 		},
 		{
 			"id": "729964101363",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.084442,
@@ -30243,7 +30243,7 @@
 		},
 		{
 			"id": "73235296188",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.11449,
@@ -30270,7 +30270,7 @@
 		},
 		{
 			"id": "728953107044",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.072298,
@@ -30297,7 +30297,7 @@
 		},
 		{
 			"id": "734544101165",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.143792,
@@ -30324,7 +30324,7 @@
 		},
 		{
 			"id": "737533107732",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.183783,
@@ -30351,7 +30351,7 @@
 		},
 		{
 			"id": "733822101567",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.134503,
@@ -30378,7 +30378,7 @@
 		},
 		{
 			"id": "734861101298",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.147926,
@@ -30405,7 +30405,7 @@
 		},
 		{
 			"id": "734494101538",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.143211,
@@ -30432,7 +30432,7 @@
 		},
 		{
 			"id": "734300101819",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.140746,
@@ -30459,7 +30459,7 @@
 		},
 		{
 			"id": "732707100465",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.119849,
@@ -30486,7 +30486,7 @@
 		},
 		{
 			"id": "72902998842",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.07189,
@@ -30513,7 +30513,7 @@
 		},
 		{
 			"id": "732427103252",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.116713,
@@ -30540,7 +30540,7 @@
 		},
 		{
 			"id": "734647101952",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.14527,
@@ -30567,7 +30567,7 @@
 		},
 		{
 			"id": "734601104000",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.145046,
@@ -30594,7 +30594,7 @@
 		},
 		{
 			"id": "736392104613",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.168393,
@@ -30621,7 +30621,7 @@
 		},
 		{
 			"id": "736862101021",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.173819,
@@ -30648,7 +30648,7 @@
 		},
 		{
 			"id": "728298103998",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.063283,
@@ -30675,7 +30675,7 @@
 		},
 		{
 			"id": "734907101387",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.148539,
@@ -30702,7 +30702,7 @@
 		},
 		{
 			"id": "735037101316",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.150211,
@@ -30729,7 +30729,7 @@
 		},
 		{
 			"id": "734987103264",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.149919,
@@ -30756,7 +30756,7 @@
 		},
 		{
 			"id": "735244102029",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.153026,
@@ -30783,7 +30783,7 @@
 		},
 		{
 			"id": "735800101335",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.160108,
@@ -30810,7 +30810,7 @@
 		},
 		{
 			"id": "735260101794",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.15319,
@@ -30837,7 +30837,7 @@
 		},
 		{
 			"id": "734655101575",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.145305,
@@ -30864,7 +30864,7 @@
 		},
 		{
 			"id": "734879101186",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.148139,
@@ -30891,7 +30891,7 @@
 		},
 		{
 			"id": "737475101364",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.181832,
@@ -30918,7 +30918,7 @@
 		},
 		{
 			"id": "736598101605",
-			"type": 5,
+			"type": 13,
 			"subtype": "\u00e9tterem, vend\u00e9gl\u0151",
 			"coordinates": [
 				20.170505,
@@ -32376,7 +32376,7 @@
 		},
 		{
 			"id": "733848102598",
-			"type": 5,
+			"type": 4,
 			"subtype": "romkocsma",
 			"coordinates": [
 				20.135026,
@@ -32484,7 +32484,7 @@
 		},
 		{
 			"id": "735687101037",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.158588,
@@ -32511,7 +32511,7 @@
 		},
 		{
 			"id": "737313102728",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.179987,
@@ -32538,7 +32538,7 @@
 		},
 		{
 			"id": "735671102193",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.158593,
@@ -32565,7 +32565,7 @@
 		},
 		{
 			"id": "734939101037",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.14889,
@@ -32592,7 +32592,7 @@
 		},
 		{
 			"id": "734229103306",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.140095,
@@ -32619,7 +32619,7 @@
 		},
 		{
 			"id": "73401499346",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.136591,
@@ -32646,7 +32646,7 @@
 		},
 		{
 			"id": "734313102251",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.140993,
@@ -32673,7 +32673,7 @@
 		},
 		{
 			"id": "739185102388",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.2042,
@@ -32700,7 +32700,7 @@
 		},
 		{
 			"id": "735004101928",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.149895,
@@ -32727,7 +32727,7 @@
 		},
 		{
 			"id": "734659101233",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.145295,
@@ -32754,7 +32754,7 @@
 		},
 		{
 			"id": "73859197849",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.195632,
@@ -32781,7 +32781,7 @@
 		},
 		{
 			"id": "735408102222",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.155188,
@@ -32808,7 +32808,7 @@
 		},
 		{
 			"id": "734422101608",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.14229,
@@ -32835,7 +32835,7 @@
 		},
 		{
 			"id": "734553102310",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.144116,
@@ -32862,7 +32862,7 @@
 		},
 		{
 			"id": "735023101138",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.149997,
@@ -32889,7 +32889,7 @@
 		},
 		{
 			"id": "734512100698",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.143292,
@@ -32916,7 +32916,7 @@
 		},
 		{
 			"id": "733749101221",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.133494,
@@ -32943,7 +32943,7 @@
 		},
 		{
 			"id": "735100102218",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.151193,
@@ -32970,7 +32970,7 @@
 		},
 		{
 			"id": "73866397444",
-			"type": 9,
+			"type": 4,
 			"subtype": "templom, istentiszteleti hely",
 			"coordinates": [
 				20.196488,
@@ -35643,7 +35643,7 @@
 		},
 		{
 			"id": "73418399682",
-			"type": 0,
+			"type": 4,
 			"subtype": "tornaterem, tornacsarnok",
 			"coordinates": [
 				20.138843,
@@ -35670,7 +35670,7 @@
 		},
 		{
 			"id": "72902998842",
-			"type": 0,
+			"type": 4,
 			"subtype": "tornaterem, tornacsarnok",
 			"coordinates": [
 				20.07189,
@@ -35697,7 +35697,7 @@
 		},
 		{
 			"id": "736455101290",
-			"type": 0,
+			"type": 4,
 			"subtype": "tornaterem, tornacsarnok",
 			"coordinates": [
 				20.168592,
@@ -35724,7 +35724,7 @@
 		},
 		{
 			"id": "73418399682",
-			"type": 0,
+			"type": 4,
 			"subtype": "tornaterem, tornacsarnok",
 			"coordinates": [
 				20.138843,
@@ -35751,7 +35751,7 @@
 		},
 		{
 			"id": "735828101419",
-			"type": 5,
+			"type": 4,
 			"subtype": "bili\u00e1rd \u00e9s darts",
 			"coordinates": [
 				20.160486,
@@ -35778,7 +35778,7 @@
 		},
 		{
 			"id": "735828101419",
-			"type": 5,
+			"type": 13,
 			"subtype": "bowlingp\u00e1lya",
 			"coordinates": [
 				20.160486,
@@ -35805,7 +35805,7 @@
 		},
 		{
 			"id": "736189100612",
-			"type": 5,
+			"type": 13,
 			"subtype": "bowlingp\u00e1lya",
 			"coordinates": [
 				20.165018,
@@ -36129,7 +36129,7 @@
 		},
 		{
 			"id": "736189100612",
-			"type": 5,
+			"type": 4,
 			"subtype": "tekep\u00e1lya",
 			"coordinates": [
 				20.165018,
@@ -36156,7 +36156,7 @@
 		},
 		{
 			"id": "736993102100",
-			"type": 8,
+			"type": 4,
 			"subtype": "egy\u00e9b sporttev\u00e9kenys\u00e9g",
 			"coordinates": [
 				20.17572,
@@ -36183,7 +36183,7 @@
 		},
 		{
 			"id": "736303101258",
-			"type": 8,
+			"type": 4,
 			"subtype": "egy\u00e9b sporttev\u00e9kenys\u00e9g",
 			"coordinates": [
 				20.166616,
@@ -36210,7 +36210,7 @@
 		},
 		{
 			"id": "73586099373",
-			"type": 10,
+			"type": 4,
 			"subtype": "arbor\u00e9tum, botanikus kert",
 			"coordinates": [
 				20.160524,
@@ -36237,7 +36237,7 @@
 		},
 		{
 			"id": "735198101530",
-			"type": 10,
+			"type": 4,
 			"subtype": "v\u00e1r, v\u00e1rrom",
 			"coordinates": [
 				20.152338,
@@ -36264,7 +36264,7 @@
 		},
 		{
 			"id": "735739102028",
-			"type": 0,
+			"type": 4,
 			"subtype": "m\u0171eml\u00e9k \u00e9p\u00edtm\u00e9ny",
 			"coordinates": [
 				20.159445,
@@ -53814,7 +53814,7 @@
 		},
 		{
 			"id": "734544101165",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.143792,
@@ -53841,7 +53841,7 @@
 		},
 		{
 			"id": "735550101896",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.15697,
@@ -53868,7 +53868,7 @@
 		},
 		{
 			"id": "735032101588",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.150196,
@@ -53895,7 +53895,7 @@
 		},
 		{
 			"id": "733742102229",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.133585,
@@ -53922,7 +53922,7 @@
 		},
 		{
 			"id": "735828101419",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.160486,
@@ -53949,7 +53949,7 @@
 		},
 		{
 			"id": "736126101505",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.164366,
@@ -53976,7 +53976,7 @@
 		},
 		{
 			"id": "732653102786",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.119561,
@@ -54003,7 +54003,7 @@
 		},
 		{
 			"id": "734377102256",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.141824,
@@ -54030,7 +54030,7 @@
 		},
 		{
 			"id": "733360100563",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.128332,
@@ -54057,7 +54057,7 @@
 		},
 		{
 			"id": "734978101257",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.149436,
@@ -54084,7 +54084,7 @@
 		},
 		{
 			"id": "735260101794",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.15319,
@@ -54111,7 +54111,7 @@
 		},
 		{
 			"id": "734459100321",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.142536,
@@ -54138,7 +54138,7 @@
 		},
 		{
 			"id": "731323103502",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.102437,
@@ -54165,7 +54165,7 @@
 		},
 		{
 			"id": "734494101538",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.143211,
@@ -54192,7 +54192,7 @@
 		},
 		{
 			"id": "734655101575",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.145305,
@@ -54219,7 +54219,7 @@
 		},
 		{
 			"id": "734908101359",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.148547,
@@ -54246,7 +54246,7 @@
 		},
 		{
 			"id": "734987101223",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.149546,
@@ -54273,7 +54273,7 @@
 		},
 		{
 			"id": "734879101186",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.148139,
@@ -54300,7 +54300,7 @@
 		},
 		{
 			"id": "735580102046",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.157386,
@@ -54327,7 +54327,7 @@
 		},
 		{
 			"id": "734658100648",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.145176,
@@ -54354,7 +54354,7 @@
 		},
 		{
 			"id": "734412101098",
-			"type": 2,
+			"type": 4,
 			"subtype": "sz\u00e1lloda (hotel)",
 			"coordinates": [
 				20.142068,
@@ -54408,7 +54408,7 @@
 		},
 		{
 			"id": "731016101483",
-			"type": 0,
+			"type": 4,
 			"subtype": "hat\u00e1r\u00e1tkel\u0151",
 			"coordinates": [
 				20.098103,
@@ -54435,7 +54435,7 @@
 		},
 		{
 			"id": "735547101812",
-			"type": 0,
+			"type": 4,
 			"subtype": "hat\u00e1r\u00e1tkel\u0151",
 			"coordinates": [
 				20.156915,
@@ -55029,7 +55029,7 @@
 		},
 		{
 			"id": "731327101799",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.102191,
@@ -55056,7 +55056,7 @@
 		},
 		{
 			"id": "731455101467",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.103793,
@@ -55083,7 +55083,7 @@
 		},
 		{
 			"id": "731327101799",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.102191,
@@ -55110,7 +55110,7 @@
 		},
 		{
 			"id": "731517102035",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.104696,
@@ -55137,7 +55137,7 @@
 		},
 		{
 			"id": "733210100035",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.126293,
@@ -55164,7 +55164,7 @@
 		},
 		{
 			"id": "731346102088",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.102488,
@@ -55191,7 +55191,7 @@
 		},
 		{
 			"id": "727617103651",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.054391,
@@ -55218,7 +55218,7 @@
 		},
 		{
 			"id": "735295103177",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.153898,
@@ -55245,7 +55245,7 @@
 		},
 		{
 			"id": "73190495681",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.108597,
@@ -55272,7 +55272,7 @@
 		},
 		{
 			"id": "731197101764",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.100499,
@@ -55299,7 +55299,7 @@
 		},
 		{
 			"id": "738680102603",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.197692,
@@ -55326,7 +55326,7 @@
 		},
 		{
 			"id": "731520101813",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.104696,
@@ -55353,7 +55353,7 @@
 		},
 		{
 			"id": "73839795617",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.192695,
@@ -55380,7 +55380,7 @@
 		},
 		{
 			"id": "73786297333",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.186088,
@@ -55407,7 +55407,7 @@
 		},
 		{
 			"id": "73687299108",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.173592,
@@ -55434,7 +55434,7 @@
 		},
 		{
 			"id": "738847103328",
-			"type": 0,
+			"type": 4,
 			"subtype": "temet\u0151, s\u00edrkert",
 			"coordinates": [
 				20.199996,
@@ -67125,7 +67125,7 @@
 		},
 		{
 			"id": "735701101179",
-			"type": 8,
+			"type": 4,
 			"subtype": "cs\u00faszdapark",
 			"coordinates": [
 				20.158796,
@@ -67233,7 +67233,7 @@
 		},
 		{
 			"id": "732289101533",
-			"type": 8,
+			"type": 13,
 			"subtype": "\u00e1llatkert, akv\u00e1rium, vadaspark",
 			"coordinates": [
 				20.114619,
@@ -67395,7 +67395,7 @@
 		},
 		{
 			"id": "734095101932",
-			"type": 5,
+			"type": 13,
 			"subtype": "diszk\u00f3",
 			"coordinates": [
 				20.138109,
@@ -67422,7 +67422,7 @@
 		},
 		{
 			"id": "734395101365",
-			"type": 5,
+			"type": 13,
 			"subtype": "diszk\u00f3",
 			"coordinates": [
 				20.141896,
@@ -67449,7 +67449,7 @@
 		},
 		{
 			"id": "735032101588",
-			"type": 5,
+			"type": 13,
 			"subtype": "diszk\u00f3",
 			"coordinates": [
 				20.150196,
@@ -72228,7 +72228,7 @@
 		},
 		{
 			"id": "734130101204",
-			"type": 0,
+			"type": 4,
 			"subtype": "hat\u00e1rv\u00e9delmi szerv (hat\u00e1r\u0151r igazgat\u00f3s\u00e1g, hat\u00e1r\u0151rizeti kirendelts\u00e9g)",
 			"coordinates": [
 				20.138431,
@@ -72255,7 +72255,7 @@
 		},
 		{
 			"id": "735550101896",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.15697,
@@ -72282,7 +72282,7 @@
 		},
 		{
 			"id": "735032101588",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.150196,
@@ -72309,7 +72309,7 @@
 		},
 		{
 			"id": "733742102229",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.133585,
@@ -72336,7 +72336,7 @@
 		},
 		{
 			"id": "735828101419",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.160486,
@@ -72363,7 +72363,7 @@
 		},
 		{
 			"id": "735630101913",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.15801,
@@ -72390,7 +72390,7 @@
 		},
 		{
 			"id": "735972102109",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.162481,
@@ -72417,7 +72417,7 @@
 		},
 		{
 			"id": "732284102435",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.114721,
@@ -72444,7 +72444,7 @@
 		},
 		{
 			"id": "734435100831",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.142318,
@@ -72471,7 +72471,7 @@
 		},
 		{
 			"id": "734494101538",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.143211,
@@ -72498,7 +72498,7 @@
 		},
 		{
 			"id": "734908101359",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.148547,
@@ -72525,7 +72525,7 @@
 		},
 		{
 			"id": "736081102903",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.164042,
@@ -72552,7 +72552,7 @@
 		},
 		{
 			"id": "734879101186",
-			"type": 0,
+			"type": 4,
 			"subtype": "konferencia k\u00f6zpont",
 			"coordinates": [
 				20.148139,
@@ -74118,7 +74118,7 @@
 		},
 		{
 			"id": "735520101860",
-			"type": 8,
+			"type": 4,
 			"subtype": "atl\u00e9tikai l\u00e9tes\u00edtm\u00e9ny",
 			"coordinates": [
 				20.156574,
@@ -75495,7 +75495,7 @@
 		},
 		{
 			"id": "735016101531",
-			"type": 5,
+			"type": 4,
 			"subtype": "m\u0171v\u00e9szeti gal\u00e9ria",
 			"coordinates": [
 				20.149978,
@@ -76035,7 +76035,7 @@
 		},
 		{
 			"id": "72902998842",
-			"type": 0,
+			"type": 4,
 			"subtype": "szabadid\u0151 k\u00f6zpont",
 			"coordinates": [
 				20.07189,
@@ -76062,7 +76062,7 @@
 		},
 		{
 			"id": "737475101364",
-			"type": 0,
+			"type": 4,
 			"subtype": "szabadid\u0151 k\u00f6zpont",
 			"coordinates": [
 				20.181832,
@@ -76089,7 +76089,7 @@
 		},
 		{
 			"id": "73706399728",
-			"type": 0,
+			"type": 4,
 			"subtype": "szabadid\u0151 k\u00f6zpont",
 			"coordinates": [
 				20.176183,
@@ -76116,7 +76116,7 @@
 		},
 		{
 			"id": "732713100016",
-			"type": 0,
+			"type": 4,
 			"subtype": "szabadid\u0151 k\u00f6zpont",
 			"coordinates": [
 				20.119847,
@@ -76143,7 +76143,7 @@
 		},
 		{
 			"id": "732872101835",
-			"type": 0,
+			"type": 4,
 			"subtype": "szabadid\u0151 k\u00f6zpont",
 			"coordinates": [
 				20.122232,
@@ -78789,7 +78789,7 @@
 		},
 		{
 			"id": "735440100311",
-			"type": 0,
+			"type": 4,
 			"subtype": "inkub\u00e1torh\u00e1z",
 			"coordinates": [
 				20.155252,
@@ -78816,7 +78816,7 @@
 		},
 		{
 			"id": "730002105203",
-			"type": 0,
+			"type": 4,
 			"subtype": "inkub\u00e1torh\u00e1z",
 			"coordinates": [
 				20.085595,

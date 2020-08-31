@@ -64,6 +64,27 @@ def _process_res_data(filename, tempfamlocation, data):
             }
             data.append(convert)
 
+
+def cleanse(data):
+    ou = {}
+    for d in data:
+        if d['ID'] in ou.keys():
+            ou[d['ID']].append(d)
+        else:
+            ou[d['ID']] = [d]
+    output = []
+    for dk in ou:
+        d = ou[dk]
+        pop = d[0]
+        output.append(pop)
+        if len(d) > 1:
+            for subd in d:
+                shared_items = {k: pop[k] for k in pop if k in subd and subd[k] == pop[k]}
+                if len(shared_items) != len(pop):
+                    output.append(pop)
+    return {"places": output}
+
+
 def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, locationout):
     data = []
     txt = "Converting location files"
@@ -75,7 +96,44 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, l
     _process_data(ipoi, data, -1)
     _process_data(publicpoi, data, -1)
 
-    adat = {"places": data}
+    data.append({'ID': 'tourist_box',
+                  'type': 15,
+                  'coordinates': [120000, 740000],
+                  'area': 0,
+                  'infectious': 0,
+                  'state': 'ON',
+                  'capacity': 1000000,
+                  'ageInter': [0, 100]
+                  })
+    data.append({'ID': 'school_commuter_box',
+                  'type': 15,
+                  'coordinates': [120000, 740000],
+                  'area': 0,
+                  'infectious': 0,
+                  'state': 'ON',
+                  'capacity': 1000000,
+                  'ageInter': [0, 100]
+                 })
+    data.append({'ID': 'work_commuter_box',
+                  'type': 15,
+                  'coordinates': [120000, 740000],
+                  'area': 0,
+                  'infectious': 0,
+                  'state': 'ON',
+                  'capacity': 1000000,
+                  'ageInter': [0, 100]
+                 })
+    data.append({'ID': 'work_commuter_box',
+                  'type': 15,
+                  'coordinates': [120000, 740000],
+                  'area': 0,
+                  'infectious': 0,
+                  'state': 'ON',
+                  'capacity': 1000000,
+                  'ageInter': [0, 100]
+                 })
+
+    adat = cleanse(data)
     with open(locationout, 'w') as f:
         json.dump(adat, f, indent="\t")
 

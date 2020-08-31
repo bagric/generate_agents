@@ -13,7 +13,7 @@ class DataSet:
     _agecode = ["F", "M"]
 
     def __init__(self):
-        self._residents = None
+        self._residents = []
         self._people = []
 
     def load_magicnumber(self, magic):
@@ -28,8 +28,13 @@ class DataSet:
             self._illness = ["a70", "CV", "CK", "COPD", "DM"]
 
     def process_input_data(self):
+        rloc = {"typeID": 15,
+                "locID": 'tourist_box',
+                "coordinates": [21.1, 47.1],
+                "coordinates_alt": [120000, 740000]
+                }
         for i in range(1,6000):
-            self._people.append(self.new_person())
+            self._people.append(self.new_person(rloc))
 
     def gen_illness(self, age):
         illness = ''
@@ -72,7 +77,7 @@ class DataSet:
 
         return a
 
-    def new_person(self):
+    def new_person(self, location):
         '''
         Construct a person
 
@@ -89,7 +94,7 @@ class DataSet:
         person['preCond'] = self.gen_illness(age)
         person['SIRD'] = "S"
         person['typeID'] = 9
-        person['locations'] = []
+        person['locations'] = [location]
         person['famtype'] = 0
         person['famid'] = -1
         return person
