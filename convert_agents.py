@@ -55,8 +55,8 @@ def convert_data(genagent, agentsout):
 
     sys.stdout.write(" - done. Saving")
     adat = {"people": data}
-    # with open(agentsout, 'w') as f:
-    #     json.dump(adat, f, indent="\t")
+    with open(agentsout, 'w') as f:
+        json.dump(adat, f, indent="\t")
 
     print(" - done")
     print(pop, sum(pop))
