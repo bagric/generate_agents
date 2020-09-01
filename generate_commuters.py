@@ -113,7 +113,7 @@ class DataSet:
                     break
                 i = i + 1
         if illness == '':
-            illness = 0
+            illness = ""
         return illness
     
     def create_age(self, agemin, agemax, ageg):

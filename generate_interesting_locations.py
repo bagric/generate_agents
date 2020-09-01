@@ -62,9 +62,9 @@ def generate_ilocation(ifn, agents):
             sys.stdout.write('\r' + txt)
 
         if agent['typeID'] == 9:  # Add tourists as well
-            hotel = useful_library.select_random_place(i_data, 4, 1)
+            hotel = useful_library.select_random_place(hotels, 4, 1)
             hotel[0]['typeID'] = 2
-            agent['locations'] + hotel
+            agent['locations'] = agent['locations'] + hotel
 
         if agent['typeID'] == 1:
             agent['locations'] = agent['locations'] + useful_library.select_random_place(i_data, 10, 3)

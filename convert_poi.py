@@ -3,6 +3,9 @@ import sys
 
 
 def _process_data(filename, data, type):
+    print(filename)
+    see = [0 for _ in range(1,16)]
+
     with open(filename, 'r') as f:
         d = json.load(f)
     d = d["places"]
@@ -23,7 +26,10 @@ def _process_data(filename, data, type):
             'capacity': item['capacity'],
             'ageInter': item['ageInter']
         }
+        see[t] = see[t] + 1
         data.append(convert)
+
+    print(see)
 
 def _process_res_data(filename, tempfamlocation, data):
     with open(filename, 'r') as f:
@@ -66,7 +72,7 @@ def _process_res_data(filename, tempfamlocation, data):
 
 
 def cleanse(data):
-    ou = {}
+    ou = dict()
     for d in data:
         if d['ID'] in ou.keys():
             ou[d['ID']].append(d)
@@ -81,7 +87,8 @@ def cleanse(data):
             for subd in d:
                 shared_items = {k: pop[k] for k in pop if k in subd and subd[k] == pop[k]}
                 if len(shared_items) != len(pop):
-                    output.append(pop)
+                    output.append(subd)
+
     return {"places": output}
 
 
