@@ -25,7 +25,8 @@ class DataSet:
             self._age_separation = magics["age_separation"]
             self._age_percentage = magics["age_percentage"]
             self._illness_number = magics["illness_number"]
-            self._illness = ["a70", "CV", "CK", "COPD", "DM"]
+            # self._illness = ["a70", "CV", "CK", "COPD", "DM"]
+            self._illness = ["a70", "2", "3", "4", "1"]
 
     def process_input_data(self):
         rloc = {"typeID": 15,
@@ -38,25 +39,25 @@ class DataSet:
 
     def gen_illness(self, age):
         illness = ''
-        if age > 70:
-            illness = self._illness[0]
-            self._illness_number[0] = self._illness_number[0] - 1
-        else:
-            i = 0
-            for a_sep in self._age_separation:
-                if age <= a_sep:
-                    ill = useful_library.choose_percentage(self._age_percentage[i])
-                    if ill and len(self._illness[1:]) > 0:
-                        illness = random.choice(self._illness[1:])
-                        self._illness_number[self._illness.index(illness)] = \
-                            self._illness_number[self._illness.index(illness)] - 1
-                        if self._illness_number[self._illness.index(illness)] == 0:
-                            self._illness_number.remove(0)
-                            self._illness.remove(illness)
-                    break
-                i = i + 1
+        #if age > 70:
+        #    illness = self._illness[0]
+        #    self._illness_number[0] = self._illness_number[0] - 1
+        #else:
+        i = 0
+        for a_sep in self._age_separation:
+            if age <= a_sep:
+                ill = useful_library.choose_percentage(self._age_percentage[i])
+                if ill and len(self._illness[1:]) > 0:
+                    illness = random.choice(self._illness[1:])
+                    self._illness_number[self._illness.index(illness)] = \
+                        self._illness_number[self._illness.index(illness)] - 1
+                    if self._illness_number[self._illness.index(illness)] == 0:
+                        self._illness_number.remove(0)
+                        self._illness.remove(illness)
+                break
+            i = i + 1
         if illness == '':
-            illness = ""
+            illness = "0"
         return illness
 
     def create_age(self, agemin, agemax):
