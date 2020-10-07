@@ -39,6 +39,7 @@ comcsv       = file_prefix + "_commuters.csv"
 comscsv      = file_prefix + "_commuter_students.csv"
 
 tempfamlocation = file_prefix + "_famlocation_helper.json"
+tempschoollocation = file_prefix + "_schoollocation_helper.json"
 
 #agentout    = "agents.json"
 #locationout = "locations.json"
@@ -55,10 +56,10 @@ def main(argv):
         agentout = "agents"+str(i)+".json"
         locationout = "locations"+str(i)+".json"
         generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat, comcsv, comscsv, tempfamlocation)
-        generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi)
+        generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi, tempschoollocation)
         generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
         generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
-        convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, locationout)
+        convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, tempschoollocation, locationout)
         convert_agents.convert_data(tempagentout, agentout)
 
 if __name__ == "__main__":
