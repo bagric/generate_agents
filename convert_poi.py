@@ -16,18 +16,19 @@ def _process_data(filename, data, type):
         else:
             t = type
         infectious = 0 if t == 1 else 1
-        convert = {
-            'ID': item['id'],
-            'type': t,
-            'coordinates': item['coordinates_alt'],
-            'area': item['area'],
-            'infectious': infectious,
-            'state': 'ON',
-            'capacity': item['capacity'],
-            'ageInter': item['ageInter']
-        }
+        if not any(act_loc['ID'] == item['id'] for act_loc in data):
+            convert = {
+                'ID': item['id'],
+                'type': t,
+                'coordinates': item['coordinates_alt'],
+                'area': item['area'],
+                'infectious': infectious,
+                'state': 'ON',
+                'capacity': item['capacity'],
+                'ageInter': item['ageInter']
+            }
+            data.append(convert)
         see[t] = see[t] + 1
-        data.append(convert)
 
     print(see)
 
@@ -138,10 +139,10 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, t
 
     _process_res_data(respoi, tempfamlocation, data)
     _process_sch_data(schoolpoi, tempschoollocation, data)
-    #_process_data(schoolpoi, data, 3)
-    _process_data(workpoi, data, -1)
     _process_data(ipoi, data, -1)
     _process_data(publicpoi, data, -1)
+    _process_data(workpoi, data, -1)
+    
 
     data.append({'ID': 'tourist_box',
                   'type': 15,
