@@ -186,19 +186,33 @@ def generate_occupation(sfn, wfn, agents):
         sc_class_data[school]["codes"] = []
         for sch in sc_class_data[school]["classes"]:
             cnt = cnt + 1
-            num_helper = math.floor(len(sch)/18)
+            # Ez 18 volt eredetileg
+            num_helper = math.floor(len(sch)/25)
             if num_helper > 1:
                 cur_classes = chunkIt(sch, num_helper)
                 for i in range(len(cur_classes)):
                     class_code = str(cnt) + class_switch(i)
                     sc_class_data[school]["codes"].append(class_code)
                     for act_student in cur_classes[i]:
-                        act_student['locations'][1]['locID'] = class_code + act_student['locations'][1]['locID']
+                        # Class is an additional location
+                        rloc = {"typeID": 33,
+                                "locID": class_code + "_" + act_student['locations'][1]["locID"],
+                                "coordinates": act_student['locations'][1]["coordinates"],
+                                "coordinates_alt": act_student['locations'][1]["coordinates_alt"]
+                                }
+                        act_student['locations'].append(rloc)
+                        pass
             else:
                 class_code = str(cnt) + "a"
                 sc_class_data[school]["codes"].append(class_code)
                 for act_student in sch:
-                        act_student['locations'][1]['locID'] = class_code + act_student['locations'][1]['locID']
+                    # Class is an additional location
+                    rloc = {"typeID": 33,
+                            "locID": class_code + "_" + act_student['locations'][1]["locID"],
+                            "coordinates": act_student['locations'][1]["coordinates"],
+                            "coordinates_alt": act_student['locations'][1]["coordinates_alt"]
+                            }
+                    act_student['locations'].append(rloc)
     return sc_class_data
 
 

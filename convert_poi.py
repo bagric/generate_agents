@@ -47,8 +47,8 @@ def _process_sch_data(filename, tempschoollocation, data):
         if item['id'] in tfl:
             for multip in tfl[item['id']]['codes']:
                 convert = {
-                    'ID': multip + item['id'],
-                    'type': t,
+                    'ID': multip + "_" + item['id'],
+                    'type': 33,
                     'coordinates': item['coordinates_alt'],
                     'area': item['area'],
                     'infectious': infectious,
@@ -57,19 +57,18 @@ def _process_sch_data(filename, tempschoollocation, data):
                     'ageInter': item['ageInter']
                 }
                 data.append(convert)
-        else:
-            cnt = cnt + 1
-            convert = {
-                'ID': item['id'],
-                'type': t,
-                'coordinates': item['coordinates_alt'],
-                'area': item['area'],
-                'infectious': infectious,
-                'state': 'ON',
-                'capacity': item['capacity'],
-                'ageInter': item['ageInter']
-            }
-            data.append(convert)
+        # Entire school is stored as well
+        convert = {
+            'ID': item['id'],
+            'type': t,
+            'coordinates': item['coordinates_alt'],
+            'area': item['area'],
+            'infectious': infectious,
+            'state': 'ON',
+            'capacity': item['capacity'],
+            'ageInter': item['ageInter']
+        }
+        data.append(convert)
 
 def _process_res_data(filename, tempfamlocation, data):
     with open(filename, 'r') as f:

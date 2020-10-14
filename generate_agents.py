@@ -569,6 +569,7 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, comcsv=None, coms
     last_fam = []
     pop = sum(adatok._agedist)
 
+
     iter = 0
     redo_counter = 0
     redo_thrashold = 5000
