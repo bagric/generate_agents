@@ -2,7 +2,7 @@
 	"area": "Szeged",
 	"places": [
 		{
-			"id": "728180103894",
+			"id": "44486",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -17,9 +17,10 @@
 			"stat": "ON",
 			"capacity": 269,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -29,7 +30,7 @@
 			]
 		},
 		{
-			"id": "728920103301",
+			"id": "42036",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -44,9 +45,10 @@
 			"stat": "ON",
 			"capacity": 231,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -56,7 +58,7 @@
 			]
 		},
 		{
-			"id": "73214199632",
+			"id": "43674",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -71,9 +73,10 @@
 			"stat": "ON",
 			"capacity": 198,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -83,7 +86,7 @@
 			]
 		},
 		{
-			"id": "733228102215",
+			"id": "213957",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -98,9 +101,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -110,7 +114,7 @@
 			]
 		},
 		{
-			"id": "733738100890",
+			"id": "42937",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -125,9 +129,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -137,7 +142,7 @@
 			]
 		},
 		{
-			"id": "733894103147",
+			"id": "45730",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -152,9 +157,10 @@
 			"stat": "ON",
 			"capacity": 736,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -164,7 +170,7 @@
 			]
 		},
 		{
-			"id": "733902100003",
+			"id": "43131",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -179,9 +185,10 @@
 			"stat": "ON",
 			"capacity": 364,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -191,7 +198,7 @@
 			]
 		},
 		{
-			"id": "734018101993",
+			"id": "213982",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -206,9 +213,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -218,7 +226,7 @@
 			]
 		},
 		{
-			"id": "734095103480",
+			"id": "42265",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -233,9 +241,10 @@
 			"stat": "ON",
 			"capacity": 420,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -245,7 +254,7 @@
 			]
 		},
 		{
-			"id": "734152100777",
+			"id": "46719",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -260,9 +269,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -272,7 +282,7 @@
 			]
 		},
 		{
-			"id": "734155100325",
+			"id": "34035",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -287,9 +297,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -299,7 +310,7 @@
 			]
 		},
 		{
-			"id": "734305101237",
+			"id": "47269",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -314,9 +325,10 @@
 			"stat": "ON",
 			"capacity": 462,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -326,7 +338,7 @@
 			]
 		},
 		{
-			"id": "734398102244",
+			"id": "34109",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -341,9 +353,10 @@
 			"stat": "ON",
 			"capacity": 749,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -353,7 +366,7 @@
 			]
 		},
 		{
-			"id": "734678102182",
+			"id": "40893",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -368,9 +381,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -380,7 +394,7 @@
 			]
 		},
 		{
-			"id": "734714100725",
+			"id": "34336",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -395,9 +409,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -407,7 +422,7 @@
 			]
 		},
 		{
-			"id": "734722100938",
+			"id": "42382",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -422,9 +437,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -434,7 +450,7 @@
 			]
 		},
 		{
-			"id": "734763101817",
+			"id": "43431",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -449,9 +465,10 @@
 			"stat": "ON",
 			"capacity": 339,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -461,7 +478,7 @@
 			]
 		},
 		{
-			"id": "735122103911",
+			"id": "43430",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -476,9 +493,10 @@
 			"stat": "ON",
 			"capacity": 372,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -488,7 +506,7 @@
 			]
 		},
 		{
-			"id": "735455102240",
+			"id": "213988",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -503,9 +521,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -515,7 +534,7 @@
 			]
 		},
 		{
-			"id": "735528103364",
+			"id": "34107",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -530,9 +549,10 @@
 			"stat": "ON",
 			"capacity": 398,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -542,7 +562,7 @@
 			]
 		},
 		{
-			"id": "735533102253",
+			"id": "46015",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -557,9 +577,10 @@
 			"stat": "ON",
 			"capacity": 434,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -569,7 +590,7 @@
 			]
 		},
 		{
-			"id": "735576100930",
+			"id": "45738",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -584,9 +605,10 @@
 			"stat": "ON",
 			"capacity": 511,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -596,7 +618,7 @@
 			]
 		},
 		{
-			"id": "735665100545",
+			"id": "44711",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -611,9 +633,10 @@
 			"stat": "ON",
 			"capacity": 309,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -623,7 +646,7 @@
 			]
 		},
 		{
-			"id": "735783103224",
+			"id": "34042",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -638,9 +661,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -650,7 +674,7 @@
 			]
 		},
 		{
-			"id": "735837103372",
+			"id": "34324",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -665,9 +689,10 @@
 			"stat": "ON",
 			"capacity": 472,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -677,7 +702,7 @@
 			]
 		},
 		{
-			"id": "735909103773",
+			"id": "44154",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -692,9 +717,10 @@
 			"stat": "ON",
 			"capacity": 247,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -704,7 +730,7 @@
 			]
 		},
 		{
-			"id": "736222103694",
+			"id": "44118",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -719,9 +745,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -731,7 +758,7 @@
 			]
 		},
 		{
-			"id": "736314102485",
+			"id": "34106",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -746,9 +773,10 @@
 			"stat": "ON",
 			"capacity": 488,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -758,7 +786,7 @@
 			]
 		},
 		{
-			"id": "736668102729",
+			"id": "43371",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -773,9 +801,10 @@
 			"stat": "ON",
 			"capacity": 111,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -785,7 +814,7 @@
 			]
 		},
 		{
-			"id": "736961100597",
+			"id": "42208",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -800,9 +829,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -812,7 +842,7 @@
 			]
 		},
 		{
-			"id": "737387102768",
+			"id": "47083",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -827,9 +857,10 @@
 			"stat": "ON",
 			"capacity": 225,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -839,7 +870,7 @@
 			]
 		},
 		{
-			"id": "738373102357",
+			"id": "45553",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -854,9 +885,10 @@
 			"stat": "ON",
 			"capacity": 300,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -866,7 +898,7 @@
 			]
 		},
 		{
-			"id": "73871097718",
+			"id": "44876",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -881,9 +913,10 @@
 			"stat": "ON",
 			"capacity": 426,
 			"ageInter": [
-				0,
-				18
+				6,
+				15
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -893,7 +926,7 @@
 			]
 		},
 		{
-			"id": "728414103885",
+			"id": "59443",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -909,8 +942,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -920,7 +954,7 @@
 			]
 		},
 		{
-			"id": "72987098193",
+			"id": "59563",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -936,8 +970,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -947,7 +982,7 @@
 			]
 		},
 		{
-			"id": "72989497945",
+			"id": "137480",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -963,8 +998,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -974,7 +1010,7 @@
 			]
 		},
 		{
-			"id": "732723100083",
+			"id": "220967",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -990,8 +1026,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1001,7 +1038,7 @@
 			]
 		},
 		{
-			"id": "733517102894",
+			"id": "59561",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1017,8 +1054,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1028,7 +1066,7 @@
 			]
 		},
 		{
-			"id": "733725103049",
+			"id": "59562",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1044,8 +1082,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1055,7 +1094,7 @@
 			]
 		},
 		{
-			"id": "733747102090",
+			"id": "187031",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1071,8 +1110,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1082,7 +1122,7 @@
 			]
 		},
 		{
-			"id": "733847100034",
+			"id": "59555",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1098,8 +1138,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1109,7 +1150,7 @@
 			]
 		},
 		{
-			"id": "734006101448",
+			"id": "148385",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1125,8 +1166,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1136,7 +1178,7 @@
 			]
 		},
 		{
-			"id": "734007100833",
+			"id": "59560",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1152,8 +1194,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1163,7 +1206,7 @@
 			]
 		},
 		{
-			"id": "734589100505",
+			"id": "148270",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1179,8 +1222,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1190,7 +1234,7 @@
 			]
 		},
 		{
-			"id": "734621100808",
+			"id": "59566",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1206,8 +1250,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1217,7 +1262,7 @@
 			]
 		},
 		{
-			"id": "734622101048",
+			"id": "148351",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1233,8 +1278,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1244,7 +1290,7 @@
 			]
 		},
 		{
-			"id": "734930103074",
+			"id": "59554",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1260,8 +1306,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1271,7 +1318,7 @@
 			]
 		},
 		{
-			"id": "735210104087",
+			"id": "59558",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1287,8 +1334,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1298,7 +1346,7 @@
 			]
 		},
 		{
-			"id": "735285104119",
+			"id": "174703",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1314,8 +1362,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1325,7 +1374,7 @@
 			]
 		},
 		{
-			"id": "735535100519",
+			"id": "59565",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1341,8 +1390,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1352,7 +1402,7 @@
 			]
 		},
 		{
-			"id": "735849103597",
+			"id": "59557",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1368,8 +1418,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1379,7 +1430,7 @@
 			]
 		},
 		{
-			"id": "735890102198",
+			"id": "220962",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1395,8 +1446,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1406,7 +1458,7 @@
 			]
 		},
 		{
-			"id": "736239103181",
+			"id": "59559",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1422,8 +1474,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1433,7 +1486,7 @@
 			]
 		},
 		{
-			"id": "736313104639",
+			"id": "148416",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1449,8 +1502,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1460,7 +1514,7 @@
 			]
 		},
 		{
-			"id": "736501100422",
+			"id": "59564",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1476,8 +1530,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1487,7 +1542,7 @@
 			]
 		},
 		{
-			"id": "736613104266",
+			"id": "178758",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1503,8 +1558,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1514,7 +1570,7 @@
 			]
 		},
 		{
-			"id": "736613104266",
+			"id": "220963",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1530,8 +1586,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1541,7 +1598,7 @@
 			]
 		},
 		{
-			"id": "736645103016",
+			"id": "59556",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1557,8 +1614,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1568,7 +1626,7 @@
 			]
 		},
 		{
-			"id": "737421102484",
+			"id": "220966",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1584,8 +1642,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1595,7 +1654,7 @@
 			]
 		},
 		{
-			"id": "737441100634",
+			"id": "148316",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1611,8 +1670,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1622,7 +1682,7 @@
 			]
 		},
 		{
-			"id": "737449100400",
+			"id": "220964",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1638,8 +1698,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1649,7 +1710,7 @@
 			]
 		},
 		{
-			"id": "737832100801",
+			"id": "148565",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1665,8 +1726,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1676,7 +1738,7 @@
 			]
 		},
 		{
-			"id": "73787998993",
+			"id": "220965",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1692,8 +1754,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1703,7 +1766,7 @@
 			]
 		},
 		{
-			"id": "73820999014",
+			"id": "148245",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1719,8 +1782,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1730,7 +1794,7 @@
 			]
 		},
 		{
-			"id": "73870497645",
+			"id": "59594",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1746,8 +1810,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1757,7 +1822,7 @@
 			]
 		},
 		{
-			"id": "739257102484",
+			"id": "174779",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1773,8 +1838,9 @@
 			"capacity": 36,
 			"ageInter": [
 				0,
-				18
+				3
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1784,7 +1850,7 @@
 			]
 		},
 		{
-			"id": "733254101544",
+			"id": "44672",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1799,9 +1865,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1811,7 +1878,7 @@
 			]
 		},
 		{
-			"id": "733738100890",
+			"id": "42937",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1826,9 +1893,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1838,7 +1906,7 @@
 			]
 		},
 		{
-			"id": "734018101993",
+			"id": "213982",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1853,9 +1921,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1865,7 +1934,7 @@
 			]
 		},
 		{
-			"id": "734155100325",
+			"id": "34035",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1880,9 +1949,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1892,7 +1962,7 @@
 			]
 		},
 		{
-			"id": "734159101858",
+			"id": "44355",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1907,9 +1977,10 @@
 			"stat": "ON",
 			"capacity": 270,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1919,7 +1990,7 @@
 			]
 		},
 		{
-			"id": "734233103218",
+			"id": "44323",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1934,9 +2005,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1946,7 +2018,7 @@
 			]
 		},
 		{
-			"id": "734233103218",
+			"id": "109362",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1961,9 +2033,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -1973,7 +2046,7 @@
 			]
 		},
 		{
-			"id": "734335100912",
+			"id": "213968",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1988,9 +2061,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2000,7 +2074,7 @@
 			]
 		},
 		{
-			"id": "734722100938",
+			"id": "42382",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2015,9 +2089,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2027,7 +2102,7 @@
 			]
 		},
 		{
-			"id": "735139101187",
+			"id": "41619",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2042,9 +2117,10 @@
 			"stat": "ON",
 			"capacity": 838,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2054,7 +2130,7 @@
 			]
 		},
 		{
-			"id": "735325101860",
+			"id": "110150",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2069,9 +2145,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2081,7 +2158,7 @@
 			]
 		},
 		{
-			"id": "735418102243",
+			"id": "213989",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2096,9 +2173,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2108,7 +2186,7 @@
 			]
 		},
 		{
-			"id": "735452101874",
+			"id": "46822",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2123,9 +2201,10 @@
 			"stat": "ON",
 			"capacity": 786,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2135,7 +2214,7 @@
 			]
 		},
 		{
-			"id": "735455102240",
+			"id": "213988",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2150,9 +2229,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2162,7 +2242,7 @@
 			]
 		},
 		{
-			"id": "735535103433",
+			"id": "40940",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2177,9 +2257,10 @@
 			"stat": "ON",
 			"capacity": 979,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2189,7 +2270,7 @@
 			]
 		},
 		{
-			"id": "735542102295",
+			"id": "44356",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2204,9 +2285,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2216,7 +2298,7 @@
 			]
 		},
 		{
-			"id": "735783103224",
+			"id": "34042",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2231,9 +2313,10 @@
 			"stat": "ON",
 			"capacity": 290,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2243,7 +2326,7 @@
 			]
 		},
 		{
-			"id": "736129103222",
+			"id": "41751",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2258,9 +2341,10 @@
 			"stat": "ON",
 			"capacity": 445,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2270,7 +2354,7 @@
 			]
 		},
 		{
-			"id": "728016103964",
+			"id": "109836",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2285,9 +2369,10 @@
 			"stat": "ON",
 			"capacity": 51,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2297,7 +2382,7 @@
 			]
 		},
 		{
-			"id": "728333104474",
+			"id": "109838",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2312,9 +2397,10 @@
 			"stat": "ON",
 			"capacity": 69,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2324,7 +2410,7 @@
 			]
 		},
 		{
-			"id": "728595103977",
+			"id": "109839",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2339,9 +2425,10 @@
 			"stat": "ON",
 			"capacity": 71,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2351,7 +2438,7 @@
 			]
 		},
 		{
-			"id": "728954103643",
+			"id": "109837",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2366,9 +2453,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2378,7 +2466,7 @@
 			]
 		},
 		{
-			"id": "72989797414",
+			"id": "109825",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2393,9 +2481,10 @@
 			"stat": "ON",
 			"capacity": 50,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2405,7 +2494,7 @@
 			]
 		},
 		{
-			"id": "73194596162",
+			"id": "109826",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2420,9 +2509,10 @@
 			"stat": "ON",
 			"capacity": 27,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2432,7 +2522,7 @@
 			]
 		},
 		{
-			"id": "73203099622",
+			"id": "109813",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2447,9 +2537,10 @@
 			"stat": "ON",
 			"capacity": 70,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2459,7 +2550,7 @@
 			]
 		},
 		{
-			"id": "73238098802",
+			"id": "109824",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2474,9 +2565,10 @@
 			"stat": "ON",
 			"capacity": 70,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2486,7 +2578,7 @@
 			]
 		},
 		{
-			"id": "732723100083",
+			"id": "46627",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2501,9 +2593,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2513,7 +2606,7 @@
 			]
 		},
 		{
-			"id": "732765102900",
+			"id": "109854",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2528,9 +2621,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2540,7 +2634,7 @@
 			]
 		},
 		{
-			"id": "732863103587",
+			"id": "45559",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2555,9 +2649,10 @@
 			"stat": "ON",
 			"capacity": 44,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2567,7 +2662,7 @@
 			]
 		},
 		{
-			"id": "733530101247",
+			"id": "109835",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2582,9 +2677,10 @@
 			"stat": "ON",
 			"capacity": 72,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2594,7 +2690,7 @@
 			]
 		},
 		{
-			"id": "733599100853",
+			"id": "109834",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2609,9 +2705,10 @@
 			"stat": "ON",
 			"capacity": 21,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2621,7 +2718,7 @@
 			]
 		},
 		{
-			"id": "733676103204",
+			"id": "109840",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2636,9 +2733,10 @@
 			"stat": "ON",
 			"capacity": 95,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2648,7 +2746,7 @@
 			]
 		},
 		{
-			"id": "733856101589",
+			"id": "109808",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2663,9 +2761,10 @@
 			"stat": "ON",
 			"capacity": 64,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2675,7 +2774,7 @@
 			]
 		},
 		{
-			"id": "733869100021",
+			"id": "109533",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2690,9 +2789,10 @@
 			"stat": "ON",
 			"capacity": 126,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2702,7 +2802,7 @@
 			]
 		},
 		{
-			"id": "734152100777",
+			"id": "46719",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2717,9 +2817,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2729,7 +2830,7 @@
 			]
 		},
 		{
-			"id": "734205100430",
+			"id": "109532",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2744,9 +2845,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2756,7 +2858,7 @@
 			]
 		},
 		{
-			"id": "734238102632",
+			"id": "109844",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2771,9 +2873,10 @@
 			"stat": "ON",
 			"capacity": 115,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2783,7 +2886,7 @@
 			]
 		},
 		{
-			"id": "734309101096",
+			"id": "109814",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2798,9 +2901,10 @@
 			"stat": "ON",
 			"capacity": 96,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2810,7 +2914,7 @@
 			]
 		},
 		{
-			"id": "734324100607",
+			"id": "46274",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2825,9 +2929,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2837,7 +2942,7 @@
 			]
 		},
 		{
-			"id": "734349100113",
+			"id": "109833",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2852,9 +2957,10 @@
 			"stat": "ON",
 			"capacity": 43,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2864,7 +2970,7 @@
 			]
 		},
 		{
-			"id": "734371101721",
+			"id": "109820",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2879,9 +2985,10 @@
 			"stat": "ON",
 			"capacity": 67,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2891,7 +2998,7 @@
 			]
 		},
 		{
-			"id": "734402101977",
+			"id": "109816",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2906,9 +3013,10 @@
 			"stat": "ON",
 			"capacity": 70,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2918,7 +3026,7 @@
 			]
 		},
 		{
-			"id": "734443104130",
+			"id": "109853",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2933,9 +3041,10 @@
 			"stat": "ON",
 			"capacity": 163,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2945,7 +3054,7 @@
 			]
 		},
 		{
-			"id": "734504102345",
+			"id": "109858",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2960,9 +3069,10 @@
 			"stat": "ON",
 			"capacity": 80,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2972,7 +3082,7 @@
 			]
 		},
 		{
-			"id": "734577100655",
+			"id": "44811",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2987,9 +3097,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -2999,7 +3110,7 @@
 			]
 		},
 		{
-			"id": "734788101169",
+			"id": "109815",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3014,9 +3125,10 @@
 			"stat": "ON",
 			"capacity": 121,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3026,7 +3138,7 @@
 			]
 		},
 		{
-			"id": "734898103164",
+			"id": "109842",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3041,9 +3153,10 @@
 			"stat": "ON",
 			"capacity": 176,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3053,7 +3166,7 @@
 			]
 		},
 		{
-			"id": "734914101903",
+			"id": "46252",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3068,9 +3181,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3080,7 +3194,7 @@
 			]
 		},
 		{
-			"id": "734931101267",
+			"id": "109821",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3095,9 +3209,10 @@
 			"stat": "ON",
 			"capacity": 58,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3107,7 +3222,7 @@
 			]
 		},
 		{
-			"id": "735171102931",
+			"id": "44778",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3122,9 +3237,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3134,7 +3250,7 @@
 			]
 		},
 		{
-			"id": "735209104057",
+			"id": "109851",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3149,9 +3265,10 @@
 			"stat": "ON",
 			"capacity": 96,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3161,7 +3278,7 @@
 			]
 		},
 		{
-			"id": "735237103463",
+			"id": "109841",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3176,9 +3293,10 @@
 			"stat": "ON",
 			"capacity": 205,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3188,7 +3306,7 @@
 			]
 		},
 		{
-			"id": "735247102063",
+			"id": "43597",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3203,9 +3321,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3215,7 +3334,7 @@
 			]
 		},
 		{
-			"id": "735455102240",
+			"id": "213988",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3230,9 +3349,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3242,7 +3362,7 @@
 			]
 		},
 		{
-			"id": "735535100519",
+			"id": "109831",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3257,9 +3377,10 @@
 			"stat": "ON",
 			"capacity": 158,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3269,7 +3390,7 @@
 			]
 		},
 		{
-			"id": "735544101054",
+			"id": "109830",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3284,9 +3405,10 @@
 			"stat": "ON",
 			"capacity": 214,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3296,7 +3418,7 @@
 			]
 		},
 		{
-			"id": "735734102872",
+			"id": "109391",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3311,9 +3433,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3323,7 +3446,7 @@
 			]
 		},
 		{
-			"id": "735769103401",
+			"id": "109850",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3338,9 +3461,10 @@
 			"stat": "ON",
 			"capacity": 102,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3350,7 +3474,7 @@
 			]
 		},
 		{
-			"id": "735772100393",
+			"id": "109832",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3365,9 +3489,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3377,7 +3502,7 @@
 			]
 		},
 		{
-			"id": "735783103224",
+			"id": "34042",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3392,9 +3517,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3404,7 +3530,7 @@
 			]
 		},
 		{
-			"id": "736025103848",
+			"id": "109845",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3419,9 +3545,10 @@
 			"stat": "ON",
 			"capacity": 81,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3431,7 +3558,7 @@
 			]
 		},
 		{
-			"id": "736081102903",
+			"id": "109846",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3446,9 +3573,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3458,7 +3586,7 @@
 			]
 		},
 		{
-			"id": "736208102633",
+			"id": "109823",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3473,9 +3601,10 @@
 			"stat": "ON",
 			"capacity": 102,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3485,7 +3614,7 @@
 			]
 		},
 		{
-			"id": "736217103157",
+			"id": "109848",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3500,9 +3629,10 @@
 			"stat": "ON",
 			"capacity": 135,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3512,7 +3642,7 @@
 			]
 		},
 		{
-			"id": "736222103694",
+			"id": "44118",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3527,9 +3657,10 @@
 			"stat": "ON",
 			"capacity": 228,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3539,7 +3670,7 @@
 			]
 		},
 		{
-			"id": "736497103234",
+			"id": "109849",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3554,9 +3685,10 @@
 			"stat": "ON",
 			"capacity": 79,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3566,7 +3698,7 @@
 			]
 		},
 		{
-			"id": "736528104584",
+			"id": "109847",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3581,9 +3713,10 @@
 			"stat": "ON",
 			"capacity": 105,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3593,7 +3726,7 @@
 			]
 		},
 		{
-			"id": "736765102809",
+			"id": "109859",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3608,9 +3741,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3620,7 +3754,7 @@
 			]
 		},
 		{
-			"id": "736797103201",
+			"id": "109818",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3635,9 +3769,10 @@
 			"stat": "ON",
 			"capacity": 98,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3647,7 +3782,7 @@
 			]
 		},
 		{
-			"id": "736961100597",
+			"id": "109828",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3662,9 +3797,10 @@
 			"stat": "ON",
 			"capacity": 110,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3674,7 +3810,7 @@
 			]
 		},
 		{
-			"id": "737304102683",
+			"id": "109822",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3689,9 +3825,10 @@
 			"stat": "ON",
 			"capacity": 68,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3701,7 +3838,7 @@
 			]
 		},
 		{
-			"id": "737421102484",
+			"id": "109336",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3716,9 +3853,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3728,7 +3866,7 @@
 			]
 		},
 		{
-			"id": "737824102946",
+			"id": "109332",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3743,9 +3881,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3755,7 +3894,7 @@
 			]
 		},
 		{
-			"id": "73787998993",
+			"id": "148239",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3770,9 +3909,10 @@
 			"stat": "ON",
 			"capacity": 90,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3782,7 +3922,7 @@
 			]
 		},
 		{
-			"id": "737945100621",
+			"id": "109827",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3797,9 +3937,10 @@
 			"stat": "ON",
 			"capacity": 80,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3809,7 +3950,7 @@
 			]
 		},
 		{
-			"id": "738319102438",
+			"id": "109856",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3824,9 +3965,10 @@
 			"stat": "ON",
 			"capacity": 232,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3836,7 +3978,7 @@
 			]
 		},
 		{
-			"id": "73832197516",
+			"id": "109812",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3851,9 +3993,10 @@
 			"stat": "ON",
 			"capacity": 63,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3863,7 +4006,7 @@
 			]
 		},
 		{
-			"id": "73853796157",
+			"id": "109811",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3878,9 +4021,10 @@
 			"stat": "ON",
 			"capacity": 66,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3890,7 +4034,7 @@
 			]
 		},
 		{
-			"id": "739025102272",
+			"id": "109857",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3905,9 +4049,10 @@
 			"stat": "ON",
 			"capacity": 47,
 			"ageInter": [
-				0,
-				18
+				3,
+				6
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3917,7 +4062,7 @@
 			]
 		},
 		{
-			"id": "734159101858",
+			"id": "44355",
 			"type": 3,
 			"subtype": "szakiskola",
 			"coordinates": [
@@ -3932,9 +4077,10 @@
 			"stat": "ON",
 			"capacity": 933,
 			"ageInter": [
-				0,
+				14,
 				18
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3944,7 +4090,7 @@
 			]
 		},
 		{
-			"id": "736676104729",
+			"id": "109540",
 			"type": 3,
 			"subtype": "szakiskola",
 			"coordinates": [
@@ -3959,9 +4105,10 @@
 			"stat": "ON",
 			"capacity": 40,
 			"ageInter": [
-				0,
+				14,
 				18
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3971,7 +4118,7 @@
 			]
 		},
 		{
-			"id": "731064101384",
+			"id": "44285",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -3986,9 +4133,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -3998,7 +4146,7 @@
 			]
 		},
 		{
-			"id": "732608102007",
+			"id": "46540",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4013,9 +4161,10 @@
 			"stat": "ON",
 			"capacity": 187,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4025,7 +4174,7 @@
 			]
 		},
 		{
-			"id": "733012100254",
+			"id": "43336",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4040,9 +4189,10 @@
 			"stat": "ON",
 			"capacity": 138,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4052,7 +4202,7 @@
 			]
 		},
 		{
-			"id": "733012100254",
+			"id": "213995",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4067,9 +4217,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4079,7 +4230,7 @@
 			]
 		},
 		{
-			"id": "733254101544",
+			"id": "44672",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4094,9 +4245,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4106,7 +4258,7 @@
 			]
 		},
 		{
-			"id": "733290101543",
+			"id": "45845",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4121,9 +4273,10 @@
 			"stat": "ON",
 			"capacity": 760,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4133,7 +4286,7 @@
 			]
 		},
 		{
-			"id": "733747101587",
+			"id": "45987",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4148,9 +4301,10 @@
 			"stat": "ON",
 			"capacity": 573,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4160,7 +4314,7 @@
 			]
 		},
 		{
-			"id": "734018101993",
+			"id": "213982",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4175,9 +4329,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4187,7 +4342,7 @@
 			]
 		},
 		{
-			"id": "734108101251",
+			"id": "213986",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4202,9 +4357,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4214,7 +4370,7 @@
 			]
 		},
 		{
-			"id": "734159101858",
+			"id": "44355",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4229,9 +4385,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4241,7 +4398,7 @@
 			]
 		},
 		{
-			"id": "734233103218",
+			"id": "109362",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4256,9 +4413,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4268,7 +4426,7 @@
 			]
 		},
 		{
-			"id": "734372101338",
+			"id": "44363",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4283,9 +4441,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4295,7 +4454,7 @@
 			]
 		},
 		{
-			"id": "734494101573",
+			"id": "41857",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4310,9 +4469,10 @@
 			"stat": "ON",
 			"capacity": 482,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4322,7 +4482,7 @@
 			]
 		},
 		{
-			"id": "734519100339",
+			"id": "213961",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4337,9 +4497,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4349,7 +4510,7 @@
 			]
 		},
 		{
-			"id": "734589101197",
+			"id": "34777",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4364,9 +4525,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4376,7 +4538,7 @@
 			]
 		},
 		{
-			"id": "734710102002",
+			"id": "46122",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4391,9 +4553,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4403,7 +4566,7 @@
 			]
 		},
 		{
-			"id": "734722100938",
+			"id": "213998",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4418,9 +4581,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4430,7 +4594,7 @@
 			]
 		},
 		{
-			"id": "734793102366",
+			"id": "213990",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4445,9 +4609,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4457,7 +4622,7 @@
 			]
 		},
 		{
-			"id": "734795103226",
+			"id": "41766",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4472,9 +4637,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4484,7 +4650,7 @@
 			]
 		},
 		{
-			"id": "735139101187",
+			"id": "41619",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4499,9 +4665,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4511,7 +4678,7 @@
 			]
 		},
 		{
-			"id": "735178101770",
+			"id": "42267",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4526,9 +4693,10 @@
 			"stat": "ON",
 			"capacity": 338,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4538,7 +4706,7 @@
 			]
 		},
 		{
-			"id": "735381101970",
+			"id": "67046",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4553,9 +4721,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4565,7 +4734,7 @@
 			]
 		},
 		{
-			"id": "735407101807",
+			"id": "44261",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4580,9 +4749,10 @@
 			"stat": "ON",
 			"capacity": 630,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4592,7 +4762,7 @@
 			]
 		},
 		{
-			"id": "735418102243",
+			"id": "213989",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4607,9 +4777,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4619,7 +4790,7 @@
 			]
 		},
 		{
-			"id": "735533102253",
+			"id": "110188",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4634,9 +4805,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4646,7 +4818,7 @@
 			]
 		},
 		{
-			"id": "735535103433",
+			"id": "45729",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4661,9 +4833,10 @@
 			"stat": "ON",
 			"capacity": 488,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4673,7 +4846,7 @@
 			]
 		},
 		{
-			"id": "735542102295",
+			"id": "45627",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4688,9 +4861,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4700,7 +4874,7 @@
 			]
 		},
 		{
-			"id": "735548103490",
+			"id": "45637",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4715,9 +4889,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4727,7 +4902,7 @@
 			]
 		},
 		{
-			"id": "735717102157",
+			"id": "110162",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4742,9 +4917,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4754,7 +4930,7 @@
 			]
 		},
 		{
-			"id": "735935102127",
+			"id": "109537",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4769,9 +4945,10 @@
 			"stat": "ON",
 			"capacity": 23,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4781,7 +4958,7 @@
 			]
 		},
 		{
-			"id": "736320101170",
+			"id": "46718",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4796,9 +4973,10 @@
 			"stat": "ON",
 			"capacity": 425,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4808,7 +4986,7 @@
 			]
 		},
 		{
-			"id": "736448101005",
+			"id": "109541",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4823,9 +5001,10 @@
 			"stat": "ON",
 			"capacity": 173,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4835,7 +5014,7 @@
 			]
 		},
 		{
-			"id": "736750103664",
+			"id": "110189",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4850,9 +5029,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
@@ -4862,7 +5042,7 @@
 			]
 		},
 		{
-			"id": "737678102225",
+			"id": "109458",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4877,9 +5057,10 @@
 			"stat": "ON",
 			"capacity": 200,
 			"ageInter": [
-				0,
-				18
+				14,
+				19
 			],
+			"risk": 1.0,
 			"ageDistribution": [
 				0,
 				0,
