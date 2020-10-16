@@ -2,7 +2,7 @@ import csv
 import json
 import sys
 
-def pick_csv(inputcsv):
+def pick_csv(inputcsv, pref=""):
     data = []
     datadict = {}
     with open(inputcsv, encoding="UTF-8") as csvfile:
@@ -17,7 +17,7 @@ def pick_csv(inputcsv):
             row[11] = float(row[11].replace(",", "."))
             places = {'id': row[7],
                       'type': int(row[0]),
-                      'subtype': row[1],
+                      'subtype': pref + row[1],
                       'coordinates': [row[5], row[4]],
                       'coordinates_alt': [int(row[3]), int(row[2])],
                       'area': 0,
@@ -43,7 +43,7 @@ def process_input_data(prefix, schoolcsv, workcsv, icsv, schoolpoi, workpoi, ipo
 
     scraw = pick_csv(schoolcsv)
     woraw = pick_csv(workcsv)
-    inraw = pick_csv(icsv)
+    inraw = pick_csv(icsv, "int_")
 
     dump_json(prefix, schoolpoi, scraw)
     dump_json(prefix, workpoi, woraw)
