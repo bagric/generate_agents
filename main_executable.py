@@ -1,7 +1,5 @@
 import respoi_process
-import school_poi_process
-import work_poi_process
-import intersting_poi_process
+import nonrespoi_process
 import generate_agents
 import generate_secondary_locations
 import generate_interesting_locations
@@ -48,9 +46,7 @@ def main(argv):
     if len(argv) > 1:
         # processsing csv files and creating needed json files (usually run only a few times when needed)
         respoi_process.process_input_data(file_prefix, shapefile, respoi)
-        school_poi_process.process_input_data(file_prefix, schoolcsv, schoolpoi)
-        work_poi_process.process_input_data(file_prefix, workcsv, workpoi)
-        intersting_poi_process.process_input_data(file_prefix, icsv, ipoi)
+        nonrespoi_process.process_input_data(file_prefix, schoolcsv, workcsv, icsv,  schoolpoi, workpoi, ipoi)
     # default data generating when files are ready to be used
     for i in range(int(argv[0])):
         agentout = "agents"+str(i)+".json"

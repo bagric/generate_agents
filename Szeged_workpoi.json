@@ -80727,7 +80727,7 @@
 		},
 		{
 			"id": "28368",
-			"type": 10,
+			"type": 4,
 			"subtype": "arbor\u00e9tum, botanikus kert",
 			"coordinates": [
 				20.160524,
@@ -80755,7 +80755,7 @@
 		},
 		{
 			"id": "9776",
-			"type": 10,
+			"type": 4,
 			"subtype": "horg\u00e1szhely, horg\u00e1szt\u00f3",
 			"coordinates": [
 				20.121973,
@@ -80783,7 +80783,7 @@
 		},
 		{
 			"id": "76635",
-			"type": 10,
+			"type": 4,
 			"subtype": "horg\u00e1szhely, horg\u00e1szt\u00f3",
 			"coordinates": [
 				20.11449,
