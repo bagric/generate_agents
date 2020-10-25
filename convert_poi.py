@@ -131,7 +131,7 @@ def cleanse(data):
     return {"places": output}
 
 
-def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, tempschoollocation, locationout):
+def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamlocation, tempschoollocation, locationout):
     data = []
     txt = "Converting location files"
     sys.stdout.write('\r' + txt)
@@ -141,6 +141,7 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, t
     _process_data(ipoi, data, -1)
     _process_data(publicpoi, data, -1)
     _process_data(workpoi, data, -1)
+    _process_data(ohpoi, data, -1)
     
 
     data.append({'ID': 'tourist_box',

@@ -23,8 +23,10 @@ workcsv      = "workpoi_" + file_prefix + ".csv"
 workpoi      = file_prefix + "_workpoi.json"
 icsv         = "interestingpoi_" + file_prefix + ".csv"
 ipoi         = file_prefix + "_interestingpoi.json"
-publiccsv    = "publicpoi" + file_prefix + ".csv"
+publiccsv    = "publicpoi_" + file_prefix + ".csv"
 publicpoi    = file_prefix + "_publicpoi.json"
+ohcsv        = "ohpoi_" + file_prefix + ".csv"
+ohpoi        = file_prefix + "_ohpoi.json"
 #publicpoi    = "Szeged_publicpoi.json"
 tempagentin  = file_prefix + "_agents_temp.json"
 tempagentout = file_prefix + "_agents_temp_sec.json"
@@ -46,16 +48,16 @@ def main(argv):
     if len(argv) > 1:
         # processsing csv files and creating needed json files (usually run only a few times when needed)
         respoi_process.process_input_data(file_prefix, shapefile, respoi)
-        nonrespoi_process.process_input_data(file_prefix, schoolcsv, workcsv, icsv,  schoolpoi, workpoi, ipoi)
+        nonrespoi_process.process_input_data(file_prefix, schoolcsv, workcsv, icsv, ohcsv, schoolpoi, workpoi, ipoi, ohpoi)
     # default data generating when files are ready to be used
     for i in range(int(argv[0])):
         agentout = "agents"+str(i)+".json"
         locationout = "locations"+str(i)+".json"
-        generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat, comcsv, comscsv, tempfamlocation)
+        generate_agents.generate_agents(respoi, magic, illness, tempagentin, tempstat, ohpoi, comcsv, comscsv, tempfamlocation)
         generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi, tempschoollocation)
         generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
         generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
-        convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, tempfamlocation, tempschoollocation, locationout)
+        convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamlocation, tempschoollocation, locationout)
         convert_agents.convert_data(tempagentout, agentout)
 
 if __name__ == "__main__":

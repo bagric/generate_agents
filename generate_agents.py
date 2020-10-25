@@ -52,6 +52,7 @@ class DataSet:
         self._people = []
         self._agedist = []
         self._counter = 0
+        self._oldhomes = None
         #For statistical check
         self._families = []
         self._subrespoi = {}
@@ -106,6 +107,17 @@ class DataSet:
         self._counter = counter
         for i in range(len(self._magicA)):
             self._magicA[i] = round(self._magicA[i] * sum(agedist))
+
+    def load_oldhomedata(self, filename):
+        '''
+        Load a formatted JSON file with the location of old homes
+
+        :param filename: Name of the file
+        '''
+        with open(filename, 'r') as f:
+            _residents = json.load(f)
+            oldhomes = _residents["places"]
+        self._residents = [v for v in sorted(oldhomes, key=lambda item: item["capacity"])] + self._residents
 
     def statistic_check(self):
         '''
@@ -557,12 +569,13 @@ class DataSet:
             json.dump(self._subrespoi, f, indent="\t")
 
 
-def generate_agents(respoi, magic, illness, tempout, tempstat, comcsv=None, comscsv=None, tempfamlocation=None):
+def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=None, comscsv=None, tempfamlocation=None):
 
     adatok = DataSet()
     adatok.load_magicnumber(magic)
     adatok.load_illnessnumber(illness)
     adatok.load_residentdata(respoi)
+    adatok.load_oldhomedata(ohpoi)
     adatok.calculate_residentstat()
     print(adatok._agedist, sum(adatok._agedist))
 

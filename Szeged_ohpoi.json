@@ -1,0 +1,341 @@
+{
+	"area": "Szeged",
+	"places": [
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				103894,
+				735189
+			],
+			"subtype": "oh_id\u0151sek klubja",
+			"area": 0,
+			"type": 2,
+			"id": "114612",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.15258,
+				46.270598
+			],
+			"capacity": 56
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				101600,
+				733689
+			],
+			"subtype": "oh_id\u0151sek klubja",
+			"area": 0,
+			"type": 2,
+			"id": "114724",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.132784,
+				46.253715
+			],
+			"capacity": 56
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				102862,
+				733463
+			],
+			"subtype": "oh_id\u0151sek klubja",
+			"area": 0,
+			"type": 2,
+			"id": "114744",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.13008,
+				46.265095
+			],
+			"capacity": 56
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				103778,
+				734454
+			],
+			"subtype": "oh_id\u0151sek klubja",
+			"area": 0,
+			"type": 2,
+			"id": "114752",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.143099,
+				46.27321
+			],
+			"capacity": 56
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				101604,
+				734388
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "108580",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.141849,
+				46.253663
+			],
+			"capacity": 55
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				101472,
+				733888
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "108734",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.135341,
+				46.252539
+			],
+			"capacity": 55
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				102555,
+				734377
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "108777",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.141878,
+				46.262219
+			],
+			"capacity": 55
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				99355,
+				733717
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "108800",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.132743,
+				46.233518
+			],
+			"capacity": 55
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				101484,
+				733857
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "109019",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.134942,
+				46.252651
+			],
+			"capacity": 55
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				99956,
+				735259
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "109020",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.152841,
+				46.238729
+			],
+			"capacity": 55
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				104234,
+				736415
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "109021",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.168621,
+				46.277062
+			],
+			"capacity": 55
+		},
+		{
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"stat": "ON",
+			"risk": 6.0,
+			"coordinates_alt": [
+				101518,
+				733030
+			],
+			"subtype": "oh_id\u0151sek otthona",
+			"area": 0,
+			"type": 2,
+			"id": "109193",
+			"ageInter": [
+				65,
+				200
+			],
+			"coordinates": [
+				20.124224,
+				46.253059
+			],
+			"capacity": 55
+		}
+	]
+}
