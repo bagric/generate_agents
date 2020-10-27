@@ -2,7 +2,7 @@
 	"area": "Szeged",
 	"places": [
 		{
-			"id": "44486",
+			"id": "44486altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -30,7 +30,7 @@
 			]
 		},
 		{
-			"id": "42036",
+			"id": "42036altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -58,7 +58,7 @@
 			]
 		},
 		{
-			"id": "43674",
+			"id": "43674altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"id": "213957",
+			"id": "213957altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -114,7 +114,7 @@
 			]
 		},
 		{
-			"id": "42937",
+			"id": "42937altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -142,7 +142,7 @@
 			]
 		},
 		{
-			"id": "45730",
+			"id": "45730altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -170,7 +170,7 @@
 			]
 		},
 		{
-			"id": "43131",
+			"id": "43131altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -198,7 +198,7 @@
 			]
 		},
 		{
-			"id": "213982",
+			"id": "213982altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -226,7 +226,7 @@
 			]
 		},
 		{
-			"id": "42265",
+			"id": "42265altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"id": "46719",
+			"id": "46719altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -282,7 +282,7 @@
 			]
 		},
 		{
-			"id": "34035",
+			"id": "34035altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -310,7 +310,7 @@
 			]
 		},
 		{
-			"id": "47269",
+			"id": "47269altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -338,7 +338,7 @@
 			]
 		},
 		{
-			"id": "34109",
+			"id": "34109altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -366,7 +366,7 @@
 			]
 		},
 		{
-			"id": "40893",
+			"id": "40893altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -394,7 +394,7 @@
 			]
 		},
 		{
-			"id": "34336",
+			"id": "34336altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -422,7 +422,7 @@
 			]
 		},
 		{
-			"id": "42382",
+			"id": "42382altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -450,7 +450,7 @@
 			]
 		},
 		{
-			"id": "43431",
+			"id": "43431altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -478,7 +478,7 @@
 			]
 		},
 		{
-			"id": "43430",
+			"id": "43430altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -506,7 +506,7 @@
 			]
 		},
 		{
-			"id": "213988",
+			"id": "213988altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -534,7 +534,7 @@
 			]
 		},
 		{
-			"id": "34107",
+			"id": "34107altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -562,7 +562,7 @@
 			]
 		},
 		{
-			"id": "46015",
+			"id": "46015altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -590,7 +590,7 @@
 			]
 		},
 		{
-			"id": "45738",
+			"id": "45738altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -618,7 +618,7 @@
 			]
 		},
 		{
-			"id": "44711",
+			"id": "44711altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -646,7 +646,7 @@
 			]
 		},
 		{
-			"id": "34042",
+			"id": "34042altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -674,7 +674,7 @@
 			]
 		},
 		{
-			"id": "34324",
+			"id": "34324altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -702,7 +702,7 @@
 			]
 		},
 		{
-			"id": "44154",
+			"id": "44154altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -730,7 +730,7 @@
 			]
 		},
 		{
-			"id": "44118",
+			"id": "44118altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -758,7 +758,7 @@
 			]
 		},
 		{
-			"id": "34106",
+			"id": "34106altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -786,7 +786,7 @@
 			]
 		},
 		{
-			"id": "43371",
+			"id": "43371altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -814,7 +814,7 @@
 			]
 		},
 		{
-			"id": "42208",
+			"id": "42208altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -842,7 +842,7 @@
 			]
 		},
 		{
-			"id": "47083",
+			"id": "47083altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -870,7 +870,7 @@
 			]
 		},
 		{
-			"id": "45553",
+			"id": "45553altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -898,7 +898,7 @@
 			]
 		},
 		{
-			"id": "44876",
+			"id": "44876altal",
 			"type": 3,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
@@ -926,7 +926,7 @@
 			]
 		},
 		{
-			"id": "59443",
+			"id": "59443bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -954,7 +954,7 @@
 			]
 		},
 		{
-			"id": "59563",
+			"id": "59563bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -982,7 +982,7 @@
 			]
 		},
 		{
-			"id": "137480",
+			"id": "137480bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1010,7 +1010,7 @@
 			]
 		},
 		{
-			"id": "220967",
+			"id": "220967bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1038,7 +1038,7 @@
 			]
 		},
 		{
-			"id": "59561",
+			"id": "59561bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1066,7 +1066,7 @@
 			]
 		},
 		{
-			"id": "59562",
+			"id": "59562bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1094,7 +1094,7 @@
 			]
 		},
 		{
-			"id": "187031",
+			"id": "187031bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1122,7 +1122,7 @@
 			]
 		},
 		{
-			"id": "59555",
+			"id": "59555bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1150,7 +1150,7 @@
 			]
 		},
 		{
-			"id": "148385",
+			"id": "148385bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1178,7 +1178,7 @@
 			]
 		},
 		{
-			"id": "59560",
+			"id": "59560bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1206,7 +1206,7 @@
 			]
 		},
 		{
-			"id": "148270",
+			"id": "148270bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1234,7 +1234,7 @@
 			]
 		},
 		{
-			"id": "59566",
+			"id": "59566bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1262,7 +1262,7 @@
 			]
 		},
 		{
-			"id": "148351",
+			"id": "148351bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1290,7 +1290,7 @@
 			]
 		},
 		{
-			"id": "59554",
+			"id": "59554bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1318,7 +1318,7 @@
 			]
 		},
 		{
-			"id": "59558",
+			"id": "59558bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1346,7 +1346,7 @@
 			]
 		},
 		{
-			"id": "174703",
+			"id": "174703bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1374,7 +1374,7 @@
 			]
 		},
 		{
-			"id": "59565",
+			"id": "59565bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1402,7 +1402,7 @@
 			]
 		},
 		{
-			"id": "59557",
+			"id": "59557bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1430,7 +1430,7 @@
 			]
 		},
 		{
-			"id": "220962",
+			"id": "220962bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1458,7 +1458,7 @@
 			]
 		},
 		{
-			"id": "59559",
+			"id": "59559bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1486,7 +1486,7 @@
 			]
 		},
 		{
-			"id": "148416",
+			"id": "148416bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1514,7 +1514,7 @@
 			]
 		},
 		{
-			"id": "59564",
+			"id": "59564bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1542,7 +1542,7 @@
 			]
 		},
 		{
-			"id": "178758",
+			"id": "178758bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1570,7 +1570,7 @@
 			]
 		},
 		{
-			"id": "220963",
+			"id": "220963bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1598,7 +1598,7 @@
 			]
 		},
 		{
-			"id": "59556",
+			"id": "59556bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1626,7 +1626,7 @@
 			]
 		},
 		{
-			"id": "220966",
+			"id": "220966bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1654,7 +1654,7 @@
 			]
 		},
 		{
-			"id": "148316",
+			"id": "148316bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1682,7 +1682,7 @@
 			]
 		},
 		{
-			"id": "220964",
+			"id": "220964bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1710,7 +1710,7 @@
 			]
 		},
 		{
-			"id": "148565",
+			"id": "148565bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1738,7 +1738,7 @@
 			]
 		},
 		{
-			"id": "220965",
+			"id": "220965bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1766,7 +1766,7 @@
 			]
 		},
 		{
-			"id": "148245",
+			"id": "148245bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1794,7 +1794,7 @@
 			]
 		},
 		{
-			"id": "59594",
+			"id": "59594bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1822,7 +1822,7 @@
 			]
 		},
 		{
-			"id": "174779",
+			"id": "174779bolcs",
 			"type": 3,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
@@ -1850,7 +1850,7 @@
 			]
 		},
 		{
-			"id": "44672",
+			"id": "44672gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1878,7 +1878,7 @@
 			]
 		},
 		{
-			"id": "42937",
+			"id": "42937gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1906,7 +1906,7 @@
 			]
 		},
 		{
-			"id": "213982",
+			"id": "213982gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1934,7 +1934,7 @@
 			]
 		},
 		{
-			"id": "34035",
+			"id": "34035gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1962,7 +1962,7 @@
 			]
 		},
 		{
-			"id": "44355",
+			"id": "44355gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -1990,7 +1990,7 @@
 			]
 		},
 		{
-			"id": "44323",
+			"id": "44323gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2018,7 +2018,7 @@
 			]
 		},
 		{
-			"id": "109362",
+			"id": "109362gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2046,7 +2046,7 @@
 			]
 		},
 		{
-			"id": "213968",
+			"id": "213968gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2074,7 +2074,7 @@
 			]
 		},
 		{
-			"id": "42382",
+			"id": "42382gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2102,7 +2102,7 @@
 			]
 		},
 		{
-			"id": "41619",
+			"id": "41619gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2130,7 +2130,7 @@
 			]
 		},
 		{
-			"id": "110150",
+			"id": "110150gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2158,7 +2158,7 @@
 			]
 		},
 		{
-			"id": "213989",
+			"id": "213989gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2186,7 +2186,7 @@
 			]
 		},
 		{
-			"id": "46822",
+			"id": "46822gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2214,7 +2214,7 @@
 			]
 		},
 		{
-			"id": "213988",
+			"id": "213988gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2242,7 +2242,7 @@
 			]
 		},
 		{
-			"id": "40940",
+			"id": "40940gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2270,7 +2270,7 @@
 			]
 		},
 		{
-			"id": "44356",
+			"id": "44356gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2298,7 +2298,7 @@
 			]
 		},
 		{
-			"id": "34042",
+			"id": "34042gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2326,7 +2326,7 @@
 			]
 		},
 		{
-			"id": "41751",
+			"id": "41751gimna",
 			"type": 3,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
@@ -2354,7 +2354,7 @@
 			]
 		},
 		{
-			"id": "109836",
+			"id": "109836ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2382,7 +2382,7 @@
 			]
 		},
 		{
-			"id": "109838",
+			"id": "109838ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2410,7 +2410,7 @@
 			]
 		},
 		{
-			"id": "109839",
+			"id": "109839ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2438,7 +2438,7 @@
 			]
 		},
 		{
-			"id": "109837",
+			"id": "109837ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2466,7 +2466,7 @@
 			]
 		},
 		{
-			"id": "109825",
+			"id": "109825ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2494,7 +2494,7 @@
 			]
 		},
 		{
-			"id": "109826",
+			"id": "109826ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2522,7 +2522,7 @@
 			]
 		},
 		{
-			"id": "109813",
+			"id": "109813ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2550,7 +2550,7 @@
 			]
 		},
 		{
-			"id": "109824",
+			"id": "109824ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2578,7 +2578,7 @@
 			]
 		},
 		{
-			"id": "46627",
+			"id": "46627ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2606,7 +2606,7 @@
 			]
 		},
 		{
-			"id": "109854",
+			"id": "109854ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2634,7 +2634,7 @@
 			]
 		},
 		{
-			"id": "45559",
+			"id": "45559ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2662,7 +2662,7 @@
 			]
 		},
 		{
-			"id": "109835",
+			"id": "109835ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2690,7 +2690,7 @@
 			]
 		},
 		{
-			"id": "109834",
+			"id": "109834ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2718,7 +2718,7 @@
 			]
 		},
 		{
-			"id": "109840",
+			"id": "109840ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2746,7 +2746,7 @@
 			]
 		},
 		{
-			"id": "109808",
+			"id": "109808ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2774,7 +2774,7 @@
 			]
 		},
 		{
-			"id": "109533",
+			"id": "109533ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2802,7 +2802,7 @@
 			]
 		},
 		{
-			"id": "46719",
+			"id": "46719ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2830,7 +2830,7 @@
 			]
 		},
 		{
-			"id": "109532",
+			"id": "109532ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2858,7 +2858,7 @@
 			]
 		},
 		{
-			"id": "109844",
+			"id": "109844ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2886,7 +2886,7 @@
 			]
 		},
 		{
-			"id": "109814",
+			"id": "109814ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2914,7 +2914,7 @@
 			]
 		},
 		{
-			"id": "46274",
+			"id": "46274ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2942,7 +2942,7 @@
 			]
 		},
 		{
-			"id": "109833",
+			"id": "109833ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2970,7 +2970,7 @@
 			]
 		},
 		{
-			"id": "109820",
+			"id": "109820ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -2998,7 +2998,7 @@
 			]
 		},
 		{
-			"id": "109816",
+			"id": "109816ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3026,7 +3026,7 @@
 			]
 		},
 		{
-			"id": "109853",
+			"id": "109853ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3054,7 +3054,7 @@
 			]
 		},
 		{
-			"id": "109858",
+			"id": "109858ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3082,7 +3082,7 @@
 			]
 		},
 		{
-			"id": "44811",
+			"id": "44811ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3110,7 +3110,7 @@
 			]
 		},
 		{
-			"id": "109815",
+			"id": "109815ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3138,7 +3138,7 @@
 			]
 		},
 		{
-			"id": "109842",
+			"id": "109842ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3166,7 +3166,7 @@
 			]
 		},
 		{
-			"id": "46252",
+			"id": "46252ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3194,7 +3194,7 @@
 			]
 		},
 		{
-			"id": "109821",
+			"id": "109821ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3222,7 +3222,7 @@
 			]
 		},
 		{
-			"id": "44778",
+			"id": "44778ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3250,7 +3250,7 @@
 			]
 		},
 		{
-			"id": "109851",
+			"id": "109851ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3278,7 +3278,7 @@
 			]
 		},
 		{
-			"id": "109841",
+			"id": "109841ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3306,7 +3306,7 @@
 			]
 		},
 		{
-			"id": "43597",
+			"id": "43597ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3334,7 +3334,7 @@
 			]
 		},
 		{
-			"id": "213988",
+			"id": "213988ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3362,7 +3362,7 @@
 			]
 		},
 		{
-			"id": "109831",
+			"id": "109831ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3390,7 +3390,7 @@
 			]
 		},
 		{
-			"id": "109830",
+			"id": "109830ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3418,7 +3418,7 @@
 			]
 		},
 		{
-			"id": "109391",
+			"id": "109391ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3446,7 +3446,7 @@
 			]
 		},
 		{
-			"id": "109850",
+			"id": "109850ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3474,7 +3474,7 @@
 			]
 		},
 		{
-			"id": "109832",
+			"id": "109832ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3502,7 +3502,7 @@
 			]
 		},
 		{
-			"id": "34042",
+			"id": "34042ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3530,7 +3530,7 @@
 			]
 		},
 		{
-			"id": "109845",
+			"id": "109845ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3558,7 +3558,7 @@
 			]
 		},
 		{
-			"id": "109846",
+			"id": "109846ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3586,7 +3586,7 @@
 			]
 		},
 		{
-			"id": "109823",
+			"id": "109823ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3614,7 +3614,7 @@
 			]
 		},
 		{
-			"id": "109848",
+			"id": "109848ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3642,7 +3642,7 @@
 			]
 		},
 		{
-			"id": "44118",
+			"id": "44118ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3670,7 +3670,7 @@
 			]
 		},
 		{
-			"id": "109849",
+			"id": "109849ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3698,7 +3698,7 @@
 			]
 		},
 		{
-			"id": "109847",
+			"id": "109847ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3726,7 +3726,7 @@
 			]
 		},
 		{
-			"id": "109859",
+			"id": "109859ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3754,7 +3754,7 @@
 			]
 		},
 		{
-			"id": "109818",
+			"id": "109818ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3782,7 +3782,7 @@
 			]
 		},
 		{
-			"id": "109828",
+			"id": "109828ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3810,7 +3810,7 @@
 			]
 		},
 		{
-			"id": "109822",
+			"id": "109822ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3838,7 +3838,7 @@
 			]
 		},
 		{
-			"id": "109336",
+			"id": "109336ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3866,7 +3866,7 @@
 			]
 		},
 		{
-			"id": "109332",
+			"id": "109332ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3894,7 +3894,7 @@
 			]
 		},
 		{
-			"id": "148239",
+			"id": "148239ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3922,7 +3922,7 @@
 			]
 		},
 		{
-			"id": "109827",
+			"id": "109827ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3950,7 +3950,7 @@
 			]
 		},
 		{
-			"id": "109856",
+			"id": "109856ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -3978,7 +3978,7 @@
 			]
 		},
 		{
-			"id": "109812",
+			"id": "109812ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -4006,7 +4006,7 @@
 			]
 		},
 		{
-			"id": "109811",
+			"id": "109811ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -4034,7 +4034,7 @@
 			]
 		},
 		{
-			"id": "109857",
+			"id": "109857ovoda",
 			"type": 3,
 			"subtype": "\u00f3voda",
 			"coordinates": [
@@ -4062,7 +4062,7 @@
 			]
 		},
 		{
-			"id": "44355",
+			"id": "44355szaki",
 			"type": 3,
 			"subtype": "szakiskola",
 			"coordinates": [
@@ -4090,7 +4090,7 @@
 			]
 		},
 		{
-			"id": "109540",
+			"id": "109540szaki",
 			"type": 3,
 			"subtype": "szakiskola",
 			"coordinates": [
@@ -4118,7 +4118,7 @@
 			]
 		},
 		{
-			"id": "44285",
+			"id": "44285szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4146,7 +4146,7 @@
 			]
 		},
 		{
-			"id": "46540",
+			"id": "46540szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4174,7 +4174,7 @@
 			]
 		},
 		{
-			"id": "43336",
+			"id": "43336szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4202,7 +4202,7 @@
 			]
 		},
 		{
-			"id": "213995",
+			"id": "213995szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4230,7 +4230,7 @@
 			]
 		},
 		{
-			"id": "44672",
+			"id": "44672szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4258,7 +4258,7 @@
 			]
 		},
 		{
-			"id": "45845",
+			"id": "45845szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4286,7 +4286,7 @@
 			]
 		},
 		{
-			"id": "45987",
+			"id": "45987szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4314,7 +4314,7 @@
 			]
 		},
 		{
-			"id": "213982",
+			"id": "213982szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4342,7 +4342,7 @@
 			]
 		},
 		{
-			"id": "213986",
+			"id": "213986szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4370,7 +4370,7 @@
 			]
 		},
 		{
-			"id": "44355",
+			"id": "44355szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4398,7 +4398,7 @@
 			]
 		},
 		{
-			"id": "109362",
+			"id": "109362szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4426,7 +4426,7 @@
 			]
 		},
 		{
-			"id": "44363",
+			"id": "44363szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4454,7 +4454,7 @@
 			]
 		},
 		{
-			"id": "41857",
+			"id": "41857szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4482,7 +4482,7 @@
 			]
 		},
 		{
-			"id": "213961",
+			"id": "213961szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4510,7 +4510,7 @@
 			]
 		},
 		{
-			"id": "34777",
+			"id": "34777szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4538,7 +4538,7 @@
 			]
 		},
 		{
-			"id": "46122",
+			"id": "46122szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4566,7 +4566,7 @@
 			]
 		},
 		{
-			"id": "213998",
+			"id": "213998szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4594,7 +4594,7 @@
 			]
 		},
 		{
-			"id": "213990",
+			"id": "213990szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4622,7 +4622,7 @@
 			]
 		},
 		{
-			"id": "41766",
+			"id": "41766szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4650,7 +4650,7 @@
 			]
 		},
 		{
-			"id": "41619",
+			"id": "41619szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4678,7 +4678,7 @@
 			]
 		},
 		{
-			"id": "42267",
+			"id": "42267szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4706,7 +4706,7 @@
 			]
 		},
 		{
-			"id": "67046",
+			"id": "67046szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4734,7 +4734,7 @@
 			]
 		},
 		{
-			"id": "44261",
+			"id": "44261szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4762,7 +4762,7 @@
 			]
 		},
 		{
-			"id": "213989",
+			"id": "213989szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4790,7 +4790,7 @@
 			]
 		},
 		{
-			"id": "110188",
+			"id": "110188szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4818,7 +4818,7 @@
 			]
 		},
 		{
-			"id": "45729",
+			"id": "45729szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4846,7 +4846,7 @@
 			]
 		},
 		{
-			"id": "45627",
+			"id": "45627szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4874,7 +4874,7 @@
 			]
 		},
 		{
-			"id": "45637",
+			"id": "45637szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4902,7 +4902,7 @@
 			]
 		},
 		{
-			"id": "110162",
+			"id": "110162szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4930,7 +4930,7 @@
 			]
 		},
 		{
-			"id": "109537",
+			"id": "109537szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4958,7 +4958,7 @@
 			]
 		},
 		{
-			"id": "46718",
+			"id": "46718szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -4986,7 +4986,7 @@
 			]
 		},
 		{
-			"id": "109541",
+			"id": "109541szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -5014,7 +5014,7 @@
 			]
 		},
 		{
-			"id": "110189",
+			"id": "110189szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
@@ -5042,7 +5042,7 @@
 			]
 		},
 		{
-			"id": "109458",
+			"id": "109458szakk",
 			"type": 3,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
