@@ -191,7 +191,10 @@ def generate_occupation(sfn, wfn, agents):
             if num_helper > 1:
                 cur_classes = chunkIt(sch, num_helper)
                 for i in range(len(cur_classes)):
-                    class_code = str(cnt) + class_switch(i)
+                    if cur_classes[i][0]['typeID'] == 3:
+                        class_code = str(cnt) + class_switch(i)
+                    elif cur_classes[i][0]['typeID'] == 4:
+                        class_code = str(cnt + 8) + class_switch(i)
                     sc_class_data[school]["codes"].append(class_code)
                     for act_student in cur_classes[i]:
                         # Class is an additional location
