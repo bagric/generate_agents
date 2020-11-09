@@ -171,6 +171,7 @@ def generate_occupation(sfn, wfn, agents):
                 #    random.choice([6, 7])
                 if ifhasoccupation['typeID'] == 13:
                     agent['typeID'] = 7
+                    ifhasoccupation['typeID'] = 4
                 agent['locations'].append(dict(ifhasoccupation))
             else:
                 if 5 <= agent['typeID'] < 9:

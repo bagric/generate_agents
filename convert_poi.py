@@ -60,7 +60,7 @@ def _process_sch_data(filename, tempschoollocation, data):
         # Entire school is stored as well
         convert = {
             'ID': item['id'],
-            'type': t,
+            'type': 3,    ## A school is fixed to 3 in the final location dbs
             'coordinates': item['coordinates_alt'],
             'area': item['area'],
             'infectious': infectious,
@@ -111,6 +111,7 @@ def _process_res_data(filename, tempfamlocation, data):
 
 
 def cleanse(data):
+    print("cleansing")
     ou = dict()
     for d in data:
         if d['ID'] in ou.keys():
@@ -124,8 +125,16 @@ def cleanse(data):
         output.append(pop)
         if len(d) > 1:
             for subd in d:
-                shared_items = {k: pop[k] for k in pop if k in subd and subd[k] == pop[k]}
-                if len(shared_items) != len(pop):
+                for key in subd:
+                    if key == "type":
+                        if pop[key] == 3:
+                            break
+                        elif subd[key] == 4:
+                            break
+                    else:
+                        if subd[key] != pop(key):
+                            break
+                else:
                     output.append(subd)
 
     return {"places": output}
@@ -136,6 +145,7 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamloca
     txt = "Converting location files"
     sys.stdout.write('\r' + txt)
 
+    # Order is ipmortant! Interesting poi and its type is the primary type. Only schools can override.
     _process_res_data(respoi, tempfamlocation, data)
     _process_sch_data(schoolpoi, tempschoollocation, data)
     _process_data(ipoi, data, -1)
