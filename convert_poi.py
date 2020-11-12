@@ -17,9 +17,14 @@ def _process_data(filename, data, type):
             t = type
         infectious = 0 if t == 1 else 1
         if not any(act_loc['ID'] == item['id'] for act_loc in data):
+            if "essential" in item.keys():
+                essential = item['essential']
+            else:
+                essential = 0
             convert = {
                 'ID': item['id'],
                 'type': t,
+                'essential': essential,
                 'coordinates': item['coordinates_alt'],
                 'area': item['area'],
                 'infectious': infectious,
@@ -49,6 +54,7 @@ def _process_sch_data(filename, tempschoollocation, data):
                 convert = {
                     'ID': multip + "_" + item['id'],
                     'type': 33,
+                    'essential': item['essential'],
                     'coordinates': item['coordinates_alt'],
                     'area': item['area'],
                     'infectious': infectious,
@@ -61,6 +67,7 @@ def _process_sch_data(filename, tempschoollocation, data):
         convert = {
             'ID': item['id'],
             'type': 3,    ## A school is fixed to 3 in the final location dbs
+            'essential': item['essential'],
             'coordinates': item['coordinates_alt'],
             'area': item['area'],
             'infectious': infectious,
@@ -87,6 +94,7 @@ def _process_res_data(filename, tempfamlocation, data):
                 convert = {
                     'ID': multip + item['id'],
                     'type': t,
+                    'essential': 0,
                     'coordinates': item['coordinates_alt'],
                     'area': item['area'],
                     'infectious': infectious,
@@ -100,6 +108,7 @@ def _process_res_data(filename, tempfamlocation, data):
             convert = {
                 'ID': item['id'],
                 'type': t,
+                'essential': 0,
                 'coordinates': item['coordinates_alt'],
                 'area': item['area'],
                 'infectious': infectious,
@@ -132,7 +141,7 @@ def cleanse(data):
                         elif subd[key] == 4:
                             break
                     else:
-                        if subd[key] != pop(key):
+                        if subd[key] != pop[key]:
                             break
                 else:
                     output.append(subd)
@@ -161,6 +170,7 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamloca
                   'infectious': 0,
                   'state': 'ON',
                   'capacity': 1000000,
+                  'essential': 0,
                   'ageInter': [0, 100]
                   })
     data.append({'ID': 'school_commuter_box',
@@ -170,6 +180,7 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamloca
                   'infectious': 0,
                   'state': 'ON',
                   'capacity': 1000000,
+                  'essential': 0,
                   'ageInter': [0, 100]
                  })
     data.append({'ID': 'work_commuter_box',
@@ -179,6 +190,7 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamloca
                   'infectious': 0,
                   'state': 'ON',
                   'capacity': 1000000,
+                  'essential': 0,
                   'ageInter': [0, 100]
                  })
     data.append({'ID': 'work_commuter_box',
@@ -188,6 +200,7 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamloca
                   'infectious': 0,
                   'state': 'ON',
                   'capacity': 1000000,
+                  'essential': 0,
                   'ageInter': [0, 100]
                  })
 

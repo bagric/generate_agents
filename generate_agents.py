@@ -5,14 +5,15 @@ import generate_commuters
 import generate_tourists
 import useful_library
 
+
 def between(r, table):
-    '''
+    """
     Helper function to convert probabilities to indices
 
     :param r: Actual random value
     :param table: Probability table
     :return: The index of interval calculated based on the table
-    '''
+    """
     ret = [0] + table
     for i in range(1, len(ret)):
         ret[i] = ret[i] + ret[i - 1]
@@ -20,8 +21,10 @@ def between(r, table):
         if ret[i] <= r < ret[i + 1]:
             return i
 
+
 def getKey(item):
     return item["actNumberofpeople"]
+
 
 def get_difference(item1, item2):
     if item1 == item2:
@@ -31,6 +34,7 @@ def get_difference(item1, item2):
     except ZeroDivisionError:
         return 0
 
+
 def whichgroups(res):
     agroups = []
     for i in range(len(res)):
@@ -38,8 +42,8 @@ def whichgroups(res):
             agroups.append(i)
     return agroups
 
-class DataSet:
 
+class DataSet:
     _agegroups = [[0, 14],
                   [15, 18],
                   [19, 30],
@@ -53,7 +57,7 @@ class DataSet:
         self._agedist = []
         self._counter = 0
         self._oldhomes = None
-        #For statistical check
+        # For statistical check
         self._families = []
         self._subrespoi = {}
 
@@ -67,7 +71,7 @@ class DataSet:
             self._magic5 = magics["magic5"]
             self._magic6 = magics["magic6"]
             self._magicA = magics["magic_age"]
-    
+
     def load_illnessnumber(self, filename):
         with open(filename, 'r') as f:
             magics = json.load(f)
@@ -124,63 +128,63 @@ class DataSet:
         Check if the algorithm conforms to the first 3 magic numbers
         '''
         _magic1_c = [0, 0, 0, 0]
-        _magic2_c = [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]]
-        _magic3_c = [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]]
-        #_magic4_c = [[0, 0, 0, 0],[0, 0, 0, 0]]
-        #_magic5_c = [0, 0]
-        #_magic6_c = [[0, 0],[0, 0],[0, 0],[0, 0]]
+        _magic2_c = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+        _magic3_c = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+        # _magic4_c = [[0, 0, 0, 0],[0, 0, 0, 0]]
+        # _magic5_c = [0, 0]
+        # _magic6_c = [[0, 0],[0, 0],[0, 0],[0, 0]]
         _magicA = []
         for fam in self._families:
             # 0: singlepers,
-            if (sum(fam)-fam[6])<2 and (sum(fam)-fam[6])>0:
-                _magic1_c[0] = _magic1_c[0]+1
+            if (sum(fam) - fam[6]) < 2 and (sum(fam) - fam[6]) > 0:
+                _magic1_c[0] = _magic1_c[0] + 1
                 # numbers ELDERLY
-                if fam[4]>0:
-                    _magic2_c[0][1] = _magic2_c[0][1]+1
+                if fam[4] > 0:
+                    _magic2_c[0][1] = _magic2_c[0][1] + 1
                 else:
-                    _magic2_c[0][0] = _magic2_c[0][0]+1
+                    _magic2_c[0][0] = _magic2_c[0][0] + 1
                 # numbers CHILDREN
-                _magic3_c[0][0] = _magic3_c[0][0]+1
+                _magic3_c[0][0] = _magic3_c[0][0] + 1
             else:
                 # 3: other / since only elderly are here
-                if fam[0]<1 and fam[1]<1 and fam[2]<1 and fam[3]<1 and fam[4]<1:
-                    _magic1_c[3] = _magic1_c[3]+1
+                if fam[0] < 1 and fam[1] < 1 and fam[2] < 1 and fam[3] < 1 and fam[4] < 1:
+                    _magic1_c[3] = _magic1_c[3] + 1
                     # numbers ELDERLY
-                    if fam[4]>3:
-                        _magic2_c[3][3] = _magic2_c[3][3]+1
+                    if fam[4] > 3:
+                        _magic2_c[3][3] = _magic2_c[3][3] + 1
                     else:
-                        _magic2_c[3][fam[4]] = _magic2_c[3][fam[4]]+1
+                        _magic2_c[3][fam[4]] = _magic2_c[3][fam[4]] + 1
                     # numbers CHILDREN
-                    _magic3_c[3][0] = _magic3_c[3][0]+1
+                    _magic3_c[3][0] = _magic3_c[3][0] + 1
                 else:
                     # 2: famtwoparent,
-                    #if (fam[1]>0 and fam[3]>1) or ((fam[2]>0 or fam[3]>0) and (fam[3]>1 or fam[4]>1 or fam[3]+fam[4]>1)) or (fam[0]>0 and (fam[2]>1 or fam[3]>1 or fam[2]+fam[3]>1)):
-                    if ((sum(fam)-2*fam[5])-fam[6] > 1 and (fam[0]<1 and fam[1]<1)) or (sum(fam)-2*(fam[5]+fam[6]) > 1):
-                        _magic1_c[2] = _magic1_c[2]+1
+                    # if (fam[1]>0 and fam[3]>1) or ((fam[2]>0 or fam[3]>0) and (fam[3]>1 or fam[4]>1 or fam[3]+fam[4]>1)) or (fam[0]>0 and (fam[2]>1 or fam[3]>1 or fam[2]+fam[3]>1)):
+                    if ((sum(fam) - 2 * fam[5]) - fam[6] > 1 and (fam[0] < 1 and fam[1] < 1)) or (
+                            sum(fam) - 2 * (fam[5] + fam[6]) > 1):
+                        _magic1_c[2] = _magic1_c[2] + 1
                         # numbers ELDERLY
-                        if fam[4]>3:
-                            _magic2_c[2][3] = _magic2_c[2][3]+1
+                        if fam[4] > 3:
+                            _magic2_c[2][3] = _magic2_c[2][3] + 1
                         else:
-                            _magic2_c[2][fam[4]] = _magic2_c[2][fam[4]]+1
+                            _magic2_c[2][fam[4]] = _magic2_c[2][fam[4]] + 1
                         # numbers CHILDREN
-                        if fam[5]>3:
-                            _magic3_c[2][3] = _magic3_c[2][3]+1
+                        if fam[5] > 3:
+                            _magic3_c[2][3] = _magic3_c[2][3] + 1
                         else:
-                            _magic3_c[2][fam[5]] = _magic3_c[2][fam[5]]+1
+                            _magic3_c[2][fam[5]] = _magic3_c[2][fam[5]] + 1
                     # 1: famoneparent,
                     else:
-                        _magic1_c[1] = _magic1_c[1]+1
+                        _magic1_c[1] = _magic1_c[1] + 1
                         # numbers ELDERLY
-                        if fam[4]>3:
-                            _magic2_c[1][3] = _magic2_c[1][3]+1
+                        if fam[4] > 3:
+                            _magic2_c[1][3] = _magic2_c[1][3] + 1
                         else:
-                            _magic2_c[1][fam[4]] = _magic2_c[1][fam[4]]+1
+                            _magic2_c[1][fam[4]] = _magic2_c[1][fam[4]] + 1
                         # numbers CHILDREN
-                        if fam[5]>3:
-                            _magic3_c[1][3] = _magic3_c[1][3]+1
+                        if fam[5] > 3:
+                            _magic3_c[1][3] = _magic3_c[1][3] + 1
                         else:
-                            _magic3_c[1][fam[5]] = _magic3_c[1][fam[5]]+1
-                
+                            _magic3_c[1][fam[5]] = _magic3_c[1][fam[5]] + 1
 
         _magic1_c[:] = [x / len(self._families) for x in _magic1_c]
         _magic2_c[:] = [[float(j) / sum(i) if sum(i) else 0 for j in i] for i in _magic2_c]
@@ -208,7 +212,7 @@ class DataSet:
 
         hhdist = [0, 0, 0, 0, elderlynum]
         for _ in range(0, childnum + extrachild):
-            index = between(random.uniform(0.0, 1.0), self._magic4[famtype - 1]) # 0 1 2 3
+            index = between(random.uniform(0.0, 1.0), self._magic4[famtype - 1])  # 0 1 2 3
             if elderlynum == 0 and index > 2:
                 index = index - 1
             hhdist[index] = hhdist[index] + 1
@@ -219,14 +223,14 @@ class DataSet:
         elif famtype < 3:
             for _ in range(famtype):
                 if hhdist[4] > 0 and (hhdist[0] < 1 and hhdist[1] < 1):
-                    if hhdist[4] < famtype or hhdist[4]+hhdist[3] < famtype:
-                        #index = between(random.uniform(0.0, 1.0), self._magic6[childnum]) # 0 1
-                        #hhdist[3 + index] = hhdist[3 + index] + 1
+                    if hhdist[4] < famtype or hhdist[4] + hhdist[3] < famtype:
+                        # index = between(random.uniform(0.0, 1.0), self._magic6[childnum]) # 0 1
+                        # hhdist[3 + index] = hhdist[3 + index] + 1
                         hhdist[3] = hhdist[3] + 1
                 else:
-                    index = between(random.uniform(0.0, 1.0), self._magic6[childnum]) # 0 1
+                    index = between(random.uniform(0.0, 1.0), self._magic6[childnum])  # 0 1
                     hhdist[2 + index] = hhdist[2 + index] + 1
-        return hhdist, famtype, childnum+extrachild, elderlynum
+        return hhdist, famtype, childnum + extrachild, elderlynum
 
     def match_distribution(self, dista, distb):
         '''
@@ -237,7 +241,6 @@ class DataSet:
         :return: True iff A==B
         '''
         return dista == distb
-
 
     def check_distribution(self, family, cell, ratio=False):
         '''
@@ -251,10 +254,10 @@ class DataSet:
             for i in range(len(family)):
                 if family[i] > cell[i]:
                     return False
-            fr = [x1/x2 if x2>0 else 0 for (x1, x2) in zip(family, family[1:])]
-            cr = [x1/x2 if x2>0 else 0 for (x1, x2) in zip(cell, cell[1:])]
+            fr = [x1 / x2 if x2 > 0 else 0 for (x1, x2) in zip(family, family[1:])]
+            cr = [x1 / x2 if x2 > 0 else 0 for (x1, x2) in zip(cell, cell[1:])]
             for i in range(len(fr)):
-                if get_difference(cr[i], fr[i]) > 10 :
+                if get_difference(cr[i], fr[i]) > 10:
                     return False
             return True
         else:
@@ -262,32 +265,32 @@ class DataSet:
                 if family[i] > cell[i]:
                     return False
             return True
-    
+
     def occupation_switch(self, i):
-        switcher=useful_library.Switch({
-            range(0, 3):1, #Infant
-            range(3, 7):2, #Kindergarden student
-            range(7, 15):3, #Elemntary school student
-            range(15, 19):4, #Highschool student
+        switcher = useful_library.Switch({
+            range(0, 3): 1,  # Infant
+            range(3, 7): 2,  # Kindergarden student
+            range(7, 15): 3,  # Elemntary school student
+            range(15, 19): 4,  # Highschool student
             #:5, #University student (just temp now)
-            range(19, 65):6, #Full time worker, standard 9-17 schedule, fixed workplace
+            range(19, 65): 6,  # Full time worker, standard 9-17 schedule, fixed workplace
             #:7, #Afternoon shift worker
-            range(65, 200):8 #Stay-at-home schedule
-            })
+            range(65, 200): 8  # Stay-at-home schedule
+        })
         return switcher[i]
-    
+
     def gen_illness(self, age):
         illness = ''
-        #if age > 70:
-            #mégsem kell
-            #illness = self._illness[0]
-            #self._illness_number[0] = self._illness_number[0] - 1
-        #else:
+        # if age > 70:
+        # mégsem kell
+        # illness = self._illness[0]
+        # self._illness_number[0] = self._illness_number[0] - 1
+        # else:
         i = 0
         for a_sep in self._age_separation:
             if age <= a_sep:
                 ill = useful_library.choose_percentage(self._age_percentage[i])
-                if ill and len(self._illness[1:])>0:
+                if ill and len(self._illness[1:]) > 0:
                     illness = random.choice(self._illness[1:])
                     self._illness_number[self._illness.index(illness)] = \
                         self._illness_number[self._illness.index(illness)] - 1
@@ -325,8 +328,8 @@ class DataSet:
         counter = 0
         while True:
             a = round(random.uniform(agemin, agemax))
-            m = min(int(a/5), len(self._magicA)-1)
-            if self._magicA[m]>0:
+            m = min(int(a / 5), len(self._magicA) - 1)
+            if self._magicA[m] > 0:
                 break
             else:
                 counter = counter + 1
@@ -373,7 +376,7 @@ class DataSet:
         # children
         m_child_age = -1
         cur_age_group = 0
-        for children in range(1, ch_n+1):
+        for children in range(1, ch_n + 1):
             while hdist[cur_age_group] == 0:
                 cur_age_group = cur_age_group + 1
             sex = round(random.uniform(0, 1))
@@ -398,16 +401,18 @@ class DataSet:
                         cur_age_group = 4
                 # if there are two then let's have different gender
                 if parents == 2:
-                    a_sex.append(1-a_sex[0])
+                    a_sex.append(1 - a_sex[0])
                     m_mi = max(-10, self._agegroups[cur_age_group][0] - a_age[0])
-                    m_ma = min( 10, self._agegroups[cur_age_group][1] - a_age[0])
+                    m_ma = min(10, self._agegroups[cur_age_group][1] - a_age[0])
                     if (m_mi + a_age[0]) >= (m_ma + a_age[0]):
-                        a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group))
+                        a_age.append(
+                            self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1],
+                                            cur_age_group))
                     else:
                         a_age.append(self.create_age(m_mi + a_age[0], m_ma + a_age[0], cur_age_group))
                 else:
                     a_sex.append(round(random.uniform(0, 1)))
-                    #m_mi = max(self._agegroups[cur_age_group][0], mini_par_age)
+                    # m_mi = max(self._agegroups[cur_age_group][0], mini_par_age)
                     # ITT NAGY BAJ VAN! - meg van oldva
                     m_mi = self._agegroups[cur_age_group][0]
                     a_age.append(self.create_age(m_mi, self._agegroups[cur_age_group][1], cur_age_group))
@@ -422,30 +427,32 @@ class DataSet:
         a_age = []
         a_sex = []
         cur_age_group = 4
-        for elderlies in range(1, el_n+1):
+        for elderlies in range(1, el_n + 1):
             # if there are two then let's have different gender
             if elderlies == 2:
-                a_sex.append(1-a_sex[0])
+                a_sex.append(1 - a_sex[0])
                 m_mi = max(-10, self._agegroups[cur_age_group][0] - a_age[0])
-                m_ma = min( 10, self._agegroups[cur_age_group][1] - a_age[0])
-                if (m_mi + a_age[0]) >=(m_ma + a_age[0]):
-                    a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group))
+                m_ma = min(10, self._agegroups[cur_age_group][1] - a_age[0])
+                if (m_mi + a_age[0]) >= (m_ma + a_age[0]):
+                    a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1],
+                                                 cur_age_group))
                 else:
-                    a_age.append(self.create_age(m_mi+a_age[0], m_ma+a_age[0], cur_age_group))
+                    a_age.append(self.create_age(m_mi + a_age[0], m_ma + a_age[0], cur_age_group))
             else:
                 a_sex.append(round(random.uniform(0, 1)))
-                a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group))
+                a_age.append(self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1],
+                                             cur_age_group))
 
             self._people.append(self.new_person(rloc, a_sex[-1], a_age[-1], famtype))
             famage.append(a_age[-1])
             hdist[cur_age_group] = hdist[cur_age_group] - 1
 
-
         # the rest, if any
         for cur_age_group in range(len(hdist)):
-            for i in range(0,hdist[cur_age_group]):
+            for i in range(0, hdist[cur_age_group]):
                 sex = round(random.uniform(0, 1))
-                age = self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1], cur_age_group)
+                age = self.create_age(self._agegroups[cur_age_group][0], self._agegroups[cur_age_group][1],
+                                      cur_age_group)
                 self._people.append(self.new_person(rloc, sex, age, famtype))
                 famage.append(age)
 
@@ -487,8 +494,8 @@ class DataSet:
 
         for i in range(len(self._agedist)):
             self._agedist[i] = self._agedist[i] - hdist[i]
-        #families for statistic check
-        self._families.append(hdist+[ch_n, el_n])
+        # families for statistic check
+        self._families.append(hdist + [ch_n, el_n])
         del self._residents[location]
 
         return True
@@ -506,7 +513,7 @@ class DataSet:
         '''
 
         location = -1
-        for i in range(len(self._residents)-1, 0, -1):
+        for i in range(len(self._residents) - 1, 0, -1):
             if self.check_distribution(hdist, self._residents[i]["ageDistribution"]):
                 location = i
                 break
@@ -525,33 +532,36 @@ class DataSet:
             self._residents[location]["actNumberofpeople"] - sum(hdist)
         if self._residents[location]["actNumberofpeople"] < 1:
             del self._residents[location]
-        #families for statistic check
-        self._families.append(hdist+[ch_n, el_n])
+        # families for statistic check
+        self._families.append(hdist + [ch_n, el_n])
         return True
 
     def regroup(self):
         self._residents = sorted(self._residents, key=getKey, reverse=True)
-        for i in range(len(self._residents)-1, 0, -1):
+        for i in range(len(self._residents) - 1, 0, -1):
             if self._residents[i]["capacity"] > 9:
                 currgroups = []
-                currgroups = currgroups+whichgroups(self._residents[i]["ageDistribution"])
-                for j in range(i-1, 0, -1):
+                currgroups = currgroups + whichgroups(self._residents[i]["ageDistribution"])
+                for j in range(i - 1, 0, -1):
                     if get_difference(self._residents[i]["capacity"], self._residents[j]["capacity"]) < 16:
-                        if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))):# or len(currgroups) > 2:
-                            if self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"] <= self._residents[i]["capacity"]:
+                        if not (any(map(lambda each: each in currgroups, whichgroups(
+                                self._residents[j]["ageDistribution"])))):  # or len(currgroups) > 2:
+                            if self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"] <= \
+                                    self._residents[i]["capacity"]:
                                 for o in range(len(self._residents[i]["ageDistribution"])):
                                     self._residents[i]["ageDistribution"][o] = \
                                         self._residents[i]["ageDistribution"][o] + \
-                                            self._residents[j]["ageDistribution"][o]
-                                self._residents[i]["actNumberofpeople"] = self._residents[i]["actNumberofpeople"] + self._residents[j]["actNumberofpeople"]
-                                #if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))):
-                                currgroups = currgroups+whichgroups(self._residents[j]["ageDistribution"])
+                                        self._residents[j]["ageDistribution"][o]
+                                self._residents[i]["actNumberofpeople"] = self._residents[i]["actNumberofpeople"] + \
+                                                                          self._residents[j]["actNumberofpeople"]
+                                # if not (any(map(lambda each: each in currgroups, whichgroups(self._residents[j]["ageDistribution"])))):
+                                currgroups = currgroups + whichgroups(self._residents[j]["ageDistribution"])
                                 self._residents[j]["capacity"] = 0
-                            #elif self._residents[i]["capacity"] - self._residents[i]["actNumberofpeople"] < 3:
+                            # elif self._residents[i]["capacity"] - self._residents[i]["actNumberofpeople"] < 3:
                             #    break
         self._residents = [v for v in sorted(self._residents, key=lambda item: item["capacity"])]
         self._residents = [x for x in self._residents if x["capacity"] > 0]
-    
+
     def add_commuters(self, comcsv, comscsv, illness):
         self._people = self._people + generate_commuters.generate_agents(comcsv, comscsv, self._magicA, illness)
 
@@ -570,7 +580,6 @@ class DataSet:
 
 
 def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=None, comscsv=None, tempfamlocation=None):
-
     adatok = DataSet()
     adatok.load_magicnumber(magic)
     adatok.load_illnessnumber(illness)
@@ -582,14 +591,13 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=Non
     last_fam = []
     pop = sum(adatok._agedist)
 
-
     iter = 0
     redo_counter = 0
     redo_thrashold = 5000
     while True:
         iter = iter + 1
         if iter % 250 == 0:
-            txt = "Generating agents - " + '{:6.2f}'.format(100.0*(pop-sum(adatok._agedist))/pop) + "%"
+            txt = "Generating agents - " + '{:6.2f}'.format(100.0 * (pop - sum(adatok._agedist)) / pop) + "%"
             # ll = [adatok._magicA[0] + adatok._magicA[1] + adatok._magicA[2],
             #       adatok._magicA[3],
             #       adatok._magicA[4] + adatok._magicA[5],
@@ -601,7 +609,6 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=Non
             # txt = str(adatok._agedist) + "/" + str(adatok._verage) + " Der: " + str(ll)
             # txt = str(adatok._magicA)
             sys.stdout.write('\r' + txt)
-
 
         (hdist, ftype, ch_n, el_n) = adatok.generate_family()
         if not adatok.find_exact_cell(hdist, ftype, ch_n, el_n):
@@ -615,7 +622,7 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=Non
                             last_fam = hdist
                             break
 
-    txt = "Generating agents - " + '{:6.2f}'.format(100.0 * (pop-sum(adatok._agedist)) / pop) + "%"
+    txt = "Generating agents - " + '{:6.2f}'.format(100.0 * (pop - sum(adatok._agedist)) / pop) + "%"
     sys.stdout.write('\r' + txt + " - done. Calculating statistics")
 
     m1, m2, m3 = adatok.statistic_check()
@@ -627,12 +634,13 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=Non
         txt_file.write('\n')
         for line in m3:
             txt_file.write('[%s]' % ', '.join(map(str, line)) + "\n")
-        txt_file.write('\n'+str(last_fam)+'\n')
+        txt_file.write('\n' + str(last_fam) + '\n')
         for res in adatok._residents:
-            txt_file.write(str(res["ageDistribution"])+" id: "+str(res["id"])+" capacity: "+str(res["capacity"])+"\n")
+            txt_file.write(
+                str(res["ageDistribution"]) + " id: " + str(res["id"]) + " capacity: " + str(res["capacity"]) + "\n")
 
     sys.stdout.write(" - done. Saving")
-    #adatok._people = useful_library.order_by_place(adatok._people, 0)
+    # adatok._people = useful_library.order_by_place(adatok._people, 0)
     if comcsv != None and comscsv != None:
         adatok.add_commuters(comcsv, comscsv, illness)
     adatok.add_tourists(illness)
@@ -641,4 +649,3 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=Non
 
     print(" - done.")
     print(adatok._magicA)
-

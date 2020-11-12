@@ -1,5 +1,5 @@
 import respoi_process
-import nonrespoi_process
+import nonrespoi_process_v2
 import generate_agents
 import generate_secondary_locations
 import generate_interesting_locations
@@ -18,7 +18,9 @@ file_prefix = "Szeged"
 shapefile    = "100100_2019_" + file_prefix
 respoi       = file_prefix + "_respoi.json"
 schoolcsv    = "schoolpoi_" + file_prefix + ".csv"
+schoolncsv   = "newschool_" + file_prefix + ".csv"
 schoolpoi    = file_prefix + "_schoolpoi.json"
+combinedcsv  = "newworkint_" + file_prefix + ".csv"
 workcsv      = "workpoi_" + file_prefix + ".csv"
 workpoi      = file_prefix + "_workpoi.json"
 icsv         = "interestingpoi_" + file_prefix + ".csv"
@@ -47,8 +49,8 @@ tempschoollocation = file_prefix + "_schoollocation_helper.json"
 def main(argv):
     if len(argv) > 1:
         # processsing csv files and creating needed json files (usually run only a few times when needed)
-        respoi_process.process_input_data(file_prefix, shapefile, respoi)
-        nonrespoi_process.process_input_data(file_prefix, schoolcsv, workcsv, icsv, ohcsv, schoolpoi, workpoi, ipoi, ohpoi)
+        respoi_process.process_input_data(file_prefix, shapefile, respoi, publicpoi)
+        nonrespoi_process_v2.process_input_data(file_prefix, schoolncsv, combinedcsv, ohcsv, schoolpoi, workpoi, ipoi, ohpoi)
     # default data generating when files are ready to be used
     for i in range(int(argv[0])):
         agentout = "agents"+str(i)+".json"

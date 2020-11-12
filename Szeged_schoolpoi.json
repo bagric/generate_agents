@@ -3,7 +3,7 @@
 	"places": [
 		{
 			"id": "44486altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.061735,
@@ -15,23 +15,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 269,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 269,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "42036altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.071233,
@@ -43,23 +44,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 231,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 231,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "43674altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.112364,
@@ -71,23 +73,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 198,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 198,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "213957altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.126916,
@@ -99,23 +102,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "42937altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.133292,
@@ -127,23 +131,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "45730altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.135721,
@@ -155,23 +160,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 736,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 736,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "43131altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.135258,
@@ -183,23 +189,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 364,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 364,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "213982altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.137121,
@@ -211,23 +218,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "42265altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.138389,
@@ -239,23 +247,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 420,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 420,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "46719altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.138639,
@@ -267,23 +276,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "34035altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.138596,
@@ -295,23 +305,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "47269altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.140706,
@@ -323,23 +334,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 462,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 462,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "34109altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.142094,
@@ -351,23 +363,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 749,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 749,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "40893altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.145714,
@@ -379,23 +392,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "34336altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.145916,
@@ -407,23 +421,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "42382altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.146058,
@@ -435,23 +450,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "43431altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.14675,
@@ -463,23 +479,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 339,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 339,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "43430altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.151789,
@@ -491,23 +508,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 372,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 372,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "213988altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.155801,
@@ -519,23 +537,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "34107altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.156954,
@@ -547,23 +566,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 398,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 398,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "46015altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.156815,
@@ -575,23 +595,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 434,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 434,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "45738altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.157129,
@@ -603,23 +624,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 511,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 511,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "44711altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.158212,
@@ -631,23 +653,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 309,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 309,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "34042altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.160236,
@@ -659,23 +682,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "34324altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.160964,
@@ -687,23 +711,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 472,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 472,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "44154altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.161972,
@@ -715,23 +740,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 247,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 247,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "44118altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.166017,
@@ -743,23 +769,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "34106altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.166986,
@@ -771,23 +798,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 488,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 488,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "43371altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.171622,
@@ -799,23 +827,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 111,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 111,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "42208altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.175024,
@@ -827,23 +856,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "47083altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.180954,
@@ -855,23 +885,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 225,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 225,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "45553altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.193664,
@@ -883,23 +914,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 300,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 300,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "44876altal",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00e1ltal\u00e1nos iskola",
 			"coordinates": [
 				20.19715,
@@ -911,23 +943,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 426,
-			"ageInter": [
-				6,
-				15
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 426,
+			"ageInter": [
+				6,
+				15
 			]
 		},
 		{
 			"id": "59443bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.064769,
@@ -939,23 +972,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59563bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.082679,
@@ -967,23 +1001,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "137480bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.08301594,
@@ -995,23 +1030,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "220967bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.119988,
@@ -1023,23 +1059,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59561bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.130786,
@@ -1051,23 +1088,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59562bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.133512,
@@ -1079,23 +1117,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "187031bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.13369312,
@@ -1107,23 +1146,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59555bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.134551,
@@ -1135,23 +1175,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "148385bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.13693585,
@@ -1163,23 +1204,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59560bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.136769,
@@ -1191,23 +1233,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "148270bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.144255,
@@ -1219,23 +1262,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59566bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.144725,
@@ -1247,23 +1291,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "148351bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.14485043,
@@ -1275,23 +1320,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59554bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.149145,
@@ -1303,23 +1349,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59558bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.152962,
@@ -1331,23 +1378,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "174703bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.15400983,
@@ -1359,23 +1407,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59565bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.156522,
@@ -1387,23 +1436,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59557bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.161161,
@@ -1415,23 +1465,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "220962bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.16150308,
@@ -1443,23 +1494,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59559bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.166142,
@@ -1471,23 +1523,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "148416bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.167373,
@@ -1499,23 +1552,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59564bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.169027,
@@ -1527,23 +1581,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "178758bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.171195,
@@ -1555,23 +1610,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "220963bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.171195,
@@ -1583,23 +1639,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59556bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.171377,
@@ -1611,23 +1668,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "220966bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.18141074,
@@ -1639,23 +1697,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "148316bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.18132234,
@@ -1667,23 +1726,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "220964bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.18138208,
@@ -1695,23 +1755,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "148565bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.18642299,
@@ -1723,23 +1784,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "220965bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.186622,
@@ -1751,23 +1813,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "148245bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.19097204,
@@ -1779,23 +1842,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "59594bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.197058,
@@ -1807,23 +1871,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "174779bolcs",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "b\u00f6lcs\u0151de",
 			"coordinates": [
 				20.205152,
@@ -1835,23 +1900,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 36,
-			"ageInter": [
-				0,
-				3
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 36,
+			"ageInter": [
+				0,
+				3
 			]
 		},
 		{
 			"id": "44672gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.127133,
@@ -1863,23 +1929,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "42937gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.133292,
@@ -1891,23 +1958,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213982gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.137121,
@@ -1919,23 +1987,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "34035gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.138596,
@@ -1947,23 +2016,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "44355gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.138925,
@@ -1975,23 +2045,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
+			"essential": 2,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 3,
 			"capacity": 270,
 			"ageInter": [
 				14,
 				19
-			],
-			"risk": 1.0,
-			"ageDistribution": [
-				0,
-				0,
-				0,
-				0,
-				0
 			]
 		},
 		{
 			"id": "44323gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.140131,
@@ -2003,23 +2074,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "109362gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.140131,
@@ -2031,23 +2103,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213968gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.141036,
@@ -2059,23 +2132,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "42382gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.146058,
@@ -2087,23 +2161,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "41619gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.15151,
@@ -2115,23 +2190,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 838,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 838,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "110150gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.154045,
@@ -2143,23 +2219,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213989gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.155322,
@@ -2171,23 +2248,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "46822gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.155695,
@@ -2199,23 +2277,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 786,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 786,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213988gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.155801,
@@ -2227,23 +2306,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "40940gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.157058,
@@ -2255,23 +2335,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 979,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 979,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "44356gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.156939,
@@ -2283,23 +2364,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "34042gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.160236,
@@ -2311,23 +2393,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 290,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 290,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "41751gimna",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "gimn\u00e1zium",
 			"coordinates": [
 				20.164723,
@@ -2339,23 +2422,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 445,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 445,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "109836ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.059619,
@@ -2367,23 +2451,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 51,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 51,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109838ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.063817,
@@ -2395,23 +2480,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 69,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 69,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109839ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.067132,
@@ -2423,23 +2509,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 71,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 71,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109837ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.071733,
@@ -2451,23 +2538,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109825ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.082895,
@@ -2479,23 +2567,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 50,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 50,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109826ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.109213,
@@ -2507,23 +2596,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 27,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 27,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109813ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.110923,
@@ -2535,23 +2625,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 70,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 70,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109824ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.115315,
@@ -2563,23 +2654,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 70,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 70,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "46627ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.119988,
@@ -2591,23 +2683,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109854ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.121034,
@@ -2619,23 +2712,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "45559ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.122428,
@@ -2647,23 +2741,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 44,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 44,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109835ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.130659,
@@ -2675,23 +2770,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 72,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 72,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109834ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.131483,
@@ -2703,23 +2799,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 21,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 21,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109840ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.132904,
@@ -2731,23 +2828,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 95,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 95,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109808ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.134947,
@@ -2759,23 +2857,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 64,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 64,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109533ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.134833,
@@ -2787,23 +2886,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 126,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 126,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "46719ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.138639,
@@ -2815,23 +2915,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109532ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.139263,
@@ -2843,23 +2944,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109844ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.14009,
@@ -2871,23 +2973,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 115,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 115,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109814ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.140732,
@@ -2899,23 +3002,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 96,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 96,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "46274ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.140838,
@@ -2927,23 +3031,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109833ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.141072,
@@ -2955,23 +3060,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 43,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 43,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109820ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.141649,
@@ -2983,23 +3089,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 67,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 67,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109816ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.142098,
@@ -3011,23 +3118,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 70,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 70,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109853ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.143021,
@@ -3039,23 +3147,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 163,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 163,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109858ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.143487,
@@ -3067,23 +3176,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 80,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 80,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "44811ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.144127,
@@ -3095,23 +3205,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109815ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.146956,
@@ -3123,23 +3234,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 121,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 121,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109842ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.148746,
@@ -3151,23 +3263,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 176,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 176,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "46252ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.148724,
@@ -3179,23 +3292,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109821ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.148828,
@@ -3207,23 +3321,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 58,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 58,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "44778ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.152245,
@@ -3235,23 +3350,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109851ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.152944,
@@ -3263,23 +3379,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 96,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 96,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109841ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.153198,
@@ -3291,23 +3408,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 205,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 205,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "43597ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.153071,
@@ -3319,23 +3437,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "213988ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.155801,
@@ -3347,23 +3466,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109831ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.156522,
@@ -3375,23 +3495,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 158,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 158,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109830ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.156737,
@@ -3403,23 +3524,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 214,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 214,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109391ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.159536,
@@ -3431,23 +3553,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109850ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.160087,
@@ -3459,23 +3582,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 102,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 102,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109832ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.159571,
@@ -3487,23 +3611,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "34042ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.160236,
@@ -3515,23 +3640,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109845ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.16349,
@@ -3543,23 +3669,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 81,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 81,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109846ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.164042,
@@ -3571,23 +3698,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109823ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.165639,
@@ -3599,23 +3727,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 102,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 102,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109848ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.165853,
@@ -3627,23 +3756,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 135,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 135,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "44118ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.166017,
@@ -3655,23 +3785,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 228,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 228,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109849ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.169499,
@@ -3683,23 +3814,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 79,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 79,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109847ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.170152,
@@ -3711,23 +3843,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 105,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 105,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109859ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.172895,
@@ -3739,23 +3872,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109818ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.173383,
@@ -3767,23 +3901,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 98,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 98,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109828ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.175024,
@@ -3795,23 +3930,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 110,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 110,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109822ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.179862,
@@ -3823,23 +3959,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 68,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 68,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109336ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.18141074,
@@ -3851,23 +3988,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109332ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.186655,
@@ -3879,23 +4017,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "148239ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.186622,
@@ -3907,23 +4046,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 90,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 90,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109827ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.187785,
@@ -3935,23 +4075,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 80,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 80,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109856ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.192979,
@@ -3963,23 +4104,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 232,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 232,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109812ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.192071,
@@ -3991,23 +4133,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 63,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 63,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109811ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.194611,
@@ -4019,23 +4162,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 66,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 66,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "109857ovoda",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "\u00f3voda",
 			"coordinates": [
 				20.202103,
@@ -4047,23 +4191,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 47,
-			"ageInter": [
-				3,
-				6
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 47,
+			"ageInter": [
+				3,
+				6
 			]
 		},
 		{
 			"id": "44355szaki",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakiskola",
 			"coordinates": [
 				20.138925,
@@ -4075,23 +4220,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 933,
-			"ageInter": [
-				14,
-				18
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 933,
+			"ageInter": [
+				14,
+				18
 			]
 		},
 		{
 			"id": "109540szaki",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakiskola",
 			"coordinates": [
 				20.172099,
@@ -4103,23 +4249,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 40,
-			"ageInter": [
-				14,
-				18
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 40,
+			"ageInter": [
+				14,
+				18
 			]
 		},
 		{
 			"id": "44285szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.098708,
@@ -4131,23 +4278,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "46540szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.118839,
@@ -4159,23 +4307,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
+			"essential": 2,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 3,
 			"capacity": 187,
 			"ageInter": [
 				14,
 				19
-			],
-			"risk": 1.0,
-			"ageDistribution": [
-				0,
-				0,
-				0,
-				0,
-				0
 			]
 		},
 		{
 			"id": "43336szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.123765,
@@ -4187,23 +4336,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
+			"essential": 2,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 3,
 			"capacity": 138,
 			"ageInter": [
 				14,
 				19
-			],
-			"risk": 1.0,
-			"ageDistribution": [
-				0,
-				0,
-				0,
-				0,
-				0
 			]
 		},
 		{
 			"id": "213995szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.123765,
@@ -4215,23 +4365,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "44672szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.127133,
@@ -4243,23 +4394,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "45845szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.1276,
@@ -4271,23 +4423,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 760,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 760,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "45987szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.133534,
@@ -4299,23 +4452,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 573,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 573,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213982szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.137121,
@@ -4327,23 +4481,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213986szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.138154,
@@ -4355,23 +4510,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "44355szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.138925,
@@ -4383,23 +4539,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "109362szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.140131,
@@ -4411,23 +4568,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "44363szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.141593,
@@ -4439,23 +4597,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "41857szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.143217,
@@ -4467,23 +4626,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 482,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 482,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213961szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.143317,
@@ -4495,23 +4655,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "34777szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.144381,
@@ -4523,23 +4684,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "46122szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.146096,
@@ -4551,23 +4713,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213998szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.146058,
@@ -4579,23 +4742,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213990szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.147239,
@@ -4607,23 +4771,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "41766szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.147422,
@@ -4635,23 +4800,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "41619szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.15151,
@@ -4663,23 +4829,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "42267szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.152123,
@@ -4691,23 +4858,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 338,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 338,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "67046szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.154792,
@@ -4719,23 +4887,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "44261szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.155099,
@@ -4747,23 +4916,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 630,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 630,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "213989szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.155322,
@@ -4775,23 +4945,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "110188szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.156815,
@@ -4803,23 +4974,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "45729szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.157058,
@@ -4831,23 +5003,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 488,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 488,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "45627szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.156939,
@@ -4859,23 +5032,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "45637szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.157237,
@@ -4887,23 +5061,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "110162szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.159183,
@@ -4915,23 +5090,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "109537szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.162005,
@@ -4943,23 +5119,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 23,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 23,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "46718szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.16682,
@@ -4971,23 +5148,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 425,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 425,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "109541szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.168449,
@@ -4999,23 +5177,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 173,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 173,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "110189szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.17286,
@@ -5027,23 +5206,24 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		},
 		{
 			"id": "109458szakk",
-			"type": 3,
+			"risk": 1.0,
 			"subtype": "szakk\u00f6z\u00e9piskola",
 			"coordinates": [
 				20.184626,
@@ -5055,18 +5235,19 @@
 			],
 			"area": 0,
 			"stat": "ON",
-			"capacity": 200,
-			"ageInter": [
-				14,
-				19
-			],
-			"risk": 1.0,
+			"essential": 2,
 			"ageDistribution": [
 				0,
 				0,
 				0,
 				0,
 				0
+			],
+			"type": 3,
+			"capacity": 200,
+			"ageInter": [
+				14,
+				19
 			]
 		}
 	]

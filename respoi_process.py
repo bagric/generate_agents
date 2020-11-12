@@ -4,11 +4,13 @@ import sys
 import shapefile as sfr
 import urllib.request as ur
 
-def process_input_data(prefix, shapefile, respoifile):
+def process_input_data(prefix, shapefile, respoifile, publicpoi):
 
     sf = sfr.Reader(shapefile)
 
     data = list()
+    data_pub = list()
+
     iter = 0
     for s in sf.iterShapeRecords():
         iter = iter + 1
@@ -43,9 +45,17 @@ def process_input_data(prefix, shapefile, respoifile):
                   'ageDistribution': [sha[5], sha[6], sha[7], sha[8], sha[9]]
                   }
         data.append(places)
+        places = places.copy()
+        places['type'] = 1
+        data_pub.append(places)
+
 
     adat = {"area": prefix, "places": data}
     with open(respoifile, 'w') as f:
+        json.dump(adat, f, indent="\t")
+
+    adat = {"area": prefix, "places": data_pub}
+    with open(publicpoi, 'w') as f:
         json.dump(adat, f, indent="\t")
 
     print(" - file saved")
