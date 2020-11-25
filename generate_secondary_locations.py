@@ -31,7 +31,8 @@ def school_switch(i):
         1: "bölcsőde",  # Infant
         2: "óvoda",  # Kindergarden student
         3: "általános iskola",  # Elemntary school student
-        4: random.choice(["gimnázium", "szakközépiskola"])  # Highschool student
+        4: random.choice(["gimnázium", "szakközépiskola"]),  # Highschool student
+        5: "egyetem" # University
     }
     return switcher.get(i, "más")
 
@@ -80,7 +81,7 @@ def findoccupation(schools, workplaces, agent, sc_class_data):
     age = agent['age']
     distan = 1000000
     loc_id = -1
-    if 4 < typeID < 9:
+    if 5 < typeID < 9:
         if typeID == 6:
             i = 0
             for wp in workplaces:
@@ -100,10 +101,12 @@ def findoccupation(schools, workplaces, agent, sc_class_data):
                     return rloc
             if len(workplaces) < 1:
                 return None
+        elif typeID == 7:
+            pass
         else:
             return None
     # babies left out as requested
-    elif 1 < typeID <= 4:
+    elif 1 < typeID <= 5:
         snum = school_switch(typeID)
         i = 0
         for sch in schools:

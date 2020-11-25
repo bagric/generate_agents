@@ -5249,6 +5249,557 @@
 				14,
 				19
 			]
+		},
+		{
+			"id": "56400egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.146548,
+				46.250046
+			],
+			"coordinates_alt": [
+				101207,
+				734756
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60709egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.149045,
+				46.245946
+			],
+			"coordinates_alt": [
+				100754,
+				734955
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60710egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.141036,
+				46.247445
+			],
+			"coordinates_alt": [
+				100912,
+				734335
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60711egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.166616,
+				46.250307
+			],
+			"coordinates_alt": [
+				101258,
+				736303
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60712egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.143447,
+				46.251273
+			],
+			"coordinates_alt": [
+				101340,
+				734515
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60713egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.147121,
+				46.248898
+			],
+			"coordinates_alt": [
+				101080,
+				734802
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60714egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.146301,
+				46.246198
+			],
+			"coordinates_alt": [
+				100779,
+				734743
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60716egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.139559,
+				46.258481
+			],
+			"coordinates_alt": [
+				102137,
+				734204
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60717egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.147711,
+				46.247309
+			],
+			"coordinates_alt": [
+				100904,
+				734850
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60718egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.144381,
+				46.249977
+			],
+			"coordinates_alt": [
+				101197,
+				734589
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "60812egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.145265,
+				46.252038
+			],
+			"coordinates_alt": [
+				101427,
+				734654
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "164226egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.142318,
+				46.246704
+			],
+			"coordinates_alt": [
+				100831,
+				734435
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "176488egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.145087,
+				46.24961
+			],
+			"coordinates_alt": [
+				101157,
+				734644
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "184476egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.14772,
+				46.248388
+			],
+			"coordinates_alt": [
+				101024,
+				734849
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "184477egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.14772,
+				46.248388
+			],
+			"coordinates_alt": [
+				101024,
+				734849
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "184492egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.140451,
+				46.248009
+			],
+			"coordinates_alt": [
+				100974,
+				734289
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "184493egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.138376,
+				46.25125
+			],
+			"coordinates_alt": [
+				101332,
+				734124
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "184494egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.138223,
+				46.250739
+			],
+			"coordinates_alt": [
+				101275,
+				734113
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
+		},
+		{
+			"id": "184495egyet",
+			"risk": 1.0,
+			"subtype": "egyetem",
+			"coordinates": [
+				20.146548,
+				46.250046
+			],
+			"coordinates_alt": [
+				101207,
+				734756
+			],
+			"area": 0,
+			"stat": "ON",
+			"essential": 0,
+			"ageDistribution": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"type": 4,
+			"capacity": 1200,
+			"ageInter": [
+				18,
+				28
+			]
 		}
 	]
 }

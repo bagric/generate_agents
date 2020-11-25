@@ -4,7 +4,7 @@ import sys
 
 def _process_data(filename, data, type):
     print(filename)
-    see = [0 for _ in range(1,16)]
+    see = [0 for _ in range(1, 50)]
 
     with open(filename, 'r') as f:
         d = json.load(f)
@@ -154,14 +154,14 @@ def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamloca
     txt = "Converting location files"
     sys.stdout.write('\r' + txt)
 
-    # Order is ipmortant! Interesting poi and its type is the primary type. Only schools can override.
+    # Order is important! Interesting poi and its type is the primary type. Only schools can override.
     _process_res_data(respoi, tempfamlocation, data)
+    _process_data(ohpoi, data, -1)
     _process_sch_data(schoolpoi, tempschoollocation, data)
     _process_data(ipoi, data, -1)
     _process_data(publicpoi, data, -1)
     _process_data(workpoi, data, -1)
-    _process_data(ohpoi, data, -1)
-    
+
 
     data.append({'ID': 'tourist_box',
                   'type': 15,

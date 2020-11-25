@@ -318,6 +318,10 @@ class DataSet:
         person['preCond'] = self.gen_illness(age)
         person['SIRD'] = "S"
         person['typeID'] = self.occupation_switch(age)
+        if (18 <= age < 30) and (random.uniform(0, 100) > 80):
+            person['typeID'] = 5
+        elif (18 <= age < 65) and (random.uniform(0, 100) > 70):
+            person['typeID'] = 7
         person['locations'] = []
         person['locations'].append(dict(locs))
         person['famtype'] = ft
@@ -372,6 +376,9 @@ class DataSet:
                 "coordinates": self._residents[location]["coordinates"],
                 "coordinates_alt": self._residents[location]["coordinates_alt"]
                 }
+
+        if rloc["typeID"] == 22:
+            rloc["typeID"] = 2
 
         # children
         m_child_age = -1
