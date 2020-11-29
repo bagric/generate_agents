@@ -101,8 +101,8 @@ def findoccupation(schools, workplaces, agent, sc_class_data):
                     return rloc
             if len(workplaces) < 1:
                 return None
-        elif typeID == 7:
-            pass
+        #elif typeID == 7:
+        #    pass
         else:
             return None
     # babies left out as requested
@@ -174,6 +174,8 @@ def generate_occupation(sfn, wfn, agents):
                 #    random.choice([6, 7])
                 if ifhasoccupation['typeID'] == 13:
                     agent['typeID'] = 7
+                    ifhasoccupation['typeID'] = 4
+                if ifhasoccupation['typeID'] == 10:
                     ifhasoccupation['typeID'] = 4
                 agent['locations'].append(dict(ifhasoccupation))
             else:

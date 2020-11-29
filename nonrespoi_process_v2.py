@@ -83,7 +83,7 @@ def process_schools_workplaces(teach, work):
     data = teach
     for wp in work:
         if wp["capacity"] != 0:
-            wp["type"] = 4
+            # wp["type"] = 4
             data.append(wp)
     return data
 
