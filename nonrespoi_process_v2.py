@@ -17,7 +17,7 @@ def pick_csv(inputcsv, pref="", oldh=False):
             row[11] = float(row[11].replace(",", "."))
             if oldh:
                 oldhome = int(row[6])
-            places = {'id': row[7],
+            places = {'id': row[8],
                       'type': int(row[0]),
                       'subtype': pref + row[1],
                       'coordinates': [row[5], row[4]],
@@ -99,7 +99,7 @@ def process_input_data(prefix, schoolncsv, combinedcsv, ohcsv, schoolpoi, workpo
     combr_work, combr_interest = pick_csvnew(combinedcsv)
     process_intpoit(combr_interest)
 
-    ohraw = pick_csv(ohcsv, "oh_")
+    ohraw = pick_csv(ohcsv, "oh_", True)
 
     dump_json(prefix, schoolpoi, scraw_student)
     dump_json(prefix, workpoi, process_schools_workplaces(scraw_teach, combr_work))

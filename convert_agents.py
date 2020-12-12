@@ -1,12 +1,16 @@
 import json
+import random
 import sys
 
 
-def convert_data(genagent, agentsout):
+def convert_data(genagent, agentsout, rshelp):
     data = []
 
     with open(genagent, 'r') as f:
         people = json.load(f)
+
+    with open(rshelp, 'r') as f:
+        resid = json.load(f)
 
     _agegroups = [[0, 14],
                   [15, 18],
@@ -38,17 +42,21 @@ def convert_data(genagent, agentsout):
                 pop[i] = pop[i] + 1
                 break
 
-        t = res['typeID']
-        f = False
-
         for locs in res['locations']:
             loc = {
                 'typeID': locs['typeID'],
                 'locID': locs['locID']
             }
-            if (locs['typeID'] == 4) or (locs['typeID'] == 13):
-                f = True
+            if loc not in convert['locations']:
+                convert['locations'].append(loc)
 
+        additional_two = random.randint(0, 3)
+        for _ in range(additional_two):
+            randloc = random.randint(0, len(resid)-1)
+            loc = {
+                'typeID': 8,
+                'locID': resid[randloc]['ID']
+            }
             convert['locations'].append(loc)
 
         data.append(convert)

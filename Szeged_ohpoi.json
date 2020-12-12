@@ -2,7 +2,7 @@
 	"area": "Szeged",
 	"places": [
 		{
-			"id": "108580",
+			"id": "108580_1202",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -26,11 +26,11 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		},
 		{
-			"id": "108734",
+			"id": "108734_1203",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -54,11 +54,11 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		},
 		{
-			"id": "108777",
+			"id": "108777_1204",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -82,11 +82,11 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		},
 		{
-			"id": "108800",
+			"id": "108800_1205",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -110,11 +110,11 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		},
 		{
-			"id": "109019",
+			"id": "109019_1206",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -138,11 +138,11 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		},
 		{
-			"id": "109020",
+			"id": "109020_1207",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -166,11 +166,11 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		},
 		{
-			"id": "109021",
+			"id": "109021_1208",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -194,11 +194,11 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		},
 		{
-			"id": "109193",
+			"id": "109193_1209",
 			"type": 22,
 			"subtype": "oh_id\u0151sek otthona",
 			"coordinates": [
@@ -222,7 +222,7 @@
 				0,
 				0,
 				0,
-				0
+				55
 			]
 		}
 	]

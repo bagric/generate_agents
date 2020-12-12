@@ -149,13 +149,16 @@ def cleanse(data):
     return {"places": output}
 
 
-def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamlocation, tempschoollocation, locationout):
+def convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamlocation, tempschoollocation, locationout, resvisitor_helper):
     data = []
     txt = "Converting location files"
     sys.stdout.write('\r' + txt)
 
     # Order is important! Interesting poi and its type is the primary type. Only schools can override.
     _process_res_data(respoi, tempfamlocation, data)
+    with open(resvisitor_helper, 'w') as f:
+        json.dump(data, f, indent="\t")
+
     _process_data(ohpoi, data, -1)
     _process_sch_data(schoolpoi, tempschoollocation, data)
     _process_data(ipoi, data, -1)

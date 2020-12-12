@@ -43,6 +43,8 @@ comscsv      = file_prefix + "_commuter_students.csv"
 tempfamlocation = file_prefix + "_famlocation_helper.json"
 tempschoollocation = file_prefix + "_schoollocation_helper.json"
 
+rshelp = file_prefix + "_reshelper.json"
+
 #agentout    = "agents.json"
 #locationout = "locations.json"
 
@@ -59,8 +61,8 @@ def main(argv):
         generate_secondary_locations.generate_additional_locations(tempagentin, tempagentout, schoolpoi, workpoi, tempschoollocation)
         generate_public_locations.generate_additional_locations(tempagentout, tempagentin, publicpoi)
         generate_interesting_locations.generate_additional_locations(tempagentin, tempagentout, ipoi)
-        convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamlocation, tempschoollocation, locationout)
-        convert_agents.convert_data(tempagentout, agentout)
+        convert_poi.convert_data(respoi, schoolpoi, workpoi, ipoi, publicpoi, ohpoi, tempfamlocation, tempschoollocation, locationout, rshelp)
+        convert_agents.convert_data(tempagentout, agentout, rshelp)
 
 
 if __name__ == "__main__":

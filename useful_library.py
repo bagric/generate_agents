@@ -43,6 +43,10 @@ def select_random_place(odata, place_type, how_many):
     i = 0
     while i < how_many:
         place = random.choice(odata[place_type])
+        if place["subtype"] == "int_id\u0151sek otthona":
+            print("SKIPPING")
+            continue
+
         rloc = {"typeID": place["type"],
                 "locID": place["id"],
                 "coordinates": place["coordinates"],

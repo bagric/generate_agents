@@ -81,7 +81,7 @@ class DataSet:
             # self._illness = ["a70", "CV", "CK", "COPD", "DM"]
             self._illness = ["a70", "2", "3", "4", "1"]
 
-    def load_residentdata(self, filename):
+    def load_residentdata(self, filename, oldhome):
         '''
         Load a formatted JSON file with the location of residental houses (100x100 cells)
 
@@ -89,8 +89,14 @@ class DataSet:
         '''
         with open(filename, 'r') as f:
             _residents = json.load(f)
-            self._residents = _residents["places"]
-        self._residents = [v for v in sorted(self._residents, key=lambda item: item["capacity"])]
+            ordinaryhomes = _residents["places"]
+
+        with open(oldhome, 'r') as f:
+            _residents2 = json.load(f)
+            oldhomes = _residents2["places"]
+
+        self._residents = ordinaryhomes + oldhomes
+        #self._residents = [v for v in sorted(self._residents, key=lambda item: item["capacity"])]
 
     def calculate_residentstat(self):
         '''
@@ -111,17 +117,6 @@ class DataSet:
         self._counter = counter
         for i in range(len(self._magicA)):
             self._magicA[i] = round(self._magicA[i] * sum(agedist))
-
-    def load_oldhomedata(self, filename):
-        '''
-        Load a formatted JSON file with the location of old homes
-
-        :param filename: Name of the file
-        '''
-        with open(filename, 'r') as f:
-            _residents = json.load(f)
-            oldhomes = _residents["places"]
-        self._residents = [v for v in sorted(oldhomes, key=lambda item: item["capacity"])] + self._residents
 
     def statistic_check(self):
         '''
@@ -364,10 +359,14 @@ class DataSet:
         '''
 
         # put the fam id here to create residential sub-locations
-        famcode = "f" + str(len(self._families)) + "_"
-        if self._residents[location]["id"] not in self._subrespoi:
-            self._subrespoi[self._residents[location]["id"]] = []
-        self._subrespoi[self._residents[location]["id"]].append(famcode)
+        if self._residents[location]["type"] == 22:
+            famcode = ""
+        else:
+            famcode = "f" + str(len(self._families)) + "_"
+            if self._residents[location]["id"] not in self._subrespoi:
+                self._subrespoi[self._residents[location]["id"]] = []
+            self._subrespoi[self._residents[location]["id"]].append(famcode)
+
         # make a local copy
         hdist = hdist[:]
         famage = []
@@ -590,8 +589,7 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=Non
     adatok = DataSet()
     adatok.load_magicnumber(magic)
     adatok.load_illnessnumber(illness)
-    adatok.load_residentdata(respoi)
-    adatok.load_oldhomedata(ohpoi)
+    adatok.load_residentdata(respoi, ohpoi)
     adatok.calculate_residentstat()
     print(adatok._agedist, sum(adatok._agedist))
 
@@ -602,6 +600,7 @@ def generate_agents(respoi, magic, illness, tempout, tempstat, ohpoi, comcsv=Non
     redo_counter = 0
     redo_thrashold = 5000
     while True:
+    #while iter < 500:
         iter = iter + 1
         if iter % 250 == 0:
             txt = "Generating agents - " + '{:6.2f}'.format(100.0 * (pop - sum(adatok._agedist)) / pop) + "%"
